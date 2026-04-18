@@ -1,4 +1,4 @@
-# Compton Experiment
+# EIT Experiment
 
 ## Preliminaries
 
