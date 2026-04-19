@@ -11,11 +11,6 @@ import numpy as np
 #--------------------------------------------------
 #           Here the Analysis shall be performed
 #--------------------------------------------------
-<<<<<<< HEAD
-print("runing")
-=======
-
->>>>>>> main
 
 ### select which part of the analysis shall be performed
 
