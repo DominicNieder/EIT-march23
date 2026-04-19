@@ -45,6 +45,10 @@ format:
 
 
 
+=======
+## Fabry-Pérot interferometer
+
+>>>>>>> 325ba2e (presentation)
 <<<<<<< HEAD
 =======
 ## Fabry-Pérot interferometer
