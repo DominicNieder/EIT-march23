@@ -130,7 +130,7 @@ Every directory contains an "orientation.txt" file. This should help to keep log
 
 
 
-## Questions
+## Handbook
 
 We shall come across many questions. For the preparation, in our experimental procedure should be based on questions we want to reason and to reach a goal.
 
@@ -138,14 +138,13 @@ We shall come across many questions. For the preparation, in our experimental pr
 ### Preparation questions
 
 Introduction text:
-- Setup and principle of operation of Scintillation Spectrometry
-- Functional principle of the devices used to take the measurements
-- Relevance of linear and logic pulses
-- Difference between organic and anorganic scintillators
-- Interaction of $\gamma$ rays and electrons with matter
-- Definition and measurement of differential and total cross sections
+- what is a external cavity laser
+- absorbtion spectroscopy
+- flouressence spectroscopy
+- saturation spectroscopy
+- Fabry–Pérot interfermometer
 
-### Experimental procedure
+### External cavity diod laser
 
 
 ### Questions for the Supervisor

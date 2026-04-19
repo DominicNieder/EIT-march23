@@ -1,0 +1,47 @@
+---
+title: "EIT"
+subtitle: "electromagnetically induced transparency"
+author: "Awais Ansari & Dominic Nieder"
+format:
+  revealjs: 
+    chalkboard: true
+    css: style.css
+    scroll-view:
+      layout: compact
+      snap: proximity
+      progress: true
+      activation-width: 0
+    html-math-method: katex
+    slide-number: true
+---
+## {background-image="EIT-summmary.jpg"}
+
+## Rubidium
+
+- $^{87}\text{Rb}\ (I=3/2)$ & $^{85}\text{Rb}\ (I=5/2)$
+- Fine splitting (L-S coupling): $J = |L-S|, \ldots, L+S$
+- Hyperfine splitting (I-J coupling): $F = |I-J|, \ldots, I+J$
+- Zeeman effect: $\Delta E = g_F \mu_B m_F B_\text{ext}$
+
+## Rubidium
+
+
+## Extenal cavity diode laser
+
+- internal cavity: semi-conductor / p-n-junction -> (x, y, z, I, T)
+
+- "feedback system": diffraction grating on a mirror
+
+- external cavity: reflection of difrationgrating into the diode (large L -> small spectral width)
+
+## Fabry-Pérot interferometer
+
+## spectroscopic techniques
+
+- flourescence spectroscopy
+- absorbtion spectroscopy
+- saturation spectroscopy
+
+## atomic spectrum broadening
+
+- 
