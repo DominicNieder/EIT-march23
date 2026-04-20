@@ -11,7 +11,7 @@ import numpy as np
 #--------------------------------------------------
 #           Here the Analysis shall be performed
 #--------------------------------------------------
-
+print("runing")
 
 ### select which part of the analysis shall be performed
 
