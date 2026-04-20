@@ -5,7 +5,12 @@ format:
   pdf:
     toc: true
     number-sections: true
-    bibliography: literature.bib
+  html:
+    theme: darkly
+    toc: true
+    toc-location: left
+    number-sections: true
+bibliography: literature.bib
 ---
 
 
