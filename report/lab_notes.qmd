@@ -36,6 +36,7 @@ The last point to be considered is optics. Not all optical components need to be
 
 The set goal should be to **fully characterize the ECDL**, which by necessity shall include the characterization of other parts to the setup of the experimental set up to EIT.
 This means, we want to:
+
 - compare emission spectrum of ECDL with theoretical prediction of semiconductor physics,
     - How does the population inversion take place?
     - What is our semi conductor made of (i.e. GaAs)?
