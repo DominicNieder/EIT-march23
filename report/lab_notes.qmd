@@ -1,0 +1,9 @@
+---
+title: "Lab Report"
+author: "Awais Ansari & Dominic Nieder"
+format:
+  pdf:
+    toc: true
+    number-sections: true
+    bibliography: literature.bib
+---
