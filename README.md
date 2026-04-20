@@ -56,14 +56,14 @@ run from commandline:
 
 ### Python coding
 
-The necessary packages are in "analysis-code/requirements.txt". 
+The necessary packages are in "code-analysis/requirements.txt". 
 
 ##### Workflow: using pip (venv) 
-Create python environment in analysis-code, i.e. with "venv" using BASH:
-> python3 -m venv analysis-code/.compton_environment
+Create python environment in code-analysis, i.e. with "venv" using BASH:
+> python3 -m venv code-analysis/.eit_environment
 
 To activate it type
-> source analysis-code/.compton_environment/bin/activate
+> source code-analysis/.eit_environment/bin/activate
 
 Use
 > which pip
@@ -135,28 +135,11 @@ if run:
 Every directory contains an "orientation.txt" file. This should help to keep log, enabling concise naming of files, with descriptions.
 
 
+### Report and labnotes
+Use the report folder to keep tabs on discussions, decision making and observations during experimentation. Collect literature.
 
-## Handbook
+#### lab noes
+Keep labnotes in:
+> report/labnotes.qmd
 
-We shall come across many questions. For the preparation, in our experimental procedure should be based on questions we want to reason and to reach a goal.
-
-
-### Preparation questions
-
-Introduction text:
-- what is a external cavity laser
-- absorbtion spectroscopy
-- flouressence spectroscopy
-- saturation spectroscopy
-- Fabry–Pérot interfermometer
-
-### External cavity diod laser
-
-
-### Questions for the Supervisor
-
-
-## Required measurements
-
-
-### Preparation
+Here we want to keep tabs of our progress, give structure to our decision making
