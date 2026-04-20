@@ -35,6 +35,9 @@ format:
 - external cavity: reflection of difrationgrating into the diode (large L -> small spectral width)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8c12701 (preparing: lab_notes. literature collection)
 
 
 
@@ -42,10 +45,13 @@ format:
 
 
 
+<<<<<<< HEAD
 =======
 ## Fabry-Pérot interferometer
 
 >>>>>>> 325ba2e (presentation)
+=======
+>>>>>>> 8c12701 (preparing: lab_notes. literature collection)
 ## spectroscopic techniques
 
 - flourescence spectroscopy
