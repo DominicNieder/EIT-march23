@@ -59,6 +59,9 @@ run from commandline:
 The necessary packages are in "code-analysis/requirements.txt". 
 
 ##### Workflow: using pip (venv) 
+Check for python version (should be 3.12.3) in
+> code-analysis/.python-version
+
 Create python environment in code-analysis, i.e. with "venv" using BASH:
 > python3 -m venv code-analysis/.eit_environment
 
@@ -137,6 +140,12 @@ Every directory contains an "orientation.txt" file. This should help to keep log
 
 ### Report and labnotes
 Use the report folder to keep tabs on discussions, decision making and observations during experimentation. Collect literature.
+
+#### literature
+Keep tabs of literature in 
+> report/literature.bib
+
+In "annote" keep tabs on what content is of interest of the source.
 
 #### lab noes
 Keep labnotes in:
