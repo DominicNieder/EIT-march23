@@ -34,7 +34,12 @@ format:
 
 - external cavity: reflection of difrationgrating into the diode (large L -> small spectral width)
 
+
+
+
 ## Fabry-Pérot interferometer
+
+
 
 ## spectroscopic techniques
 

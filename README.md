@@ -7,9 +7,9 @@
 Here is the content of my `.gitignore` file:
 
 ```gitignore
-# my literature to read (comments in .gitignore)
+# my literature to read
 reading/
-analysis-code/__pycache__
+__pycache__/
 
 # any other pdf, also from .tex
 *.pdf
@@ -32,7 +32,13 @@ analysis-code/__pycache__
 .gitignore
 
 # my python environment
-analysis-code/.compton_environment/
+.eit_environment/
+
+# quarto generated output
+/.quarto/
+*_files/
+*.html
+*_cache/
 ```
 
 
@@ -154,4 +160,3 @@ Introduction text:
 
 
 ### Preparation
-- Resolution of detector: $R=\Delta E/E$, with $\Delta E=FWHM$ of photo peak (for Cs$^{137}$ possible to obtain below 8%)
