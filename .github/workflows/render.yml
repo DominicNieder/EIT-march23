@@ -7,8 +7,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          tinytex: true
       - run: quarto render report/lab_notes.qmd
       - uses: actions/upload-artifact@v4
         with:
           name: lab-notes
-          path: report/lab_notes.html
+          path: report/lab_notes.pdf
