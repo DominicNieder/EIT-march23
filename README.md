@@ -154,22 +154,4 @@ It would be nice to keep lab notes in:
 This can then be rendered into an webpage, including interactive plots etc...
 We should set it up, such that it works nicely.
 
-Until then, we shall keep track here!
-
-
-### Research topic
-
-Our experiment contains topics on
-
-- laser physics
-- atomic physics
-- optics 
-
-
-### Dominic: On finding a topic
-
-I find it difficult to pin my interest onto one specific topic. I would like to make set up the experiment to manage to observe the atomic structure, i.e. see the fine structure– or hyperfine structure splitting. To set up an experiment that is capable of measuring the most detailed measurements physical structures.
-
-In my opinion, it seems to me, to make the extremely detailed measurement of a atomic structure, a detailed understanding of the diode laser is necessary. 
-The diode laser is the 
-A detailed knowlage on the diode laser should provide us with the means to setup a ideal frequency to observe the fine–, hyperfine structure
+The labnotes are found [here](https://dominicnieder.github.io/EIT-march23/)!
