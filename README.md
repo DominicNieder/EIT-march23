@@ -1,6 +1,6 @@
 # EIT Experiment
 
-## Preliminaries
+## Explaining the Repo
 
 ### Github settings
 - fist add a file named ".gitignore" this will automatically be recognised by Git, so that it ignores all files (pdf for reading, *.log, etc...) that are not required to be shared.
