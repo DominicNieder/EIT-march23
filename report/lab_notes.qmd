@@ -54,10 +54,10 @@ This means, we want to:
 
 As concrete next steps, we need to find out about material compositions and the dimensions of the diode to then understand the models that describe the emission spectrum to make numerical predictions.
 
-#### Literature on ECDL 
+#### Dominic: Literature collection
 
 **Semi-conductor physics:**
-What diod are we dealing with in the experiment?
+What diode are we dealing with in the experiment?
 
 - 
 
@@ -66,5 +66,4 @@ We need to understand how a driven diode emits which light:
 - emission spectrum of 
 
 
-
-
+#### Awais: Literature collection
