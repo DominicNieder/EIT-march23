@@ -1,0 +1,7 @@
+---
+title: "Notes of Test and Characterization of Laser Diodes"
+format: pdf
+---
+
+**Notes of Test and Characterization of Laser Diodes:
+Determination of Principal Parameters**
