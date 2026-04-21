@@ -35,20 +35,20 @@ We find it difficult to pin my interest onto one specific topic. We would like t
 
 In our opinion, to make the extremely detailed measurement of a atomic structure, a detailed understanding of the external-cavity diode-laser (ECDL) and its emission spectrum. Detailed knowledge on the diode laser should provide us with the means to setup a ideal frequency to observe the fine–, hyperfine structure. But how do we characterize the light of the ECDL? 
 
-This brings us to the issue on spectroscopic techniques. In particular the Fabry-Pérot interferometer. The Fabry-Pérot interferometer only measures relative spectra – though very precisely. To correctly characterize the emitted light of the ECDL, it seems advantageous to consider spectroscopic techniques, that allows for the full characterization of the diode laser. The characterization of the ECDL go hand-in-hand with the characterization of the Fabry-Pérot interferometer.
+This brings us to the issue on spectroscopy. The Fabry-Pérot interferometer only measures relative spectra – though very precisely. To correctly characterize the emitted light of the ECDL, it seems advantageous to gain a deep understanding and a characterization of the Fabry-Pérot interferometer, which allows for the full characterization of the diode laser. The characterization of the ECDL go hand-in-hand with the characterization of the Fabry-Pérot interferometer.
 
-The last point to be considered is optics. Not all optical components need to be understood in great detail to characterize the ECDL, though some shall be essential, i.e. a lense as well as the diffraction grating on a mirror which are a integral part of the ECDL.
+The last point to be considered is optics. Not all optical components need to be understood in great detail to characterize the ECDL, though some shall be essential, i.e. a lense as well as the diffraction grating on a mirror are an integral part of the ECDL.
 
 The set goal should be to **fully characterize the ECDL**, which by necessity shall include the characterization of other parts to the setup of the experimental set up to EIT.
 This means, we want to:
 
-- compare emission spectrum of ECDL with theoretical prediction of semiconductor physics,
+- compare emission spectrum of ECDL with theoretical prediction of semiconductor physics:
   - How does the population inversion take place?
   - What is our semi conductor made of (i.e. GaAs)?
   - Is a characterization of the semi-conductor possible ($I–U$)?
   - What instruments do we have to measure the spectrum?
   - What is the Free spectral range of the ECDL (Fabry-Pérot modes)?
-  - Temperature dependance?
+  - Temperature dependance of emitted spectrum?
   - Can we determine the diffraction index $n$ of the depletion region (optical fiber)
 
 
