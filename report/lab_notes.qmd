@@ -25,13 +25,13 @@ Our experiment contains topics on
     - quarter wave plate
     - half wave plate
     - lense
-    - 
+    - \dots
 - spectroscopy techniques: Fabry-Pérot interferometer
 
 
 ### On finding a topic
 
-We find it difficult to pin my interest onto one specific topic. We would like to set up an experiment capable to observe the atomic structure, i.e. to see the fine structure– or hyperfine structure splitting. To set up an experiment that is capable of measuring these incredibly detailed measurements physical structures.
+We find it difficult to pin my interest onto one specific topic. We would like to set up an experiment capable to observe the atomic structure, i.e. to see the fine structure– or hyperfine structure splitting. To set up an experiment that is capable of measuring these incredibly detailed measurements physical structures we need to focus on the tools that we use to analyse the atomic structure of Rubidium.
 
 In our opinion, to make the extremely detailed measurement of a atomic structure, a detailed understanding of the external-cavity diode-laser (ECDL) and its emission spectrum. Detailed knowledge on the diode laser should provide us with the means to setup a ideal frequency to observe the fine–, hyperfine structure. But how do we characterize the light of the ECDL? 
 
@@ -43,13 +43,28 @@ The set goal should be to **fully characterize the ECDL**, which by necessity sh
 This means, we want to:
 
 - compare emission spectrum of ECDL with theoretical prediction of semiconductor physics,
-    - How does the population inversion take place?
-    - What is our semi conductor made of (i.e. GaAs)?
-    - Is a characterization of the semi-conductor possible (I v.s. U)?
-    - What instruments do we have to measure the spectrum?
-    - What is the Free spectral range (Fabry-Pérot modes)?
-    - Temperature dependance?
-    - Can we determine the diffraction index $n$ of the depletion region (optical fiber)
+  - How does the population inversion take place?
+  - What is our semi conductor made of (i.e. GaAs)?
+  - Is a characterization of the semi-conductor possible ($I–U$)?
+  - What instruments do we have to measure the spectrum?
+  - What is the Free spectral range of the ECDL (Fabry-Pérot modes)?
+  - Temperature dependance?
+  - Can we determine the diffraction index $n$ of the depletion region (optical fiber)
 
 
 As concrete next steps, we need to find out about material compositions and the dimensions of the diode to then understand the models that describe the emission spectrum to make numerical predictions.
+
+#### Literature on ECDL 
+
+**Semi-conductor physics:**
+What diod are we dealing with in the experiment?
+
+- 
+
+We need to understand how a driven diode emits which light:
+
+- emission spectrum of 
+
+
+
+
