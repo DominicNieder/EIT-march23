@@ -1,30 +1,5 @@
-The handbook is a user manual [@diode_manual]. I haven't yet found any details on the material of the diode.
-
-**1 Grating Stabilized Diode Laser Head DL pro**
-
-- Littrow-Hänsch-type grating stabilized ECDL
-- 
-
-**4.3 Power Up and Check of the Production and Quality Control Data Sheet:**
-
-- instructions for turning the laser diode on
-::: {.callout-note collapse="true"}
-## Key ECDL parameters
-
-{{< include sections/Diode-Laser-Head-DL-pro.qmd >}}
-:::
-
-**4.5 ContinuoUs Operation of the Diode Laser Head DL pro:**
-
-- how to obtain a continuos and stable signal 
-
-**4.6 Tuning the Diode Laser Head DL pro:** 
-
-- describes how to find frequencies 
-- question on single or multi mode operation
-- mode hop free tuning of laser diode
-
-
+**Semi-conductor physics:**
+The handbook is a user manual [@diode_manual] and in chapter **4.6 Tuning the Diode Laser Head DL pro** describes how to find frequencies. 
 
 We need to understand how a driven diode emits which light:
 
