@@ -12,10 +12,10 @@ jobs:
       - uses: quarto-dev/quarto-actions/setup@v2
         with:
           tinytex: true
-      - run: quarto render report/lab_notes.qmd --to html
-      - run: mv report/lab_notes.html report/index.html
+      - run: quarto render notes/lab_notes.qmd --to html
+      - run: mv notes/lab_notes.html notes/index.html
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./report
+          publish_dir: ./notes
