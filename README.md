@@ -2,7 +2,13 @@
 
 ## Lab Notes
 It would be nice to keep lab notes in:
-> report/labnotes.qmd
+> notes/lab_notes.qmd
+
+To avoid merge conflict there we work in seperate files, i.e. 
+> notes/dominic.qmd
+> notes/awais.qmd
+
+which get imported into the lab_notes. 
 
 This can then be rendered into an webpage, including interactive plots etc...
 

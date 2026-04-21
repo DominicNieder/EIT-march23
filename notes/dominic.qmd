@@ -1,0 +1,6 @@
+**Semi-conductor physics:**
+The handbook is a user manual [@diode_manual] and in chapter **4.6 Tuning the Diode Laser Head DL pro** describes how to find frequencies. 
+
+We need to understand how a driven diode emits which light:
+
+- emission spectrum of 
