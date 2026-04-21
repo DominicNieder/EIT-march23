@@ -27,8 +27,8 @@ Our experiment contains topics on
     - quarter wave plate
     - half wave plate
     - lense
-    - \dots
-- spectroscopy techniques: Fabry-Pérot interferometer
+    - Fabry-Pérot interferometer
+- spectroscopy techniques: Absorption, Flouracense, and Saturation
 
 
 ### On finding a topic
