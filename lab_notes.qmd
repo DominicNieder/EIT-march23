@@ -10,7 +10,7 @@ format:
     toc: true
     toc-location: left
     number-sections: true
-bibliography: literature.bib
+bibliography: ../report/literature.bib
 ---
 
 
@@ -26,7 +26,7 @@ Our experiment contains topics on
     - half wave plate
     - lense
     - \dots
-- spectroscopy techniques: Fabry-Pérot interferometer
+- spectroscopy: Fabry-Pérot interferometer
 
 
 ### On finding a topic
@@ -57,9 +57,7 @@ As concrete next steps, we need to find out about material compositions and the 
 #### Dominic: Literature collection
 
 **Semi-conductor physics:**
-What diode are we dealing with in the experiment?
-
-- 
+The handbook is a user manual [@diode_manual] and in chapter **4.6 Tuning the Diode Laser Head DL pro** describes how to find frequencies. 
 
 We need to understand how a driven diode emits which light:
 

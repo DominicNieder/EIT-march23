@@ -24,7 +24,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="lab_notes_files/libs/clipboard/clipboard.min.js"></script>
@@ -129,7 +148,7 @@ window.Quarto = {
 <li>lense</li>
 <li></li>
 </ul></li>
-<li>spectroscopy techniques: Fabry-Pérot interferometer</li>
+<li>spectroscopy: Fabry-Pérot interferometer</li>
 </ul>
 <section id="on-finding-a-topic" class="level3" data-number="1.1">
 <h3 data-number="1.1" class="anchored" data-anchor-id="on-finding-a-topic"><span class="header-section-number">1.1</span> On finding a topic</h3>
@@ -153,22 +172,24 @@ window.Quarto = {
 <p>As concrete next steps, we need to find out about material compositions and the dimensions of the diode to then understand the models that describe the emission spectrum to make numerical predictions.</p>
 <section id="dominic-literature-collection" class="level4" data-number="1.1.1">
 <h4 data-number="1.1.1" class="anchored" data-anchor-id="dominic-literature-collection"><span class="header-section-number">1.1.1</span> Dominic: Literature collection</h4>
-<p><strong>Semi-conductor physics:</strong> What diode are we dealing with in the experiment?</p>
-<ul>
-<li></li>
-</ul>
+<p><strong>Semi-conductor physics:</strong> The handbook is a user manual <span class="citation" data-cites="diode_manual">(<a href="#ref-diode_manual" role="doc-biblioref">AG 2011</a>)</span> and in chapter <strong>4.6 Tuning the Diode Laser Head DL pro</strong> describes how to find frequencies.</p>
 <p>We need to understand how a driven diode emits which light:</p>
 <ul>
 <li>emission spectrum of</li>
 </ul>
 </section>
-<section id="awais-literature-collection" class="level4" data-number="1.1.2">
-<h4 data-number="1.1.2" class="anchored" data-anchor-id="awais-literature-collection"><span class="header-section-number">1.1.2</span> Awais: Literature collection</h4>
+<section id="awais-literature-collection" class="level4 unnumbered" data-number="1.1.2">
+
+
 </section>
 </section>
 </section>
 
-</main>
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">1.1.2 Awais: Literature collection</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-diode_manual" class="csl-entry" role="listitem">
+AG, OPTICA Photonics. 2011. <span>“DL Pro, Grating Stabilized Diode Laser Heaad, Manual.”</span> <em>Manual: M-30</em> 07: 1–10.
+</div>
+</div></section></div></main>
 <!-- /main column -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
