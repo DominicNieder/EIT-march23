@@ -1,5 +1,16 @@
-**Semi-conductor physics:**
-The handbook is a user manual [@diode_manual] and in chapter **4.6 Tuning the Diode Laser Head DL pro** describes how to find frequencies. 
+The handbook is a user manual [@diode_manual]. 
+I haven't yet found any details on the material of the diode.
+**4.3 Power Up and Check of the Production and Quality Control Data Sheet**:
+
+- instructions for turning the laser diode on
+**4.5 ContinuoUs Operation of the Diode Laser Head DL pro**
+
+- how to obtain a continous and stable signal 
+**4.6 Tuning the Diode Laser Head DL pro** 
+
+- describes how to find frequencies 
+- question on single or multi mode operation
+- mode hop free tuning of laser diode
 
 We need to understand how a driven diode emits which light:
 
