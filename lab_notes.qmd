@@ -5,13 +5,10 @@ format:
   pdf:
     toc: true
     number-sections: true
-  html:
-    theme: darkly
-    toc: true
-    toc-location: left
-    number-sections: true
-bibliography: literature.bib
+    bibliography: literature.bib
 ---
+<<<<<<< HEAD
+=======
 
 
 ## Research topic
@@ -41,7 +38,6 @@ The last point to be considered is optics. Not all optical components need to be
 
 The set goal should be to **fully characterize the ECDL**, which by necessity shall include the characterization of other parts to the setup of the experimental set up to EIT.
 This means, we want to:
-
 - compare emission spectrum of ECDL with theoretical prediction of semiconductor physics,
     - How does the population inversion take place?
     - What is our semi conductor made of (i.e. GaAs)?
@@ -53,3 +49,4 @@ This means, we want to:
 
 
 As concrete next steps, we need to find out about material compositions and the dimensions of the diode to then understand the models that describe the emission spectrum to make numerical predictions.
+>>>>>>> main
