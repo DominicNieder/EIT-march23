@@ -1,3 +1,1 @@
   - coherence length $>100\si{m}$
-  - line width $<1\si{MHz}$
-  - 
