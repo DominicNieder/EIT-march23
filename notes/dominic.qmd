@@ -26,7 +26,7 @@ from the mains supply."
 
 **2.2 Laser beam**
 
-- emits up to $<500\si{mW}$ power
+- emits up to $<500\text{mW}$ power
 
 
 
