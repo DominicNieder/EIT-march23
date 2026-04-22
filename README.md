@@ -22,11 +22,12 @@ Here is the content of my `.gitignore` file:
 
 ```gitignore
 # my literature to read
+report/main.pdf
+reading/*.pdf
+
+# my literature to read
 reading/
 __pycache__/
-
-# any other pdf, also from .tex
-*.pdf
 
 # latex specific
 *.out

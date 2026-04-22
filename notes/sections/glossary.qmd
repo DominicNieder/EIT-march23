@@ -1,0 +1,15 @@
+**Concepts**
+
+ECDL
+: External Cavity Diode Laser. _description_
+
+beam cross-section
+: The beam cross-section is the geometric form that describes the  
+
+**Symbols**
+
+$T$
+: temperature
+
+$I$
+: electrical current
