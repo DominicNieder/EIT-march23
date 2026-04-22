@@ -22,13 +22,12 @@ Here is the content of my `.gitignore` file:
 
 ```gitignore
 # my literature to read
+report/main.pdf
+reading/*.pdf
+
+# my literature to read
 reading/
 __pycache__/
-
-# any other pdf, also from .tex
-*.pdf
-# ignore the pdf we collect for literature research
-!reading/Toptica_DL_pro_Grating_Stabilized_Diode_Head_Manual.pdf
 
 # latex specific
 *.out
