@@ -156,7 +156,6 @@ Every directory contains an "orientation.txt" file. This should help to keep log
 ### Report and labnotes
 Use the report folder to keep tabs on discussions, decision making and observations during experimentation. Collect literature.
 
-<<<<<<< HEAD
 ## Handbook
 
 We shall come across many questions. For the preparation, in our experimental procedure should be based on questions we want to reason and to reach a goal.
@@ -181,10 +180,8 @@ Introduction text:
 
 
 ### Preparation
-=======
 #### literature
 Keep tabs of literature in 
 > report/literature.bib
 
 In "annote" keep tabs on what content is of interest of the source.
->>>>>>> main

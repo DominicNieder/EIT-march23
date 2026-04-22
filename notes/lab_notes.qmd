@@ -12,9 +12,6 @@ format:
     number-sections: true
 bibliography: ../report/literature.bib
 ---
-<<<<<<< HEAD
-=======
-
 
 ## Research topic
 
@@ -27,13 +24,10 @@ Our experiment contains topics on
     - quarter wave plate
     - half wave plate
     - lense
-<<<<<<< HEAD:report/lab_notes.qmd
     - Fabry-Pérot interferometer
-- spectroscopy techniques: Absorption, Flouracense, and Saturation
-=======
+- spectroscopy techniques: Absorption, Flourescence, and Saturation
     - \dots
 - spectroscopy: Fabry-Pérot interferometer
->>>>>>> 9ae3fa621cba5adfbbb14a15ea611c4158a2daca:notes/lab_notes.qmd
 
 
 ### On finding a topic
@@ -60,9 +54,7 @@ This means, we want to:
 
 
 As concrete next steps, we need to find out about material compositions and the dimensions of the diode to then understand the models that describe the emission spectrum to make numerical predictions.
-<<<<<<< HEAD
->>>>>>> main
-=======
+
 
 #### Dominic: Literature collection
 
