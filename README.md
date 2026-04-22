@@ -27,6 +27,8 @@ __pycache__/
 
 # any other pdf, also from .tex
 *.pdf
+# ignore the pdf we collect for literature research
+!report/Toptica_DL_pro_Grating_Stabilized_Diode_Head_Manual.pdf
 
 # latex specific
 *.out
