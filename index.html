@@ -163,29 +163,37 @@ window.Quarto = {
 <section id="dominic-literature-collection" class="level4" data-number="2.0.1.1">
 <h4 data-number="2.0.1.1" class="anchored" data-anchor-id="dominic-literature-collection"><span class="header-section-number">2.0.1.1</span> Dominic: Literature collection</h4>
 <p>The handbook is a user manual <span class="citation" data-cites="diode_manual">(<a href="#ref-diode_manual" role="doc-biblioref"><strong>diode_manual?</strong></a>)</span>. I haven’t yet found any details on the material of the diode.</p>
+<p><strong>Tasks:</strong></p>
+<ul>
+<li>getting an understanding of the input– and output parameters</li>
+</ul>
 <p><strong>1 Grating Stabilized Diode Laser Head DL pro</strong></p>
 <ul>
-<li>Littrow-Hänsch-type grating stabilized ECDL</li>
-<li></li>
+<li>Littrow-Hänsch-type grating stabilized ECDL
+<ul>
+<li>explaining that the first diffraction order is reflected back at the laser diode (1.1)</li>
+</ul></li>
+</ul>
+<p><strong>2 Safety instructions and Warnings</strong></p>
+<ul>
+<li>laser source up to class 3b</li>
+<li>“Any plug in module should only be opened by trained personnel. Before exchanging and opening any module, the Diode LaserSystem DL pro must be switched off and disconnected from the mains supply.”</li>
+<li>if doing anything out of the ordinary with the internal Laser setup switch off Scan control and disconnect piezo supply</li>
+<li>adjustments should be made by trained personel</li>
+<li>“When making adjustments be sure to wear a high-impedance grounding strip around the wrist at all times.”</li>
+<li>avoid high and uncontrolled optical feedback, this may damage/destroy the laser diode</li>
+<li>turn off laser diode before connecting cables and verify the according parameters, to prevent damaging laser diode</li>
+<li>the cover should not be removed under operation, due to stray light</li>
+<li>the laser diode is extremely sensitive to electrostatic discharge</li>
+</ul>
+<p><strong>2.2 Laser beam</strong></p>
+<ul>
+<li>emits up to <span class="math inline">\(&lt;500\si{mW}\)</span> power</li>
 </ul>
 <p><strong>4.3 Power Up and Check of the Production and Quality Control Data Sheet:</strong></p>
 <ul>
-<li>instructions for turning the laser diode on ::: {.callout-note collapse=“true”} ## Key ECDL parameters</li>
+<li>instructions for turning the laser diode on</li>
 </ul>
-<p><strong>Blackbox of the ECDL</strong> <strong>Input:</strong></p>
-<ul>
-<li>high speed frequency modulation port (-&gt; frequency looking)</li>
-<li>current <span class="math inline">\(I\)</span></li>
-<li>temperature <span class="math inline">\(T\)</span></li>
-</ul>
-<p><strong>Output:</strong></p>
-<ul>
-<li>coherence length <span class="math inline">\(&gt;100\si{m}\)</span></li>
-<li>line width <span class="math inline">\(&lt;1\si{MHz}\)</span></li>
-<li>tuning to ‘several 10’s of <span class="math inline">\(\si{nm}\)</span> (so <span class="math inline">\(\sim\si{THz}\)</span>) without realignment’</li>
-<li>tuning of 10’s of <span class="math inline">\(\si{GHz}\)</span></li>
-</ul>
-<p>:::</p>
 <p><strong>4.5 ContinuoUs Operation of the Diode Laser Head DL pro:</strong></p>
 <ul>
 <li>how to obtain a continuos and stable signal</li>
@@ -196,10 +204,40 @@ window.Quarto = {
 <li>question on single or multi mode operation</li>
 <li>mode hop free tuning of laser diode</li>
 </ul>
-<p>We need to understand how a driven diode emits which light:</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><strong>Key ECDL parameters</strong></p>
+<p><strong>Blackbox of the ECDL</strong> <strong>Input:</strong></p>
 <ul>
-<li>emission spectrum of</li>
+<li>high speed frequency modulation port (-&gt; frequency looking)</li>
+<li>current <span class="math inline">\(I\)</span></li>
+<li>temperature <span class="math inline">\(T\)</span></li>
 </ul>
+<p><strong>Output:</strong></p>
+<ul>
+<li>coherence length <span class="math inline">\(&gt;100\si{m}\)</span></li>
+<li>line width <span class="math inline">\(&lt;1\si{MHz}\)</span></li>
+<li>tuning to “several 10’s of <span class="math inline">\(\si{nm}\)</span> (so <span class="math inline">\(\sim\si{GHz}\)</span>) without realignment”</li>
+<li>tuning of 10’s of <span class="math inline">\(\si{GHz}\)</span></li>
+<li>elliptical beam crosssecton (3:1)
+<ul>
+<li>“amorphic prism pair” can reshape the crosssection</li>
+</ul></li>
+<li>collimated beam</li>
+</ul>
+</div>
+</div>
+</div>
 <p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD:report/lab_notes.qmd &gt;&gt;&gt;&gt;&gt;&gt;&gt; main ======= #### Awais: Literature collection</p>
 <p><strong>Test and Characterization of Laser Diodes: Determination of Principal Parameters By Kamran S. Mobarhan, Ph.D.</strong> This hand book is around determining the principle parameters to characterize and optimize laser to its efficient point. Notes:https://web.goodnotes.com/s/RIr0x17NwiZTeFIQFdGrsT</p>
 </section>
