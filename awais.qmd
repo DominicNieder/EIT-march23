@@ -1,7 +1,5 @@
----
-title: "Notes of Test and Characterization of Laser Diodes"
-format: pdf
----
-
-**Notes of Test and Characterization of Laser Diodes:
-Determination of Principal Parameters**
+**Test and Characterization of Laser Diodes:
+Determination of Principal Parameters
+By Kamran S. Mobarhan, Ph.D.**
+This hand book is around determining the principle parameters to characterize and optimize laser to its efficient point.
+Notes:https://web.goodnotes.com/s/RIr0x17NwiZTeFIQFdGrsT
