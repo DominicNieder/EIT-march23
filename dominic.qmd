@@ -1,38 +1,18 @@
 The handbook is a user manual [@diode_manual]. I haven't yet found any details on the material of the diode.
 
-**Tasks:**
-
-- getting an understanding of the input– and output parameters
-
-
 **1 Grating Stabilized Diode Laser Head DL pro**
 
 - Littrow-Hänsch-type grating stabilized ECDL
-  - explaining that the first diffraction order is reflected back at the laser diode (1.1)
-
-**2 Safety instructions and Warnings**
-
-- laser source up to class 3b
-- "Any plug in module should only be opened by trained personnel. Before exchanging and
-opening any module, the Diode LaserSystem DL pro must be switched off and disconnected
-from the mains supply."
-- if doing anything out of the ordinary with the internal Laser setup switch off Scan control and disconnect piezo supply
-- adjustments should be made by trained personel
-- "When making adjustments be sure to wear a high-impedance grounding strip around the wrist at all times."
-- avoid high and uncontrolled optical feedback, this may damage/destroy the laser diode
-- turn off laser diode before connecting cables and verify the according parameters, to prevent damaging laser diode
-- the cover should not be removed under operation, due to stray light
-- the laser diode is extremely sensitive to electrostatic discharge
-
-**2.2 Laser beam**
-
-- emits up to $<500\si{mW}$ power
-
-
+- 
 
 **4.3 Power Up and Check of the Production and Quality Control Data Sheet:**
 
 - instructions for turning the laser diode on
+::: {.callout-note collapse="true"}
+## Key ECDL parameters
+
+{{< include sections/Diode-Laser-Head-DL-pro.qmd >}}
+:::
 
 **4.5 ContinuoUs Operation of the Diode Laser Head DL pro:**
 
@@ -46,8 +26,6 @@ from the mains supply."
 
 
 
-::: {.callout-note collapse="true"}
-**Key ECDL parameters**
+We need to understand how a driven diode emits which light:
 
-{{< include sections/Diode-Laser-Head-DL-pro.qmd >}}
-:::
+- emission spectrum of 

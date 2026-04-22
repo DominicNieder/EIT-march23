@@ -1,18 +1,3 @@
-**Blackbox of the ECDL**
-**Input:**
-
-- high speed frequency modulation port (-> frequency looking)
-- current $I$
-- temperature $T$
-
-
-
-**Output:**
-
-- coherence length $>100\si{m}$
-- line width $<1\si{MHz}$
-- tuning to "several 10's of $\si{nm}$ (so $\sim\si{GHz}$) without realignment"
-- tuning of 10's of $\si{GHz}$
-- elliptical beam crosssecton (3:1)
-  - "amorphic prism pair" can  reshape the crosssection
-- collimated beam
+  - coherence length $>100\si{m}$
+  - line width $<1\si{MHz}$
+  - 
