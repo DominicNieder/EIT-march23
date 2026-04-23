@@ -1,12 +1,31 @@
 **Concepts**
 
+diode:
+A diode is made by glueing at least two types of p– and n-doped materials. _further details required_
+
 ECDL
 : External Cavity Diode Laser. _description_
 
 beam cross-section
 : The beam cross-section is the geometric form that describes the intensity profile of laser in the plane spanned by the two vectors that are mutually orthogonal to the wave-vector 
 
+gain profile
+: The gain profile describes the emission spectrum of the diode, i.e. the emission spectrum without cavities (internal or external).
 
+internal cavity $l$
+: is the cavity which has the length defined by the diode.
+
+internal mode 
+: is the spectrum resulting from the internal cavity.
+
+external cavity $L$
+: is the cavity which is established by an external mirror and runs from the further end of the internal cavity to the external mirror.
+
+external mode
+: is the spectrum resulting from the external cavity.
+
+grating profile
+: the grating profile is the profile of the grated mirror, it depends on the incoming angle $\alpha_g$ of the light to the grating.
 
 **Symbols**
 
@@ -16,6 +35,9 @@ $T$
 $I$
 : electrical current
 
+- $I_D$: is the laser diode current
+- $I_max$: is the maximum current for which the laser diode power output reaches a threshold
+
 
 $\alpha_g$
 : the set grating angle in the Littrow set up. The angle is determined by $\sin(\alpha_g)=m\lambda/2d$
@@ -23,8 +45,12 @@ $\alpha_g$
 $m$
 : diffraction order 
 
+$n$
+: refraction index 
+
 $\lambda$
 : wavelength
 
 $d$
 : grating constant 
+

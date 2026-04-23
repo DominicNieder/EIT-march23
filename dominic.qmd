@@ -17,7 +17,7 @@ The handbook is a user manual of diode laser DL pro[@diode_manual].
 **1 Grating Stabilized Diode Laser Head DL pro**
 
 - Littrow-Hänsch-type grating stabilized ECDL
-  - explaining that the first diffraction order is reflected back at the laser diode (1.1)
+  - explaining that the first diffraction order $m=1$ is reflected back at the laser diode (1.1)
 
 **2 Safety instructions and Warnings**
 
@@ -26,7 +26,7 @@ The handbook is a user manual of diode laser DL pro[@diode_manual].
 opening any module, the Diode LaserSystem DL pro must be switched off and disconnected
 from the mains supply."
 - if doing anything out of the ordinary with the internal Laser setup switch off Scan control and disconnect piezo supply
-- adjustments should be made by trained personel
+- adjustments should be made by trained personal
 - "When making adjustments be sure to wear a high-impedance grounding strip around the wrist at all times."
 - avoid high and uncontrolled optical feedback, this may damage/destroy the laser diode
 - turn off laser diode before connecting cables and verify the according parameters, to prevent damaging laser diode
@@ -65,7 +65,24 @@ $$\sin(\alpha_g)=\frac{m\lambda}{2d}$$
 - half a turn on fine threaded screw -> $\sim 6\text{nm}$
 - maximum laser current $I_{max}(\lambda)$ is dependant on the parameter of the wavelength $\lambda$
 
+**4.6.2 Single Mode and Coherence Control**
+factors that affect the ECDL mode frequency/wavelength
+
+1) medium gain profile (of diode gain medium)
+2) internal cavity i.e. diode length $l$
+3) external resonator mode defined by $L$ (optical distance of rear internal cavity mirror to the grating) 
+3) grating profile
+
+![Here the effects of the various components and physical parameters have on the line width [@diode_manual]. The ](../pictures/factors-determining-single-mode-laser-frequency.png){#fig-laser-setup width=80%}
+
+- with varying laser diode current $I_{D}$ the profiles 2) & 3) move with different speeds!
+- refraction index $n$ depends on internal intensity of the resonator
+- temperature $T$ changes 1) - 4) "asynchronously"
+- if running in a single mode, the Fabry-Pérot interferometer shows fringes equidistantly
 
 
+**4.6.3 Mode-Hop Free Tuning of the wavelength**
+
+- tuning the piezo actuator changes the length $L$ of the external cavity as well as the grating angle $\alpha_g$ thus changing the grating profile 
 :::
 

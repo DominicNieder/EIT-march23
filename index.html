@@ -24,7 +24,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="lab_notes_files/libs/clipboard/clipboard.min.js"></script>
@@ -83,6 +102,7 @@ window.Quarto = {
   <ul class="collapse">
   <li><a href="#on-finding-a-topic" id="toc-on-finding-a-topic" class="nav-link" data-scroll-target="#on-finding-a-topic"><span class="header-section-number">1.1</span> On finding a topic</a></li>
   </ul></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="header-section-number">2</span> References</a></li>
   </ul>
 <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="../lab_notes.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
 </div>
@@ -157,14 +177,14 @@ window.Quarto = {
 <p>As concrete next steps, we need to find out about material compositions and the dimensions of the diode to then understand the models that describe the emission spectrum to make numerical predictions.</p>
 <section id="dominic-literature-collection" class="level4" data-number="1.1.1">
 <h4 data-number="1.1.1" class="anchored" data-anchor-id="dominic-literature-collection"><span class="header-section-number">1.1.1</span> Dominic: Literature collection</h4>
-<p>The handbook is a user manual of diode laser DL pro<span class="citation" data-cites="diode_manual">(<a href="#ref-diode_manual" role="doc-biblioref"><strong>diode_manual?</strong></a>)</span>.</p>
+<p>The handbook is a user manual of diode laser DL pro<span class="citation" data-cites="diode_manual">(<a href="#ref-diode_manual" role="doc-biblioref">AG 2011</a>)</span>.</p>
 <div id="fig-laser-setup" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-laser-setup-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="../pictures/laser-setup-by-manufacturer.png" class="img-fluid figure-img" style="width:80.0%">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-laser-setup-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;1: Laser setup by manufacturer <span class="citation" data-cites="diode_manual">(<a href="#ref-diode_manual" role="doc-biblioref"><strong>diode_manual?</strong></a>)</span>
+Figure&nbsp;1: Laser setup by manufacturer <span class="citation" data-cites="diode_manual">(<a href="#ref-diode_manual" role="doc-biblioref">AG 2011</a>)</span>
 </figcaption>
 </figure>
 </div>
@@ -179,6 +199,7 @@ Figure&nbsp;1: Laser setup by manufacturer <span class="citation" data-cites="di
 <li>temperature <span class="math inline">\(T\)</span></li>
 <li>Littrow grating angle <span class="math inline">\(\alpha_g\)</span></li>
 <li>grating constant <span class="math inline">\(d\)</span></li>
+<li>piezo actuator -&gt; external cavity <span class="math inline">\(L\)</span> &amp; grating profile <span class="math inline">\(\alpha_g\)</span></li>
 </ul>
 <p><strong>Output:</strong></p>
 <ul>
@@ -209,7 +230,7 @@ Figure&nbsp;1: Laser setup by manufacturer <span class="citation" data-cites="di
 <ul>
 <li>Littrow-Hänsch-type grating stabilized ECDL
 <ul>
-<li>explaining that the first diffraction order is reflected back at the laser diode (1.1)</li>
+<li>explaining that the first diffraction order <span class="math inline">\(m=1\)</span> is reflected back at the laser diode (1.1)</li>
 </ul></li>
 </ul>
 <p><strong>2 Safety instructions and Warnings</strong></p>
@@ -217,7 +238,7 @@ Figure&nbsp;1: Laser setup by manufacturer <span class="citation" data-cites="di
 <li>laser source up to class 3b</li>
 <li>“Any plug in module should only be opened by trained personnel. Before exchanging and opening any module, the Diode LaserSystem DL pro must be switched off and disconnected from the mains supply.”</li>
 <li>if doing anything out of the ordinary with the internal Laser setup switch off Scan control and disconnect piezo supply</li>
-<li>adjustments should be made by trained personel</li>
+<li>adjustments should be made by trained personal</li>
 <li>“When making adjustments be sure to wear a high-impedance grounding strip around the wrist at all times.”</li>
 <li>avoid high and uncontrolled optical feedback, this may damage/destroy the laser diode</li>
 <li>turn off laser diode before connecting cables and verify the according parameters, to prevent damaging laser diode</li>
@@ -259,12 +280,39 @@ Figure&nbsp;1: Laser setup by manufacturer <span class="citation" data-cites="di
 </ul>
 <p><strong>4.6.1 Manual Coarse Tuning of the Wavelength</strong></p>
 <ul>
-<li>by tuning the grating angle by a fine threaded screw (2 in <a href="#fig-laser-setup" class="quarto-xref">Figure&nbsp;1</a>) the wavelength may be varied up to <span class="math inline">\(100\text{nm}\)</span> (no realignement of optical set up required)</li>
+<li>by tuning the grating angle by a fine threaded screw (2 in <a href="#fig-laser-setup" class="quarto-xref">Figure&nbsp;2</a>) the wavelength may be varied up to <span class="math inline">\(100\text{nm}\)</span> (no realignement of optical set up required)</li>
 </ul>
 <p><span class="math display">\[\sin(\alpha_g)=\frac{m\lambda}{2d}\]</span></p>
 <ul>
 <li>half a turn on fine threaded screw -&gt; <span class="math inline">\(\sim 6\text{nm}\)</span></li>
 <li>maximum laser current <span class="math inline">\(I_{max}(\lambda)\)</span> is dependant on the parameter of the wavelength <span class="math inline">\(\lambda\)</span></li>
+</ul>
+<p><strong>4.6.2 Single Mode and Coherence Control</strong> factors that affect the ECDL mode frequency/wavelength</p>
+<ol type="1">
+<li>medium gain profile (of diode gain medium)</li>
+<li>internal cavity i.e.&nbsp;diode length <span class="math inline">\(l\)</span></li>
+<li>external resonator mode defined by <span class="math inline">\(L\)</span> (optical distance of rear internal cavity mirror to the grating)</li>
+<li>grating profile</li>
+</ol>
+<div id="fig-laser-setup" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-laser-setup-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="../pictures/factors-determining-single-mode-laser-frequency.png" class="img-fluid figure-img" style="width:80.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-laser-setup-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Here the effects of the various components and physical parameters have on the line width <span class="citation" data-cites="diode_manual">(<a href="#ref-diode_manual" role="doc-biblioref">AG 2011</a>)</span>. The
+</figcaption>
+</figure>
+</div>
+<ul>
+<li>with varying laser diode current <span class="math inline">\(I_{D}\)</span> the profiles 2) &amp; 3) move with different speeds!</li>
+<li>refraction index <span class="math inline">\(n\)</span> depends on internal intensity of the resonator</li>
+<li>temperature <span class="math inline">\(T\)</span> changes 1) - 4) “asynchronously”</li>
+<li>if running in a single mode, the Fabry-Pérot interferometer shows fringes equidistantly</li>
+</ul>
+<p><strong>4.6.3 Mode-Hop Free Tuning of the wavelength</strong></p>
+<ul>
+<li>tuning the piezo actuator changes the length <span class="math inline">\(L\)</span> of the external cavity as well as the grating angle <span class="math inline">\(\alpha_g\)</span> thus changing the grating profile</li>
 </ul>
 </div>
 </div>
@@ -276,8 +324,16 @@ Figure&nbsp;1: Laser setup by manufacturer <span class="citation" data-cites="di
 </section>
 </section>
 </section>
+<section id="references" class="level2 unnumbered" data-number="2">
 
-</main>
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">2 References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-diode_manual" class="csl-entry" role="listitem">
+AG, OPTICA Photonics. 2011. <span>“DL Pro, Grating Stabilized Diode Laser Heaad, Manual.”</span> <em>Manual: M-30</em> 07: 1–10. <a href="https://doi.org/10.xxxx/xxxxx">https://doi.org/10.xxxx/xxxxx</a>.
+</div>
+</div></section></div></main>
 <!-- /main column -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
