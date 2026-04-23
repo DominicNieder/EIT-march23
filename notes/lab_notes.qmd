@@ -61,9 +61,6 @@ As concrete next steps, we need to find out about material compositions and the 
 {{< include dominic.qmd >}}
 
 
-<<<<<<< HEAD:report/lab_notes.qmd
->>>>>>> main
-=======
 #### Awais: Literature collection
 
 {{< include awais.qmd >}}
