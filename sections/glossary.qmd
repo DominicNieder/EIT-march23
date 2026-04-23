@@ -13,7 +13,7 @@ gain profile
 : The gain profile describes the emission spectrum of the diode, i.e. the emission spectrum without cavities (internal or external).
 
 internal cavity $l$
-: is the cavity made from two mirrors opposite to each other with a defining parameter of length $l$ that is defined by the geometry of the diode. The internal cavity is applied to the diode by coating the reflective 
+: is the cavity which has the length defined by the diode.
 
 internal mode 
 : is the spectrum resulting from the internal cavity.
