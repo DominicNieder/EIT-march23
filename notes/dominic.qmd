@@ -1,9 +1,18 @@
-The handbook is a user manual [@diode_manual]. I haven't yet found any details on the material of the diode.
+The handbook is a user manual [@diode_manual]. 
+
+![Laser setup by manufacturer [@diode_manual]](../../pictures/laser-setup-by-manufacturer.png){#fig-laser-setup width=80%}
+
+
 
 **Tasks:**
 
 - getting an understanding of the input– and output parameters
+{{< include sections/Diode-Laser-Head-DL-pro.qmd >}}
 
+
+
+::: {.callout-note collapse="true"}
+## Notes on Manual
 
 **1 Grating Stabilized Diode Laser Head DL pro**
 
@@ -44,10 +53,13 @@ from the mains supply."
 - question on single or multi mode operation
 - mode hop free tuning of laser diode
 
+**4.6.1 Manual Coarse Tuning of the Wavelength**
 
+- by tuning the grating angle by a fine threaded screw (2 in @fig-laser-setup) the wavelength may be varied up to $100\text{nm}$ (no realignement of optical set up required)   
 
-::: {.callout-note collapse="true"}
-**Key ECDL parameters**
+$$\sin(\alpha_g)=\frac{m\lambda}{2d}$$
 
-{{< include sections/Diode-Laser-Head-DL-pro.qmd >}}
+- half a turn on fine threaded screw -> $\sim 6\text{nm}$
+- maximum laser current $I_{max}(\lambda)$ is dependant on the parameter of the wavelength $\lambda$
 :::
+

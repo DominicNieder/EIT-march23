@@ -4,7 +4,9 @@ ECDL
 : External Cavity Diode Laser. _description_
 
 beam cross-section
-: The beam cross-section is the geometric form that describes the intensity profile of laser in the plane spanned by the two vectors that are mutually orthogonal to the wave-vector $\vec{k}$
+: The beam cross-section is the geometric form that describes the intensity profile of laser in the plane spanned by the two vectors that are mutually orthogonal to the wave-vector 
+
+
 
 **Symbols**
 
@@ -13,3 +15,16 @@ $T$
 
 $I$
 : electrical current
+
+
+$\alpha_g$
+: the set grating angle in the Littrow set up. The angle is determined by $\sin(\alpha_g)=m\lambda/2d$
+
+$m$
+: diffraction order 
+
+$\lambda$
+: wavelength
+
+$d$
+: grating constant 
