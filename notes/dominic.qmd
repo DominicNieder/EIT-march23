@@ -1,6 +1,6 @@
-The handbook is a user manual [@diode_manual]. 
+The handbook is a user manual of diode laser DL pro[@diode_manual]. 
 
-![Laser setup by manufacturer [@diode_manual]](../../pictures/laser-setup-by-manufacturer.png){#fig-laser-setup width=80%}
+![Laser setup by manufacturer [@diode_manual]](../pictures/laser-setup-by-manufacturer.png){#fig-laser-setup width=80%}
 
 
 
@@ -12,7 +12,7 @@ The handbook is a user manual [@diode_manual].
 
 
 ::: {.callout-note collapse="true"}
-## Notes on Manual
+## Preliminary notes 
 
 **1 Grating Stabilized Diode Laser Head DL pro**
 
@@ -46,7 +46,10 @@ from the mains supply."
 **4.5 ContinuoUs Operation of the Diode Laser Head DL pro:**
 
 - how to obtain a continuos and stable signal 
+:::
 
+::: {.callout-note collapse="true"}
+## Tuning of the Diode Laser
 **4.6 Tuning the Diode Laser Head DL pro:** 
 
 - describes how to find frequencies 
@@ -61,5 +64,8 @@ $$\sin(\alpha_g)=\frac{m\lambda}{2d}$$
 
 - half a turn on fine threaded screw -> $\sim 6\text{nm}$
 - maximum laser current $I_{max}(\lambda)$ is dependant on the parameter of the wavelength $\lambda$
+
+
+
 :::
 
