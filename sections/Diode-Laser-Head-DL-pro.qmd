@@ -1,18 +1,21 @@
 **Blackbox of the ECDL**
+
+
 **Input:**
 
 - high speed frequency modulation port (-> frequency looking)
 - current $I$
 - temperature $T$
-
-
+- Littrow grating angle $\alpha_g$
+- grating constant $d$
 
 **Output:**
 
 - coherence length $>100\text{m}$
 - line width $<1\text{MHz}$
-- tuning to "several 10's of $\text{nm}$ (so $\textm\text{GHz}$) without realignment"
+- tuning to "several 10's of $\text{nm}$ without realignment" 
 - tuning of 10's of $\text{GHz}$
 - elliptical beam crosssecton (3:1)
-  - "amorphic prism pair" can  reshape the crosssection
+  - "amorphic prism pair" can  reshape the cross-section
 - collimated beam
+- power $<500\text{mW}$

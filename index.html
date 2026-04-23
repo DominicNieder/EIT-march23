@@ -37,7 +37,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="lab_notes_files/libs/quarto-html/quarto-syntax-highlighting-dark-d0ae9245876894da5ac7e18953ecc5cc.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="lab_notes_files/libs/bootstrap/bootstrap.min.js"></script>
 <link href="lab_notes_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="lab_notes_files/libs/bootstrap/bootstrap-3b49e704d459a1d42fd2e0b508288b7b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<link href="lab_notes_files/libs/bootstrap/bootstrap-277d5c0519291efc526294d453c98db0.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
@@ -157,11 +157,54 @@ window.Quarto = {
 <p>As concrete next steps, we need to find out about material compositions and the dimensions of the diode to then understand the models that describe the emission spectrum to make numerical predictions.</p>
 <section id="dominic-literature-collection" class="level4" data-number="1.1.1">
 <h4 data-number="1.1.1" class="anchored" data-anchor-id="dominic-literature-collection"><span class="header-section-number">1.1.1</span> Dominic: Literature collection</h4>
-<p>The handbook is a user manual <span class="citation" data-cites="diode_manual">(<a href="#ref-diode_manual" role="doc-biblioref"><strong>diode_manual?</strong></a>)</span>. I haven’t yet found any details on the material of the diode.</p>
+<p>The handbook is a user manual <span class="citation" data-cites="diode_manual">(<a href="#ref-diode_manual" role="doc-biblioref"><strong>diode_manual?</strong></a>)</span>.</p>
+<div id="fig-laser-setup" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-laser-setup-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="../../pictures/laser-setup-by-manufacturer.png" class="img-fluid figure-img" style="width:80.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-laser-setup-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Laser setup by manufacturer <span class="citation" data-cites="diode_manual">(<a href="#ref-diode_manual" role="doc-biblioref"><strong>diode_manual?</strong></a>)</span>
+</figcaption>
+</figure>
+</div>
 <p><strong>Tasks:</strong></p>
 <ul>
-<li>getting an understanding of the input– and output parameters</li>
+<li>getting an understanding of the input– and output parameters <strong>Blackbox of the ECDL</strong></li>
 </ul>
+<p><strong>Input:</strong></p>
+<ul>
+<li>high speed frequency modulation port (-&gt; frequency looking)</li>
+<li>current <span class="math inline">\(I\)</span></li>
+<li>temperature <span class="math inline">\(T\)</span></li>
+<li>Littrow grating angle <span class="math inline">\(\alpha_g\)</span></li>
+<li>grating constant <span class="math inline">\(d\)</span></li>
+</ul>
+<p><strong>Output:</strong></p>
+<ul>
+<li>coherence length <span class="math inline">\(&gt;100\text{m}\)</span></li>
+<li>line width <span class="math inline">\(&lt;1\text{MHz}\)</span></li>
+<li>tuning to “several 10’s of <span class="math inline">\(\text{nm}\)</span> without realignment”</li>
+<li>tuning of 10’s of <span class="math inline">\(\text{GHz}\)</span></li>
+<li>elliptical beam crosssecton (3:1)
+<ul>
+<li>“amorphic prism pair” can reshape the cross-section</li>
+</ul></li>
+<li>collimated beam</li>
+<li>power <span class="math inline">\(&lt;500\text{mW}\)</span></li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Notes on Manual
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
 <p><strong>1 Grating Stabilized Diode Laser Head DL pro</strong></p>
 <ul>
 <li>Littrow-Hänsch-type grating stabilized ECDL
@@ -199,41 +242,21 @@ window.Quarto = {
 <li>question on single or multi mode operation</li>
 <li>mode hop free tuning of laser diode</li>
 </ul>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-1" class="callout-1-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p><strong>Key ECDL parameters</strong></p>
-<p><strong>Blackbox of the ECDL</strong> <strong>Input:</strong></p>
+<p><strong>4.6.1 Manual Coarse Tuning of the Wavelength</strong></p>
 <ul>
-<li>high speed frequency modulation port (-&gt; frequency looking)</li>
-<li>current <span class="math inline">\(I\)</span></li>
-<li>temperature <span class="math inline">\(T\)</span></li>
+<li>by tuning the grating angle by a fine threaded screw (2 in <a href="#fig-laser-setup" class="quarto-xref">Figure&nbsp;1</a>) the wavelength may be varied up to <span class="math inline">\(100\text{nm}\)</span> (no realignement of optical set up required)</li>
 </ul>
-<p><strong>Output:</strong></p>
+<p><span class="math display">\[\sin(\alpha_g)=\frac{m\lambda}{2d}\]</span></p>
 <ul>
-<li>coherence length <span class="math inline">\(&gt;100\text{m}\)</span></li>
-<li>line width <span class="math inline">\(&lt;1\text{MHz}\)</span></li>
-<li>tuning to “several 10’s of <span class="math inline">\(\text{nm}\)</span> (so <span class="math inline">\(\textm\text{GHz}\)</span>) without realignment”</li>
-<li>tuning of 10’s of <span class="math inline">\(\text{GHz}\)</span></li>
-<li>elliptical beam crosssecton (3:1)
-<ul>
-<li>“amorphic prism pair” can reshape the crosssection</li>
-</ul></li>
-<li>collimated beam</li>
+<li>half a turn on fine threaded screw -&gt; <span class="math inline">\(\sim 6\text{nm}\)</span></li>
+<li>maximum laser current <span class="math inline">\(I_{max}(\lambda)\)</span> is dependant on the parameter of the wavelength <span class="math inline">\(\lambda\)</span></li>
 </ul>
 </div>
 </div>
 </div>
-<p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD:report/lab_notes.qmd &gt;&gt;&gt;&gt;&gt;&gt;&gt; main ======= #### Awais: Literature collection</p>
+</section>
+<section id="awais-literature-collection" class="level4" data-number="1.1.2">
+<h4 data-number="1.1.2" class="anchored" data-anchor-id="awais-literature-collection"><span class="header-section-number">1.1.2</span> Awais: Literature collection</h4>
 <p><strong>Test and Characterization of Laser Diodes: Determination of Principal Parameters By Kamran S. Mobarhan, Ph.D.</strong> This hand book is around determining the principle parameters to characterize and optimize laser to its efficient point. Notes:https://web.goodnotes.com/s/RIr0x17NwiZTeFIQFdGrsT</p>
 </section>
 </section>
