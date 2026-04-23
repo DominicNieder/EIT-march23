@@ -8,6 +8,8 @@
 - temperature $T$
 - Littrow grating angle $\alpha_g$
 - grating constant $d$
+- piezo actuator -> external cavity $L$ & grating profile $\alpha_g$
+
 
 **Output:**
 
