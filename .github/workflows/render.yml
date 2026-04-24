@@ -10,8 +10,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4.2.2
       - uses: quarto-dev/quarto-actions/setup@v2
-        with:
-          tinytex: true
       - run: quarto render notes/lab_notes.qmd --to html
       - run: mv notes/lab_notes.html notes/index.html
       - name: Deploy to GitHub Pages
