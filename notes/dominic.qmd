@@ -84,5 +84,13 @@ factors that affect the ECDL mode frequency/wavelength
 **4.6.3 Mode-Hop Free Tuning of the wavelength**
 
 - tuning the piezo actuator changes the length $L$ of the external cavity as well as the grating angle $\alpha_g$ thus changing the grating profile 
+- one should scan, i.e. change $I_D$ by applying a ramp proportional to Sc 110 output ramp  
+
+::: {layout="[60,40]"}
+![Caption 1](pictures/DLpro-setup-mode-hope-free-scanning.png)
+
+![Caption 2](pictures/DLpro-input-output-example.png)
+:::
+
 :::
 
