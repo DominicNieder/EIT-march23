@@ -6,6 +6,9 @@
 **ECDL**
 : External Cavity Diode Laser. _description_
 
+**FPI**
+: Fabry-Pérot interferometer. _description_
+
 **beam cross-section**
 : The beam cross-section is the geometric form that describes the intensity profile of laser in the plane spanned by the two vectors that are mutually orthogonal to the wave-vector 
 

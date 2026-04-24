@@ -4,7 +4,7 @@
 **Input:**
 
 - high speed frequency modulation port (-> frequency looking)
-- current $I_D$
+- current $I_D$ or voltage $V_D$ 
 - temperature $T$
 - Littrow grating angle $\alpha_g$
 - grating constant $d$
