@@ -13,6 +13,7 @@ format:
 bibliography: ../report/literature.bib
 ---
 
+
 ## Research topic
 
 Our experiment contains topics on
@@ -64,5 +65,9 @@ As concrete next steps, we need to find out about material compositions and the 
 #### Awais: Literature collection
 
 {{< include awais.qmd >}}
+
+## Glossary
+
+{{< inlcude sections/glossary.qmd >}}
 
 ## References
