@@ -12,7 +12,6 @@ jobs:
       - uses: quarto-dev/quarto-actions/setup@v2
         with:
           tinytex: true
-      - run: cp -r pictures notes/pictures
       - run: quarto render notes/lab_notes.qmd --to html
       - run: mv notes/lab_notes.html notes/index.html
       - name: Deploy to GitHub Pages

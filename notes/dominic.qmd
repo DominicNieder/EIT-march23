@@ -1,6 +1,6 @@
 The handbook is a user manual of diode laser DL pro[@diode_manual]. 
 
-![Laser setup by manufacturer [@diode_manual]](../pictures/laser-setup-by-manufacturer.png){#fig-laser-setup width=80%}
+![Laser setup by manufacturer [@diode_manual]](pictures/laser-setup-by-manufacturer.png){#fig-laser-setup width=80%}
 
 
 
@@ -73,7 +73,7 @@ factors that affect the ECDL mode frequency/wavelength
 3) external resonator mode defined by $L$ (optical distance of rear internal cavity mirror to the grating) 
 3) grating profile
 
-![Here the effects of the various components and physical parameters have on the line width [@diode_manual]. The ](../pictures/factors-determining-single-mode-laser-frequency.png){#fig-laser-setup width=80%}
+![Here the effects of the various components and physical parameters have on the line width [@diode_manual]. The ](pictures/factors-determining-single-mode-laser-frequency.png){#fig-laser-setup width=80%}
 
 - with varying laser diode current $I_{D}$ the profiles 2) & 3) move with different speeds!
 - refraction index $n$ depends on internal intensity of the resonator
