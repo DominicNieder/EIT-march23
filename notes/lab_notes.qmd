@@ -68,6 +68,6 @@ As concrete next steps, we need to find out about material compositions and the 
 
 ## Glossary
 
-{{< inlcude sections/glossary.qmd >}}
+{{< include sections/glossary.qmd >}}
 
 ## References
