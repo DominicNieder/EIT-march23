@@ -314,7 +314,28 @@ Figure&nbsp;2: Here the effects of the various components and physical parameter
 <p><strong>4.6.3 Mode-Hop Free Tuning of the wavelength</strong></p>
 <ul>
 <li>tuning the piezo actuator changes the length <span class="math inline">\(L\)</span> of the external cavity as well as the grating angle <span class="math inline">\(\alpha_g\)</span> thus changing the grating profile</li>
+<li>one should scan, i.e.&nbsp;change <span class="math inline">\(I_D\)</span> by applying a ramp proportional to Sc 110 output ramp</li>
 </ul>
+<div class="quarto-layout-panel" data-layout="[60,40]">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 60.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="pictures/DLpro-setup-mode-hope-free-scanning.png" class="img-fluid figure-img"></p>
+<figcaption>Caption 1</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 40.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="pictures/DLpro-input-output-example.png" class="img-fluid figure-img"></p>
+<figcaption>Caption 2</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
 </div>
 </div>
 </div>
@@ -327,43 +348,56 @@ Figure&nbsp;2: Here the effects of the various components and physical parameter
 </section>
 <section id="glossary" class="level2" data-number="2">
 <h2 data-number="2" class="anchored" data-anchor-id="glossary"><span class="header-section-number">2</span> Glossary</h2>
-<p><strong>Concepts</strong></p>
-<p>diode: A diode is made by glueing at least two types of p– and n-doped materials. <em>further details required</em></p>
+<section id="concepts" class="level4" data-number="2.0.1">
+<h4 data-number="2.0.1" class="anchored" data-anchor-id="concepts"><span class="header-section-number">2.0.1</span> Concepts</h4>
 <dl>
-<dt>ECDL</dt>
+<dt><strong>diode</strong></dt>
+<dd>
+A diode is made by glueing at least two types of p– and n-doped materials. <em>further details required</em>
+</dd>
+<dt><strong>ECDL</strong></dt>
 <dd>
 External Cavity Diode Laser. <em>description</em>
 </dd>
-<dt>beam cross-section</dt>
+<dt><strong>beam cross-section</strong></dt>
 <dd>
 The beam cross-section is the geometric form that describes the intensity profile of laser in the plane spanned by the two vectors that are mutually orthogonal to the wave-vector
 </dd>
-<dt>gain profile</dt>
+<dt><strong>medium</strong></dt>
+<dd>
+Referes to the environment that of the physical system.
+</dd>
+<dt><strong>gain profile</strong></dt>
 <dd>
 The gain profile describes the emission spectrum of the diode, i.e.&nbsp;the emission spectrum without cavities (internal or external).
 </dd>
-<dt>internal cavity <span class="math inline">\(l\)</span></dt>
+<dt><strong>cavity</strong></dt>
 <dd>
-is the cavity made from two mirrors opposite to each other with a defining parameter of length <span class="math inline">\(l\)</span> that is defined by the geometry of the diode. The internal cavity is applied to the diode by coating the reflective
+A cavity is a space defined by boundary conditions which defines allowed excitation energies of the radiation field. The cavity defines the boundary conditions of the harmonic oscillator.
 </dd>
-<dt>internal mode</dt>
+<dt><strong>internal cavity</strong> <span class="math inline">\(l\)</span></dt>
+<dd>
+is the cavity made from two mirrors opposite to each other with a defining parameter of length <span class="math inline">\(l\)</span> that is defined by the geometry of the diode. The internal cavity arises partially due to an applied coating with high reflectivity though also due to the reflection due to the difference of refractive index (medium to air).
+</dd>
+<dt><strong>internal mode </strong></dt>
 <dd>
 is the spectrum resulting from the internal cavity.
 </dd>
-<dt>external cavity <span class="math inline">\(L\)</span></dt>
-<dd>
-is the cavity which is established by an external mirror and runs from the further end of the internal cavity to the external mirror.
-</dd>
-<dt>external mode</dt>
+</dl>
+<p><strong>external cavity</strong> <span class="math inline">\(L\)</span> :The cavity which is established by an external mirror and runs from the further end of the internal cavity to the external mirror.</p>
+<dl>
+<dt><strong>external mode</strong></dt>
 <dd>
 is the spectrum resulting from the external cavity.
 </dd>
-<dt>grating profile</dt>
+<dt><strong>grating profile</strong></dt>
 <dd>
 the grating profile is the profile of the grated mirror, it depends on the incoming angle <span class="math inline">\(\alpha_g\)</span> of the light to the grating.
 </dd>
 </dl>
-<p><strong>Symbols</strong></p>
+</section>
+<section id="symbols" class="level4" data-number="2.0.2">
+<h4 data-number="2.0.2" class="anchored" data-anchor-id="symbols"><span class="header-section-number">2.0.2</span> Symbols</h4>
 <dl>
 <dt><span class="math inline">\(T\)</span></dt>
 <dd>
@@ -400,6 +434,7 @@ wavelength
 grating constant
 </dd>
 </dl>
+</section>
 </section>
 <section id="references" class="level2 unnumbered" data-number="3">
 

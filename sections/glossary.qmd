@@ -1,33 +1,39 @@
-**Concepts**
+#### Concepts
 
-diode:
-A diode is made by glueing at least two types of p– and n-doped materials. _further details required_
+**diode**
+: A diode is made by glueing at least two types of p– and n-doped materials. _further details required_
 
-ECDL
+**ECDL**
 : External Cavity Diode Laser. _description_
 
-beam cross-section
+**beam cross-section**
 : The beam cross-section is the geometric form that describes the intensity profile of laser in the plane spanned by the two vectors that are mutually orthogonal to the wave-vector 
 
-gain profile
+**medium**
+: Referes to the environment that of the physical system. 
+
+**gain profile**
 : The gain profile describes the emission spectrum of the diode, i.e. the emission spectrum without cavities (internal or external).
 
-internal cavity $l$
-: is the cavity made from two mirrors opposite to each other with a defining parameter of length $l$ that is defined by the geometry of the diode. The internal cavity is applied to the diode by coating the reflective 
+**cavity**
+: A cavity is a space defined by boundary conditions which defines allowed excitation energies of the radiation field. The cavity defines the boundary conditions of the harmonic oscillator.
 
-internal mode 
+**internal cavity** $l$
+: is the cavity made from two mirrors opposite to each other with a defining parameter of length $l$ that is defined by the geometry of the diode. The internal cavity arises partially due to an applied coating with high reflectivity though also due to the reflection due to the difference of refractive index (medium to air).
+
+**internal mode **
 : is the spectrum resulting from the internal cavity.
 
-external cavity $L$
-: is the cavity which is established by an external mirror and runs from the further end of the internal cavity to the external mirror.
+**external cavity** $L$
+:The cavity which is established by an external mirror and runs from the further end of the internal cavity to the external mirror.
 
-external mode
+**external mode**
 : is the spectrum resulting from the external cavity.
 
-grating profile
+**grating profile**
 : the grating profile is the profile of the grated mirror, it depends on the incoming angle $\alpha_g$ of the light to the grating.
 
-**Symbols**
+#### Symbols
 
 $T$
 : temperature
