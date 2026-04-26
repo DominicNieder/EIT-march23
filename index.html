@@ -102,8 +102,17 @@ window.Quarto = {
   <ul class="collapse">
   <li><a href="#on-finding-a-topic" id="toc-on-finding-a-topic" class="nav-link" data-scroll-target="#on-finding-a-topic"><span class="header-section-number">1.1</span> On finding a topic</a></li>
   </ul></li>
-  <li><a href="#glossary" id="toc-glossary" class="nav-link" data-scroll-target="#glossary"><span class="header-section-number">2</span> Glossary</a></li>
-  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="header-section-number">3</span> References</a></li>
+  <li><a href="#dominic-literature-collection" id="toc-dominic-literature-collection" class="nav-link" data-scroll-target="#dominic-literature-collection"><span class="header-section-number">2</span> Dominic: Literature collection</a>
+  <ul class="collapse">
+  <li><a href="#handbook-dlpro" id="toc-handbook-dlpro" class="nav-link" data-scroll-target="#handbook-dlpro"><span class="header-section-number">2.1</span> Handbook DLpro</a></li>
+  <li><a href="#numerical-modeling-of-a-narrow-linewidth-quantum-dot-laser" id="toc-numerical-modeling-of-a-narrow-linewidth-quantum-dot-laser" class="nav-link" data-scroll-target="#numerical-modeling-of-a-narrow-linewidth-quantum-dot-laser"><span class="header-section-number">2.2</span> “Numerical modeling of a Narrow linewidth Quantum Dot Laser”</a></li>
+  <li><a href="#a-simple-method-for-accurate-modeling-of-diode-parameters" id="toc-a-simple-method-for-accurate-modeling-of-diode-parameters" class="nav-link" data-scroll-target="#a-simple-method-for-accurate-modeling-of-diode-parameters"><span class="header-section-number">2.3</span> “A simple method for accurate modeling of diode parameters”</a></li>
+  <li><a href="#what-i-think-we-should-do-the-following-week" id="toc-what-i-think-we-should-do-the-following-week" class="nav-link" data-scroll-target="#what-i-think-we-should-do-the-following-week"><span class="header-section-number">2.4</span> What I think we should do the following week</a></li>
+  </ul></li>
+  <li><a href="#awais-literature-collection" id="toc-awais-literature-collection" class="nav-link" data-scroll-target="#awais-literature-collection"><span class="header-section-number">3</span> Awais: Literature collection</a></li>
+  <li><a href="#set-goal-27th---30th" id="toc-set-goal-27th---30th" class="nav-link" data-scroll-target="#set-goal-27th---30th"><span class="header-section-number">4</span> Set goal: 27th - 30th</a></li>
+  <li><a href="#glossary" id="toc-glossary" class="nav-link" data-scroll-target="#glossary"><span class="header-section-number">5</span> Glossary</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="header-section-number">6</span> References</a></li>
   </ul>
 <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="../lab_notes.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
 </div>
@@ -176,8 +185,12 @@ window.Quarto = {
 </ul></li>
 </ul>
 <p>As concrete next steps, we need to find out about material compositions and the dimensions of the diode to then understand the models that describe the emission spectrum to make numerical predictions.</p>
-<section id="dominic-literature-collection" class="level4" data-number="1.1.1">
-<h4 data-number="1.1.1" class="anchored" data-anchor-id="dominic-literature-collection"><span class="header-section-number">1.1.1</span> Dominic: Literature collection</h4>
+</section>
+</section>
+<section id="dominic-literature-collection" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="dominic-literature-collection"><span class="header-section-number">2</span> Dominic: Literature collection</h2>
+<section id="handbook-dlpro" class="level3" data-number="2.1">
+<h3 data-number="2.1" class="anchored" data-anchor-id="handbook-dlpro"><span class="header-section-number">2.1</span> Handbook DLpro</h3>
 <p>The handbook is a user manual of diode laser DL pro<span class="citation" data-cites="diode_manual">(<a href="#ref-diode_manual" role="doc-biblioref">AG 2011</a>)</span>.</p>
 <div id="fig-laser-setup" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
@@ -196,11 +209,11 @@ Figure&nbsp;1: Laser setup by manufacturer under the protective cover <span clas
 <p><strong>Input:</strong></p>
 <ul>
 <li>high speed frequency modulation port (-&gt; frequency looking)</li>
-<li>current <span class="math inline">\(I_D\)</span> or voltage <span class="math inline">\(V_D\)</span></li>
+<li>current <span class="math inline">\(I_D\)</span></li>
 <li>temperature <span class="math inline">\(T\)</span></li>
 <li>Littrow grating angle <span class="math inline">\(\alpha_g\)</span></li>
 <li>grating constant <span class="math inline">\(d\)</span></li>
-<li>piezo actuator -&gt; external cavity <span class="math inline">\(L\)</span> &amp; grating profile <span class="math inline">\(\alpha_g\)</span></li>
+<li>piezo actuator <span class="math inline">\(V_D\)</span> -&gt; external cavity <span class="math inline">\(L\)</span> &amp; grating profile <span class="math inline">\(\alpha_g\)</span></li>
 </ul>
 <p><strong>Output:</strong></p>
 <ul>
@@ -281,7 +294,7 @@ Figure&nbsp;1: Laser setup by manufacturer under the protective cover <span clas
 </ul>
 <p><strong>4.6.1 Manual Coarse Tuning of the Wavelength</strong></p>
 <ul>
-<li>by tuning the grating angle by a fine threaded screw (2 in <a href="#fig-laser-setup" class="quarto-xref">Figure&nbsp;2</a>) the wavelength may be varied up to <span class="math inline">\(100\text{nm}\)</span> (no realignement of optical set up required)</li>
+<li>by tuning the grating angle by a fine threaded screw (2 in <a href="#fig-laser-setup" class="quarto-xref">Figure&nbsp;1</a>) the wavelength may be varied up to <span class="math inline">\(100\text{nm}\)</span> (no realignement of optical set up required)</li>
 </ul>
 <p><span class="math display">\[\sin(\alpha_g)=\frac{m\lambda}{2d}\]</span></p>
 <ul>
@@ -290,23 +303,23 @@ Figure&nbsp;1: Laser setup by manufacturer under the protective cover <span clas
 </ul>
 <p><strong>4.6.2 Single Mode and Coherence Control</strong> factors that affect the ECDL mode frequency/wavelength</p>
 <ol type="1">
-<li>medium gain profile (of diode gain medium)</li>
+<li>medium gain profile (of the diode gain medium)</li>
 <li>internal cavity i.e.&nbsp;diode length <span class="math inline">\(l\)</span></li>
 <li>external resonator mode defined by <span class="math inline">\(L\)</span> (optical distance of rear internal cavity mirror to the grating)</li>
-<li>grating profile</li>
+<li>grating profile of the grated mirror</li>
 </ol>
-<div id="fig-laser-setup" class="quarto-float quarto-figure quarto-figure-center anchored">
+<div id="fig-modes" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-laser-setup-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div aria-describedby="fig-modes-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="pictures/factors-determining-single-mode-laser-frequency.png" class="img-fluid figure-img" style="width:80.0%">
 </div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-laser-setup-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-modes-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;2: Here the effects of the various components and physical parameters have on the line width <span class="citation" data-cites="diode_manual">(<a href="#ref-diode_manual" role="doc-biblioref">AG 2011</a>)</span>. The
 </figcaption>
 </figure>
 </div>
 <ul>
-<li>with varying laser diode current <span class="math inline">\(I_{D}\)</span> the profiles 2) &amp; 3) move with different speeds!</li>
+<li>with varying laser diode current <span class="math inline">\(I_{pd}\)</span> the profiles 2) &amp; 3) move with different speeds!</li>
 <li>refraction index <span class="math inline">\(n\)</span> depends on internal intensity of the resonator</li>
 <li>temperature <span class="math inline">\(T\)</span> changes 1) - 4) “asynchronously”</li>
 <li>if running in a single mode, the Fabry-Pérot interferometer shows fringes equidistantly</li>
@@ -314,42 +327,86 @@ Figure&nbsp;2: Here the effects of the various components and physical parameter
 <p><strong>4.6.3 Mode-Hop Free Tuning of the wavelength</strong></p>
 <ul>
 <li>tuning the piezo actuator changes the length <span class="math inline">\(L\)</span> of the external cavity as well as the grating angle <span class="math inline">\(\alpha_g\)</span> thus changing the grating profile</li>
-<li>one should scan, i.e.&nbsp;change <span class="math inline">\(I_D\)</span> by applying a ramp proportional to Sc 110 output ramp</li>
+<li>one should scan, i.e.&nbsp;change <span class="math inline">\(I_{pz}\)</span> by applying a ramp proportional to Sc 110 output ramp</li>
 </ul>
 <div class="quarto-layout-panel" data-layout="[60,40]">
 <div class="quarto-layout-row">
 <div class="quarto-layout-cell" style="flex-basis: 60.0%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="pictures/DLpro-setup-mode-hope-free-scanning.png" class="img-fluid figure-img"></p>
-<figcaption>Here we see the setup to initialize the mode-hop-free range, with the “Feed Forward”</figcaption>
+<div id="fig-setup-1" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-setup-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="pictures/DLpro-setup-mode-hope-free-scanning.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-setup-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3: Here we see the setup to initialize the mode-hop-free range, with the “Feed Forward”
+</figcaption>
 </figure>
 </div>
 </div>
 <div class="quarto-layout-cell" style="flex-basis: 40.0%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="pictures/DLpro-input-output-example.png" class="img-fluid figure-img"></p>
-<figcaption>These graphs show 2 (from 5) settings of the Feed Forward setup (e) showing the proper settings, thereafter the handbook gives instructions how to get from a useless to a useful setting. The 3 x-axis show measured input voltage (supposedly SC 110!), the voltage resulting from the photodiode (supposedly in constant current mode!) as well as the resulting Fabry-Pérot interferometer (FPI) signal.</figcaption>
+<div id="fig-measurements" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-measurements-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="pictures/DLpro-input-output-example.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-measurements-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;4: These graphs show 2 (from 5) settings of the Feed Forward setup (e) showing the proper settings, thereafter the handbook gives instructions how to get from a useless to a useful setting. The 3 x-axis show measured input voltage (supposedly SC 110!) to the piezo actuator, the voltage resulting from the photodiode (supposedly in constant current mode!) as well as the resulting Fabry-Pérot interferometer (FPI) signal.
+</figcaption>
 </figure>
 </div>
 </div>
 </div>
 </div>
+<ul>
+<li>read hints <span class="citation" data-cites="diode_manual">AG (<a href="#ref-diode_manual" role="doc-biblioref">2011</a>)</span> p.&nbsp;27, for proper setup: i.e.&nbsp;for (d) in <a href="#fig-measurements" class="quarto-xref">Figure&nbsp;4</a> “Laser diode current incorrect (can be noticed only with a Fabry-Perot Interferometer or possibly in the customer’s application).”</li>
+</ul>
 </div>
 </div>
 </div>
 </section>
-<section id="awais-literature-collection" class="level4" data-number="1.1.2">
-<h4 data-number="1.1.2" class="anchored" data-anchor-id="awais-literature-collection"><span class="header-section-number">1.1.2</span> Awais: Literature collection</h4>
+<section id="numerical-modeling-of-a-narrow-linewidth-quantum-dot-laser" class="level3" data-number="2.2">
+<h3 data-number="2.2" class="anchored" data-anchor-id="numerical-modeling-of-a-narrow-linewidth-quantum-dot-laser"><span class="header-section-number">2.2</span> “Numerical modeling of a Narrow linewidth Quantum Dot Laser”</h3>
+<p><span class="citation" data-cites="numerical_modeling_linewidth">Bjelica (<a href="#ref-numerical_modeling_linewidth" role="doc-biblioref">2017</a>)</span> Schawlow-Townes linewidth equation</p>
+<ol type="1">
+<li><p>below lasing threshold &amp; spontaneous (<span class="math inline">\(I_{pd}&lt;I_{thr}\)</span>)<br>
+<span class="math display">\[\Delta f_{sp}= \frac{\Gamma R'_{sp}}{2\pi N_p}\]</span></p></li>
+<li><p>above lasing threshold for stimulated emission</p></li>
+</ol>
+</section>
+<section id="a-simple-method-for-accurate-modeling-of-diode-parameters" class="level3" data-number="2.3">
+<h3 data-number="2.3" class="anchored" data-anchor-id="a-simple-method-for-accurate-modeling-of-diode-parameters"><span class="header-section-number">2.3</span> “A simple method for accurate modeling of diode parameters”</h3>
+<p><span class="citation" data-cites="num_mod_diode_param">Asadi (<a href="#ref-num_mod_diode_param" role="doc-biblioref">2022</a>)</span></p>
+<p>The basis of the ECDL lies the diode. Characterizing this could be the first corner stone.</p>
+<p><strong>Shockley equation</strong> <span class="math display">\[I=I_S\Big(e^{\frac{V_{pd}}{nV_T}}-1\Big)\]</span></p>
+<p>parameters <span class="math inline">\(V_{pd}\)</span> : Voltage across the diode from anode to cathode</p>
+<dl>
+<dt><span class="math inline">\(V_T=k_B T/q_{el}\)</span></dt>
+<dd>
+Thermal voltage, is the voltage that captures the charge carrier distribution across the p-n junction
+</dd>
+<dt><span class="math inline">\(I_s\)</span></dt>
+<dd>
+Reverse saturation current <span class="math display">\[I_s=eA\Bigg(\sqrt{\frac{D_P}{\tau_P}}\frac{n_i^2}{N_D}+\sqrt{\frac{D_N}{\tau_N}}\frac{n_i^2}{N_A} \Bigg)\]</span>
+</dd>
+</dl>
+</section>
+<section id="what-i-think-we-should-do-the-following-week" class="level3" data-number="2.4">
+<h3 data-number="2.4" class="anchored" data-anchor-id="what-i-think-we-should-do-the-following-week"><span class="header-section-number">2.4</span> What I think we should do the following week</h3>
+<p>If we want to characterize the laser, and compare it to simulation runs, it makes sense to compare it to data.</p>
+<p>The first thing to characterize</p>
+</section>
+</section>
+<section id="awais-literature-collection" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="awais-literature-collection"><span class="header-section-number">3</span> Awais: Literature collection</h2>
 <p><strong>Test and Characterization of Laser Diodes: Determination of Principal Parameters By Kamran S. Mobarhan, Ph.D.</strong> This hand book is around determining the principle parameters to characterize and optimize laser to its efficient point. <a href="https://web.goodnotes.com/s/RIr0x17NwiZTeFIQFdGrsT">Notes</a></p>
 </section>
+<section id="set-goal-27th---30th" class="level2" data-number="4">
+<h2 data-number="4" class="anchored" data-anchor-id="set-goal-27th---30th"><span class="header-section-number">4</span> Set goal: 27th - 30th</h2>
 </section>
-</section>
-<section id="glossary" class="level2" data-number="2">
-<h2 data-number="2" class="anchored" data-anchor-id="glossary"><span class="header-section-number">2</span> Glossary</h2>
-<section id="concepts" class="level4" data-number="2.0.1">
-<h4 data-number="2.0.1" class="anchored" data-anchor-id="concepts"><span class="header-section-number">2.0.1</span> Concepts</h4>
+<section id="glossary" class="level2" data-number="5">
+<h2 data-number="5" class="anchored" data-anchor-id="glossary"><span class="header-section-number">5</span> Glossary</h2>
+<section id="concepts" class="level4" data-number="5.0.1">
+<h4 data-number="5.0.1" class="anchored" data-anchor-id="concepts"><span class="header-section-number">5.0.1</span> Concepts</h4>
 <dl>
 <dt><strong>diode</strong></dt>
 <dd>
@@ -373,35 +430,36 @@ Referes to the environment that of the physical system.
 </dd>
 <dt><strong>gain profile</strong></dt>
 <dd>
-The gain profile describes the emission spectrum of the diode, i.e.&nbsp;the emission spectrum without cavities (internal or external).
+The emission spectrum of the diode, i.e.&nbsp;the emission spectrum without cavities (internal or external).
 </dd>
 <dt><strong>cavity</strong></dt>
 <dd>
-A cavity is a space defined by boundary conditions which defines allowed excitation energies of the radiation field. The cavity defines the boundary conditions of the harmonic oscillator.
+Is a space defined by boundary conditions which defines allowed excitation energies of the radiation field. The cavity defines the boundary conditions of the harmonic oscillator.
 </dd>
 <dt><strong>internal cavity</strong> <span class="math inline">\(l\)</span></dt>
 <dd>
-is the cavity made from two mirrors opposite to each other with a defining parameter of length <span class="math inline">\(l\)</span> that is defined by the geometry of the diode. The internal cavity arises partially due to an applied coating with high reflectivity though also due to the reflection due to the difference of refractive index (medium to air).
+The cavity made from two mirrors opposite to each other with a defining parameter of length <span class="math inline">\(l\)</span> that is defined by the geometry of the diode. The internal cavity arises partially due to an applied coating with high reflectivity though also due to the reflection due to the difference of refractive index (medium to air).
 </dd>
 <dt><strong>internal mode </strong></dt>
 <dd>
-is the spectrum resulting from the internal cavity.
+The spectrum resulting from the internal cavity.
 </dd>
-</dl>
-<p><strong>external cavity</strong> <span class="math inline">\(L\)</span> :The cavity which is established by an external mirror and runs from the further end of the internal cavity to the external mirror.</p>
-<dl>
+<dt><strong>external cavity</strong> <span class="math inline">\(L\)</span></dt>
+<dd>
+The cavity which is established by an external mirror and runs from the further end of the internal cavity to the external mirror.
+</dd>
 <dt><strong>external mode</strong></dt>
 <dd>
-is the spectrum resulting from the external cavity.
+The spectrum resulting from the external cavity.
 </dd>
 <dt><strong>grating profile</strong></dt>
 <dd>
-the grating profile is the profile of the grated mirror, it depends on the incoming angle <span class="math inline">\(\alpha_g\)</span> of the light to the grating.
+The profile of the grated mirror, it depends on the incoming angle <span class="math inline">\(\alpha_g\)</span> of the light to the grating.
 </dd>
 </dl>
 </section>
-<section id="symbols" class="level4" data-number="2.0.2">
-<h4 data-number="2.0.2" class="anchored" data-anchor-id="symbols"><span class="header-section-number">2.0.2</span> Symbols</h4>
+<section id="symbols" class="level4" data-number="5.0.2">
+<h4 data-number="5.0.2" class="anchored" data-anchor-id="symbols"><span class="header-section-number">5.0.2</span> Symbols</h4>
 <dl>
 <dt><span class="math inline">\(T\)</span></dt>
 <dd>
@@ -413,8 +471,17 @@ electrical current
 </dd>
 </dl>
 <ul>
-<li><span class="math inline">\(I_D\)</span>: is the laser diode current</li>
-<li><span class="math inline">\(I_max\)</span>: is the maximum current for which the laser diode power output reaches a threshold</li>
+<li><span class="math inline">\(I_{pd}\)</span>: is the laser diode current</li>
+<li><span class="math inline">\(I_{thr}\)</span>: is the current for which the laser diode power transitions and becomes lasing</li>
+</ul>
+<dl>
+<dt><span class="math inline">\(V\)</span></dt>
+<dd>
+electrical voltage
+</dd>
+</dl>
+<ul>
+<li><span class="math inline">\(V_{pz}\)</span>: voltage across piezo actuator</li>
 </ul>
 <dl>
 <dt><span class="math inline">\(\alpha_g\)</span></dt>
@@ -440,14 +507,20 @@ grating constant
 </dl>
 </section>
 </section>
-<section id="references" class="level2 unnumbered" data-number="3">
+<section id="references" class="level2 unnumbered" data-number="6">
 
 
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">3 References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">6 References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
 <div id="ref-diode_manual" class="csl-entry" role="listitem">
 AG, OPTICA Photonics. 2011. <span>“DL Pro, Grating Stabilized Diode Laser Heaad, Manual.”</span> <em>Manual: M-30</em> 07.
+</div>
+<div id="ref-num_mod_diode_param" class="csl-entry" role="listitem">
+Asadi, Farzin. 2022. <span>“A Simple Method for Accurate Modeling of Diode Parameters.”</span> <em>Energy Reports</em> 8: 155–62. https://doi.org/<a href="https://doi.org/10.1016/j.egyr.2022.05.136">https://doi.org/10.1016/j.egyr.2022.05.136</a>.
+</div>
+<div id="ref-numerical_modeling_linewidth" class="csl-entry" role="listitem">
+Bjelica, Marko. 2017. <em>Numerical Modeling of Narrow-Linewidth Quantum Dot Lasers</em>. <a href="https://doi.org/10.19211/KUP9783737602853">https://doi.org/10.19211/KUP9783737602853</a>.
 </div>
 </div></section></div></main>
 <!-- /main column -->
