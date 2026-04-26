@@ -47,9 +47,7 @@ from the mains supply."
 **4.5 ContinuoUs Operation of the Diode Laser Head DL pro:**
 
 - how to obtain a continuos and stable signal 
-:::
 
-::: {.callout-note collapse="true"}
 ## Tuning of the Diode Laser
 **4.6 Tuning the Diode Laser Head DL pro:** 
 
@@ -57,6 +55,9 @@ from the mains supply."
 - question on single or multi mode operation
 - mode hop free tuning of laser diode
 
+:::
+
+::: {.callout-note collapse="true"}
 **4.6.1 Manual Coarse Tuning of the Wavelength**
 
 - by tuning the grating angle by a fine threaded screw (2 in @fig-laser-setup) the wavelength may be varied up to $100\text{nm}$ (no realignement of optical set up required)   
@@ -104,7 +105,8 @@ Schawlow-Townes linewidth equation
 1) below lasing threshold & spontaneous ($I_{pd}<I_{thr}$)  
 $$\Delta f_{sp}= \frac{\Gamma R'_{sp}}{2\pi N_p}$$
 
-
+- $N_p$
+: _is this the sme $N_p$ as with the shockly equation?_
 
 2) above lasing threshold for stimulated emission
 
@@ -114,26 +116,46 @@ $$\Delta f_{sp}= \frac{\Gamma R'_{sp}}{2\pi N_p}$$
 
 The basis of the ECDL lies the diode. Characterizing this could be the first corner stone.
 
-**Shockley equation**
-$$I=I_S\Big(e^{\frac{V_{pd}}{nV_T}}-1\Big)$$
+**Shockly equation**
+ $$I=I_S\Big(e^{\frac{V_{pd}}{nV_T}}-1\Big)$$
 
-parameters
-$V_{pd}$
+**parameters**
+
+- $V_{pd}$
 : Voltage across the diode from anode to cathode
 
-$V_T=k_B T/q_{el}$
+- $V_T=k_B T/q_{el}$
 : Thermal voltage, is the voltage that captures the charge carrier distribution across the p-n junction 
 
-$I_s$
+- $I_s$
 : Reverse saturation current
 $$I_s=eA\Bigg(\sqrt{\frac{D_P}{\tau_P}}\frac{n_i^2}{N_D}+\sqrt{\frac{D_N}{\tau_N}}\frac{n_i^2}{N_A} \Bigg)$$
 
+- $D_P$
+: _continue..._
 
+### On Schottky Diodes - Forward characteristics
+"Accurate Numerical Methods for Modeling
+Forward Characteristics of High Temperature
+Capable Schottky Diodes"
 
-### What I think we should do the following week
+- What is our current direction $I_{pd}$?
+
+### Task: 27th April 
+
+The goal we set was to get a deeper understanding for numerical modeling of the laser diode,
+So I went through the manual and tried to get a detailed understanding of the laser diode. I managed to find in- and output parameters that are summerized above. There is also a brief notes of other chapters of the manual. 
 
 If we want to characterize the laser, and compare it to simulation runs, it makes sense to compare it to data.
 
-The first thing to characterize
+The first thing to characterize would be the power-current $P$-$I$-characteristic of a diode. _What is the current direction?_ For good modeling considering the parameter $T$ could parametrize this characteristic further.
+With the additional parameter $T$ we need to ask ourselves the question what we gain for this parameter variation.
+Set up a simulation visualizing what the three parameters change based on the 
+It would be nice to work toward a more fundamental property of the material like charge distributions/concentrations, the refraction index or material compositions (i.e. GaAs). 
+
+$->$ The temperature variation needs additional time to reach thermal equilibrium
+
+The measurement for the diode charactarization should take time _how much? 1day?_ to start the laser and to set up the the beam with the photo detector to measure the power of the laser. Take data on diode current $I_{pd}$ and voltage from the photo detector $V_{dtc}$ as well as the temperature $T_D$.
+
 
 
