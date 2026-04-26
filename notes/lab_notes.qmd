@@ -57,14 +57,18 @@ This means, we want to:
 As concrete next steps, we need to find out about material compositions and the dimensions of the diode to then understand the models that describe the emission spectrum to make numerical predictions.
 
 
-#### Dominic: Literature collection
+## Dominic: Literature collection
 
 {{< include dominic.qmd >}}
 
 
-#### Awais: Literature collection
+## Awais: Literature collection
 
 {{< include awais.qmd >}}
+
+## Set goal: 27th - 30th
+
+
 
 ## Glossary
 
