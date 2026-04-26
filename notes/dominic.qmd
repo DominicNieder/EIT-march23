@@ -171,10 +171,43 @@ The measurement for the diode charactarization should take time _how much? 1day?
 >>>>>>> 2fb1ffe (corrections)
 :::
 
+### "Numerical modeling of a Narrow linewidth Quantum Dot Laser"
+@numerical_modeling_linewidth
+Schawlow-Townes linewidth equation
+
+1) below lasing threshold & spontaneous ($I_{pd}<I_{thr}$)  
+$$\Delta f_{sp}= \frac{\Gamma R'_{sp}}{2\pi N_p}$$
 
 
-#### What I think we should do the following week
+
+2) above lasing threshold for stimulated emission
+
+
+### "A simple method for accurate modeling of diode parameters"
+@num_mod_diode_param
+
+The basis of the ECDL lies the diode. Characterizing this could be the first corner stone.
+
+**Shockley equation**
+$$I=I_S\Big(e^{\frac{V_{pd}}{nV_T}}-1\Big)$$
+
+parameters
+$V_{pd}$
+: Voltage across the diode from anode to cathode
+
+$V_T=k_B T/q_{el}$
+: Thermal voltage, is the voltage that captures the charge carrier distribution across the p-n junction 
+
+$I_s$
+: Reverse saturation current
+$$I_s=eA\Bigg(\sqrt{\frac{D_P}{\tau_P}}\frac{n_i^2}{N_D}+\sqrt{\frac{D_N}{\tau_N}}\frac{n_i^2}{N_A} \Bigg)$$
+
+
+
+### What I think we should do the following week
 
 If we want to characterize the laser, and compare it to simulation runs, it makes sense to compare it to data.
 
 The first thing to characterize
+
+
