@@ -34,10 +34,7 @@
 : The spectrum resulting from the external cavity.
 
 **grating profile**
-: The profile of the grated mirror, it depends on the incoming angle $\alpha_g$ of the light to the grating.
-
-**equilibrium**
-: For a system to find its rest position in state space.
+: the grating profile is the profile of the grated mirror, it depends on the incoming angle $\alpha_g$ of the light to the grating.
 
 #### Symbols
 
@@ -51,18 +48,9 @@ $T$
 $I$
 : electrical current
 
-- $I_{pd}$: is the laser diode current
-- $I_{thr}$: is the current for which the laser diode power transitions and becomes lasing
-- $I_s$: Reverse saturation current
-$$I_s=eA\Bigg(\sqrt{\frac{D_P}{\tau_P}}\frac{n_i^2}{N_D}+\sqrt{\frac{D_N}{\tau_N}}\frac{n_i^2}{N_A} \Bigg)$$
+- $I_D$: is the laser diode current
+- $I_max$: is the maximum current for which the laser diode power output reaches a threshold
 
-$V$
-: electrical voltage
-
-- $V_{pz}$: voltage across piezo actuator
-- $V_{pd}$: voltage across p-n-junction 
-- $V_{T}$: Thermal voltage, describes 
-- $V_{dtc}$: photodetector
 
 $\alpha_g$
 : the set grating angle in the Littrow set up. The angle is determined by $\sin(\alpha_g)=m\lambda/2d$
