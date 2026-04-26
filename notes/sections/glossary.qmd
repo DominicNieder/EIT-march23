@@ -16,25 +16,25 @@
 : Referes to the environment that of the physical system. 
 
 **gain profile**
-: The gain profile describes the emission spectrum of the diode, i.e. the emission spectrum without cavities (internal or external).
+: The emission spectrum of the diode, i.e. the emission spectrum without cavities (internal or external).
 
 **cavity**
-: A cavity is a space defined by boundary conditions which defines allowed excitation energies of the radiation field. The cavity defines the boundary conditions of the harmonic oscillator.
+: Is a space defined by boundary conditions which defines allowed excitation energies of the radiation field. The cavity defines the boundary conditions of the harmonic oscillator.
 
 **internal cavity** $l$
-: is the cavity made from two mirrors opposite to each other with a defining parameter of length $l$ that is defined by the geometry of the diode. The internal cavity arises partially due to an applied coating with high reflectivity though also due to the reflection due to the difference of refractive index (medium to air).
+: The cavity made from two mirrors opposite to each other with a defining parameter of length $l$ that is defined by the geometry of the diode. The internal cavity arises partially due to an applied coating with high reflectivity though also due to the reflection due to the difference of refractive index (medium to air).
 
 **internal mode **
-: is the spectrum resulting from the internal cavity.
+: The spectrum resulting from the internal cavity.
 
 **external cavity** $L$
-:The cavity which is established by an external mirror and runs from the further end of the internal cavity to the external mirror.
+: The cavity which is established by an external mirror and runs from the further end of the internal cavity to the external mirror.
 
 **external mode**
-: is the spectrum resulting from the external cavity.
+: The spectrum resulting from the external cavity.
 
 **grating profile**
-: the grating profile is the profile of the grated mirror, it depends on the incoming angle $\alpha_g$ of the light to the grating.
+: The profile of the grated mirror, it depends on the incoming angle $\alpha_g$ of the light to the grating.
 
 #### Symbols
 
@@ -44,9 +44,13 @@ $T$
 $I$
 : electrical current
 
-- $I_D$: is the laser diode current
-- $I_max$: is the maximum current for which the laser diode power output reaches a threshold
+- $I_{pd}$: is the laser diode current
+- $I_{thr}$: is the current for which the laser diode power transitions and becomes lasing
 
+$V$
+: electrical voltage
+
+- $V_{pz}$: voltage across piezo actuator
 
 $\alpha_g$
 : the set grating angle in the Littrow set up. The angle is determined by $\sin(\alpha_g)=m\lambda/2d$
