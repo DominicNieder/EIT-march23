@@ -1,13 +1,16 @@
 {
     "/calibration": {
-        "04-21-01":{
+        "04-27-01-PI":{
             "param":{
-
+                "T_pd": "diode temperature in ",
+                "I_pd": "diode current in",
+                "P_dtc": "detector power in ",
+                "V_pz": "voltage across piezo actuator in "
             },
-            "date": "",
-            "time": "",
-            "ID": "",
-            "description": ""
+            "date": "2026-04-27",
+            "time": "15:30-",
+            "ID": "01",
+            "description": "We collect all the P-I characteristic data for various temperatures in order to characterize the laser diode. We have no knowlage on the mode-hop free range."
         }
     }
 }

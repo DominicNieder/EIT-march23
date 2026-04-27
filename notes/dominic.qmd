@@ -167,8 +167,8 @@ The measurement for the diode charactarization should take time _how much? 1day?
 
 Now we are confronted by a decision.
 **Problem:**
-Changing the diode current $I_{pd}$, will resultin mode hopping that can lead to intesity variations.
+Changing the diode current $I_{pd}$, will resultin mode hopping that can lead to intensity variations.
 
 **Solution:**
 We will first run a characterization for various temperatures even with mode hopping. 
-Then we can consider the mode hop free range. Using the FPI.
+Then we can consider the mode hop free range. Maybe using the FPI.
