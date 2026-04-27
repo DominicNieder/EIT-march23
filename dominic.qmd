@@ -48,6 +48,9 @@ from the mains supply."
 
 - how to obtain a continuos and stable signal 
 
+:::
+
+::: {.callout-note collapse="true"}
 ## Tuning of the Diode Laser
 **4.6 Tuning the Diode Laser Head DL pro:** 
 
@@ -55,9 +58,6 @@ from the mains supply."
 - question on single or multi mode operation
 - mode hop free tuning of laser diode
 
-:::
-
-::: {.callout-note collapse="true"}
 **4.6.1 Manual Coarse Tuning of the Wavelength**
 
 - by tuning the grating angle by a fine threaded screw (2 in @fig-laser-setup) the wavelength may be varied up to $100\text{nm}$ (no realignement of optical set up required)   
