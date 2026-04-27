@@ -3,19 +3,22 @@ Determination of Principal Parameters
 By Kamran S. Mobarhan, Ph.D.**
 This hand book is around determining the principle parameters to characterize and optimize laser to its efficient point.
 [Notes](https://web.goodnotes.com/s/RIr0x17NwiZTeFIQFdGrsT)
+
 **Report:first week status**
--After reading through the above mentioned paper, it made sense about the way of characterizing the diode, but i was caught up
+
+- After reading through the above mentioned paper, it made sense about the way of characterizing the diode, but i was caught up
 into thinking about difference we will have in characterization of External cavity diode, from just a simple diode. Although i havent figured 
 out how to totally solve my problem, but there were few characterizations which seem of interest and which can be directly translated for any diode.
--Few mentionable parameters that were mentioned in paper that i would like to look into and try to have numerical simulation of are:
-    -Output Light vs. Input Current Curve
+- Few mentionable parameters that were mentioned in paper that i would like to look into and try to have numerical simulation of are:
+    - Output Light vs. Input Current Curve
     and Threshold Current:
-    -External Differential Quantum Efficiency
-    -Internal Quantum Efficiency (I am not sure of this, as it is dependent on geometery of the diode)
-    -Characteristic Temperature
-    -Spectrum and Peak Wavelength of Emission
-    -Center Wavelength Changes with Temperature
-    -Mode Hopping
+    - External Differential Quantum Efficiency
+    - Internal Quantum Efficiency (I am not sure of this, as it is dependent on geometery of the diode)
+    - Characteristic Temperature
+    - Spectrum and Peak Wavelength of Emission
+    - Center Wavelength Changes with Temperature
+    - Mode Hopping
+    
 I am interesting in looking into the above parameter and how their dynamics work with temperature and change of current.
 If it is to be asked from me at this moment what is goal of looking into these parameter, and what information am i expecting
 to gain from it? my answer right now would be i am not sure, and that is why i would like to make this as a goal to understand 
