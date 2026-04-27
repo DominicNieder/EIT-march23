@@ -90,13 +90,11 @@ factors that affect the ECDL mode frequency/wavelength
 
 ::: {layout="[60,40]"}
 ![Here we see the setup to initialize the mode-hop-free range, with the "Feed Forward"](pictures/DLpro-setup-mode-hope-free-scanning.png){#fig-setup-1}
-<<<<<<< HEAD
-![Here we see the setup to initialize the mode-hop-free range, with the "Feed Forward"](pictures/DLpro-setup-mode-hope-free-scanning.png)
 
 ![These graphs show 2 (from 5) settings of the Feed Forward setup (e) showing the proper settings, thereafter the handbook gives instructions how to get from a useless to a useful setting. The 3 x-axis show measured input voltage (supposedly SC 110!) to the piezo actuator, the voltage resulting from the photodiode (supposedly in constant current mode!) as well as the resulting Fabry-Pérot interferometer (FPI) signal.](pictures/DLpro-input-output-example.png){#fig-measurements}
 :::
 
-- read hints @diode_manual p. 27, for proper setup: i.e. for (d) in @fig-measurements "Laser diode current incorrect (can be noticed only with a Fabry-Perot Interferometer or possibly in the customer's application)." 
+- read hints @diode_manual p. 27, for proper setup: i.e. for (d) in @fig-measurements "Laser diode current incorrect (can be noticed only with a Fabry-Perot Interferometer or possibly in the customer's application)."
 
 :::
 
@@ -104,84 +102,11 @@ factors that affect the ECDL mode frequency/wavelength
 @numerical_modeling_linewidth
 Schawlow-Townes linewidth equation
 
-1) below lasing threshold & spontaneous ($I_{pd}<I_{thr}$)  
+1) below lasing threshold & spontaneous ($I_{pd}<I_{thr}$)
 $$\Delta f_{sp}= \frac{\Gamma R'_{sp}}{2\pi N_p}$$
 
 - $N_p$
 : _is this the sme $N_p$ as with the shockly equation?_
-<<<<<<< HEAD
-
-2) above lasing threshold for stimulated emission
-
-
-### "A simple method for accurate modeling of diode parameters"
-@num_mod_diode_param
-
-The basis of the ECDL lies the diode. Characterizing this could be the first corner stone.
-
-**Shockly equation**
- $$I=I_S\Big(e^{\frac{V_{pd}}{nV_T}}-1\Big)$$
-
-**parameters**
-
-- $V_{pd}$
-: Voltage across the diode from anode to cathode
-
-- $V_T=k_B T/q_{el}$
-: Thermal voltage, is the voltage that captures the charge carrier distribution across the p-n junction 
-
-- $I_s$
-: Reverse saturation current
-$$I_s=eA\Bigg(\sqrt{\frac{D_P}{\tau_P}}\frac{n_i^2}{N_D}+\sqrt{\frac{D_N}{\tau_N}}\frac{n_i^2}{N_A} \Bigg)$$
-
-- $D_P$
-: _continue..._
-
-### On Schottky Diodes - Forward characteristics
-"Accurate Numerical Methods for Modeling
-Forward Characteristics of High Temperature
-Capable Schottky Diodes"
-
-- What is our current direction $I_{pd}$?
-
-### Task: 27th April 
-
-The goal we set was to get a deeper understanding for numerical modeling of the laser diode,
-So I went through the manual and tried to get a detailed understanding of the laser diode. I managed to find in- and output parameters that are summerized above. There is also a brief notes of other chapters of the manual. 
-
-If we want to characterize the laser, and compare it to simulation runs, it makes sense to compare it to data.
-
-The first thing to characterize would be the power-current $P$-$I$-characteristic of a diode. _What is the current direction?_ For good modeling considering the parameter $T$ could parametrize this characteristic further.
-With the additional parameter $T$ we need to ask ourselves the question what we gain for this parameter variation.
-Set up a simulation visualizing what the three parameters change based on the 
-It would be nice to work toward a more fundamental property of the material like charge distributions/concentrations, the refraction index or material compositions (i.e. GaAs). 
-
-$->$ The temperature variation needs additional time to reach thermal equilibrium
-
-The measurement for the diode charactarization should take time _how much? 1day?_ to start the laser and to set up the the beam with the photo detector to measure the power of the laser. Take data on diode current $I_{pd}$ and voltage from the photo detector $V_{dtc}$ as well as the temperature $T_D$.
-
-
-![These graphs show 2 (from 5) settings of the Feed Forward setup (e) showing the proper settings, thereafter the handbook gives instructions how to get from a useless to a useful setting. The 3 x-axis show measured input voltage (supposedly SC 110!), the voltage resulting from the photodiode (supposedly in constant current mode!) as well as the resulting Fabry-Pérot interferometer (FPI) signal.](pictures/DLpro-input-output-example.png)
-=======
-
-![These graphs show 2 (from 5) settings of the Feed Forward setup (e) showing the proper settings, thereafter the handbook gives instructions how to get from a useless to a useful setting. The 3 x-axis show measured input voltage (supposedly SC 110!) to the piezo actuator, the voltage resulting from the photodiode (supposedly in constant current mode!) as well as the resulting Fabry-Pérot interferometer (FPI) signal.](pictures/DLpro-input-output-example.png){#fig-measurements}
-:::
-
-- read hints @diode_manual p. 27, for proper setup: i.e. for (d) in @fig-measurements "Laser diode current incorrect (can be noticed only with a Fabry-Perot Interferometer or possibly in the customer's application)." 
-
->>>>>>> 2fb1ffe (corrections)
-:::
-
-### "Numerical modeling of a Narrow linewidth Quantum Dot Laser"
-@numerical_modeling_linewidth
-Schawlow-Townes linewidth equation
-
-1) below lasing threshold & spontaneous ($I_{pd}<I_{thr}$)  
-$$\Delta f_{sp}= \frac{\Gamma R'_{sp}}{2\pi N_p}$$
-
-
-=======
->>>>>>> c53e208 (to do 27th)
 
 2) above lasing threshold for stimulated emission
 
