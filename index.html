@@ -56,7 +56,7 @@ div.csl-indent {
 <link href="lab_notes_files/libs/quarto-html/quarto-syntax-highlighting-dark-d0ae9245876894da5ac7e18953ecc5cc.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="lab_notes_files/libs/bootstrap/bootstrap.min.js"></script>
 <link href="lab_notes_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="lab_notes_files/libs/bootstrap/bootstrap-3b49e704d459a1d42fd2e0b508288b7b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<link href="lab_notes_files/libs/bootstrap/bootstrap-277d5c0519291efc526294d453c98db0.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
@@ -109,6 +109,7 @@ window.Quarto = {
   <li><a href="#a-simple-method-for-accurate-modeling-of-diode-parameters" id="toc-a-simple-method-for-accurate-modeling-of-diode-parameters" class="nav-link" data-scroll-target="#a-simple-method-for-accurate-modeling-of-diode-parameters"><span class="header-section-number">2.3</span> “A simple method for accurate modeling of diode parameters”</a></li>
   <li><a href="#on-schottky-diodes---forward-characteristics" id="toc-on-schottky-diodes---forward-characteristics" class="nav-link" data-scroll-target="#on-schottky-diodes---forward-characteristics"><span class="header-section-number">2.4</span> On Schottky Diodes - Forward characteristics</a></li>
   <li><a href="#task-27th-april" id="toc-task-27th-april" class="nav-link" data-scroll-target="#task-27th-april"><span class="header-section-number">2.5</span> Task: 27th April</a></li>
+  <li><a href="#measuring-the-p-i-characteristic" id="toc-measuring-the-p-i-characteristic" class="nav-link" data-scroll-target="#measuring-the-p-i-characteristic"><span class="header-section-number">2.6</span> Measuring the <span class="math inline">\(P\)</span>-<span class="math inline">\(I\)</span>-characteristic</a></li>
   </ul></li>
   <li><a href="#awais-literature-collection" id="toc-awais-literature-collection" class="nav-link" data-scroll-target="#awais-literature-collection"><span class="header-section-number">3</span> Awais: Literature collection</a></li>
   <li><a href="#set-goal-27th---30th" id="toc-set-goal-27th---30th" class="nav-link" data-scroll-target="#set-goal-27th---30th"><span class="header-section-number">4</span> Set goal: 27th - 30th</a></li>
@@ -413,9 +414,19 @@ Figure&nbsp;4: These graphs show 2 (from 5) settings of the Feed Forward setup (
 <h3 data-number="2.5" class="anchored" data-anchor-id="task-27th-april"><span class="header-section-number">2.5</span> Task: 27th April</h3>
 <p>The goal we set was to get a deeper understanding for numerical modeling of the laser diode, So I went through the manual and tried to get a detailed understanding of the laser diode. I managed to find in- and output parameters that are summerized above. There is also a brief notes of other chapters of the manual.</p>
 <p>If we want to characterize the laser, and compare it to simulation runs, it makes sense to compare it to data.</p>
-<p>The first thing to characterize would be the power-current <span class="math inline">\(P\)</span>-<span class="math inline">\(I\)</span>-characteristic of a diode. <em>What is the current direction?</em> For good modeling considering the parameter <span class="math inline">\(T\)</span> could parametrize this characteristic further. With the additional parameter <span class="math inline">\(T\)</span> we need to ask ourselves the question what we gain for this parameter variation. Set up a simulation visualizing what the three parameters change based on the It would be nice to work toward a more fundamental property of the material like charge distributions/concentrations, the refraction index or material compositions (i.e.&nbsp;GaAs).</p>
-<p><span class="math inline">\(-&gt;\)</span> The temperature variation needs additional time to reach thermal equilibrium</p>
+<p>The first thing to characterize would be the power-current <span class="math inline">\(P\)</span>-<span class="math inline">\(I\)</span>-characteristic of a diode. <em>What is the current direction?</em> For good modeling considering the temperature parameter <span class="math inline">\(T_{pd}\)</span> could parametrize this characteristic further. With the additional parameter <span class="math inline">\(T\)</span> we need to ask ourselves the question what we gain for this parameter variation. Set up a simulation visualizing what the three parameters change based on the It would be nice to work toward a more fundamental property of the material like charge distributions/concentrations, the refraction index or material compositions (i.e.&nbsp;GaAs).</p>
+<p><span class="math inline">\(-&gt;\)</span> The temperature variation needs additional time to reach thermal equilibrium (manual <span class="citation" data-cites="diode_manual">AG (<a href="#ref-diode_manual" role="doc-biblioref">2011</a>)</span> sais <span class="math inline">\(\sim5\text{min}\)</span>)</p>
 <p>The measurement for the diode charactarization should take time <em>how much? 1day?</em> to start the laser and to set up the the beam with the photo detector to measure the power of the laser. Take data on diode current <span class="math inline">\(I_{pd}\)</span> and voltage from the photo detector <span class="math inline">\(V_{dtc}\)</span> as well as the temperature <span class="math inline">\(T_D\)</span>.</p>
+</section>
+<section id="measuring-the-p-i-characteristic" class="level3" data-number="2.6">
+<h3 data-number="2.6" class="anchored" data-anchor-id="measuring-the-p-i-characteristic"><span class="header-section-number">2.6</span> Measuring the <span class="math inline">\(P\)</span>-<span class="math inline">\(I\)</span>-characteristic</h3>
+<ul>
+<li>we checked the input from the Dlc pro to the diode laser</li>
+<li>we switched on the laser</li>
+</ul>
+<p>Now we are confronted by a decision. <strong>Problem:</strong> Changing the diode current <span class="math inline">\(I_{pd}\)</span>, will resultin mode hopping that can lead to intensity variations.</p>
+<p><strong>Solution:</strong> We will first run a characterization for various temperatures even with mode hopping. Then we can consider the mode hop free range. Maybe using the FPI.</p>
+<p>**M1*+ filename: 04-27-01-PI.csv comment : We collect all the P-I characteristic data for various temperatures in order to characterize the laser diode. The piezo actuator voltage was active. It fluctuated and drifted with time. We have no knowlage on the mode-hop free range. We see that in a detailed scan the I_{thr} (dI_{pd}=0.2mA), does not pass the threshold, as expected from the coarse scan.</p>
 </section>
 </section>
 <section id="awais-literature-collection" class="level2" data-number="3">
@@ -440,6 +451,29 @@ Figure&nbsp;4: These graphs show 2 (from 5) settings of the Feed Forward setup (
 </section>
 <section id="set-goal-27th---30th" class="level2" data-number="4">
 <h2 data-number="4" class="anchored" data-anchor-id="set-goal-27th---30th"><span class="header-section-number">4</span> Set goal: 27th - 30th</h2>
+<p>We want to characterize our laser diode. For this we have</p>
+<ol type="1">
+<li>the simplest setup to start with characterization is have a laser diode, isolator and powermeter (photodetector), and vary parameters; temperature, and scan through different diode current and observe change in output power(luminocity).</li>
+<li>set up the FPI to measure the free spectral range of the ECDL</li>
+<li>measurement of the beam cross section</li>
+</ol>
+<p><strong>On 1)</strong> We face the problem:</p>
+<ul>
+<li>the voltage across the piezo actuator fluctuates and drifts</li>
+<li>the data shows a drift in threshold current <span class="math inline">\(I_{thr}\)</span></li>
+</ul>
+<p>How to proceed:</p>
+<ul>
+<li>through power meter (photo detector) optimize piezo actuator voltage i.e.&nbsp;<span class="math inline">\(P_{dtc}\)</span> is maximal and</li>
+<li>scan through piezo voltage <span class="math inline">\(V_{pz}\)</span> for <span class="math inline">\(I_{pd}\approx I_{thr}\)</span>: to obtain understanding of potential drift and fluctuations</li>
+<li>set <span class="math inline">\(V_{pz}\)</span> to maximal feedback, i.e.&nbsp;</li>
+<li>proceed with <span class="math inline">\(P\)</span>-<span class="math inline">\(I\)</span>-<span class="math inline">\(T\)</span> characterization</li>
+</ul>
+<p><strong>ON 2)</strong> We face the problem:</p>
+<ul>
+<li></li>
+</ul>
+<p>from the data extracted through these observation, we aim to</p>
 </section>
 <section id="glossary" class="level2" data-number="5">
 <h2 data-number="5" class="anchored" data-anchor-id="glossary"><span class="header-section-number">5</span> Glossary</h2>

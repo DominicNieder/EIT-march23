@@ -149,14 +149,31 @@ So I went through the manual and tried to get a detailed understanding of the la
 
 If we want to characterize the laser, and compare it to simulation runs, it makes sense to compare it to data.
 
-The first thing to characterize would be the power-current $P$-$I$-characteristic of a diode. _What is the current direction?_ For good modeling considering the parameter $T$ could parametrize this characteristic further.
+The first thing to characterize would be the power-current $P$-$I$-characteristic of a diode. _What is the current direction?_ For good modeling considering the temperature parameter $T_{pd}$ could parametrize this characteristic further.
 With the additional parameter $T$ we need to ask ourselves the question what we gain for this parameter variation.
 Set up a simulation visualizing what the three parameters change based on the 
 It would be nice to work toward a more fundamental property of the material like charge distributions/concentrations, the refraction index or material compositions (i.e. GaAs). 
 
-$->$ The temperature variation needs additional time to reach thermal equilibrium
+$->$ The temperature variation needs additional time to reach thermal equilibrium (manual @diode_manual sais $\sim5\text{min}$)
 
 The measurement for the diode charactarization should take time _how much? 1day?_ to start the laser and to set up the the beam with the photo detector to measure the power of the laser. Take data on diode current $I_{pd}$ and voltage from the photo detector $V_{dtc}$ as well as the temperature $T_D$.
 
 
 
+### Measuring the $P$-$I$-characteristic
+
+- we checked the input from the Dlc pro to the diode laser
+- we switched on the laser
+
+Now we are confronted by a decision.
+**Problem:**
+Changing the diode current $I_{pd}$, will resultin mode hopping that can lead to intensity variations.
+
+**Solution:**
+We will first run a characterization for various temperatures even with mode hopping. 
+Then we can consider the mode hop free range. Maybe using the FPI.
+
+**M1*+
+filename: 04-27-01-PI.csv
+comment
+: We collect all the P-I characteristic data for various temperatures in order to characterize the laser diode. The piezo actuator voltage was active. It fluctuated and drifted with time. We have no knowlage on the mode-hop free range. We see that in a detailed scan the I_{thr} (dI_{pd}=0.2mA), does not pass the threshold, as expected from the coarse scan.
