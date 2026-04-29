@@ -39,6 +39,10 @@
 **equilibrium**
 : For a system to find its rest position in state space.
 
+
+
+
+
 #### Symbols
 
 $e$

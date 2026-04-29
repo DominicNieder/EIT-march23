@@ -68,32 +68,7 @@ As concrete next steps, we need to find out about material compositions and the 
 
 ## Set goal: 27th - 30th
 
-We want to characterize our laser diode. 
-For this we have 
 
-1) the simplest setup to start with characterization is have a laser diode, isolator and powermeter (photodetector), and vary parameters; temperature, and scan through different diode current and observe change in output power(luminocity).
-2) set up the FPI to measure the free spectral range of the ECDL 
-3) measurement of the beam cross section
-
-**On 1)**
-We face the problem:
-
-- the voltage across the piezo actuator fluctuates and drifts
-- the data shows a drift in threshold current $I_{thr}$
-
-How to proceed:
-
-- through power meter (photo detector) optimize piezo actuator voltage i.e. $P_{dtc}$ is maximal and 
-- scan through piezo voltage $V_{pz}$ for $I_{pd}\approx I_{thr}$: to obtain understanding of potential drift and fluctuations
-- set $V_{pz}$ to maximal feedback, i.e. 
-- proceed with $P$-$I$-$T$ characterization
-
-**ON 2)**
-We face the problem:
-
-- 
-
- from the data extracted through these observation, we aim to 
 
 ## Glossary
 
