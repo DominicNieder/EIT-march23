@@ -28,3 +28,44 @@ the information this will give me and present it in coherent manner.
 - Try to have numerical model of these parameter and play around with the inputs and observe dynamics of output and understand the behaviour,
 and in mean while take data of inputs from real experimental setup and observe if our understanding of dynamics make sense or not, and what 
 pieces of puzzle are we missing.
+
+
+**Threshold Current**
+: $I_{th}$ threshold point of input current to diode at which it begins to lase.
+    low threshold current means more efficient diode.
+
+
+**P-I Curve**
+: $frac{\Delta P}{\Delta T}$ It shows change in output power over change in input current. It is also refered as L-I curve, Where L refers to luminosity, and I to current.
+    P is measure of luminosity in watt, I is measure of current
+
+**Luminosity**
+:Typically it refers to typical optical output power produced by given amount of input current.
+
+**External Differential Quantum Efficiency**
+: $\eta_d$ indicates the ability of laser device to convert input current(injected electron hole pair) to photon emitted from the device(output light)
+    $\eta_d=frac{\Delta P/Delta I}{hc/q \lambda}$
+    h is planks constant, \lambda is wavelength, c is speed of light, q is charge of electron.
+    When talking about External Differential Quantum Efficiency one should always note if diode is one mirror facet or two mirror facet.
+
+**Perfect Hypothetical Device**
+: The device that works with 100% efficiency without wasting energy in any unrequired form.
+
+**Current Density**
+: $J$ is quantity which is ratio of current to area(area is consist of length of diode and width of ridge(we need to have better defination of it)). Density is more useful quantity when comparing different diodes.
+
+**Internal Quantum Efficiency**
+: $\eta_i$ It is measure of efficiency of laser diode in convertng electron hole pairs(input current) into photons(light) within laser diode structure.
+    $\eta_i$ is independet of geometrical properties of laser device, which makes it proper parameter for comparision of material quality of various laser devices.
+It is determined by plotting inverse external differential quantum efficiency(y axis) vs cavity length(x axis)
+
+Once we have $\eta_d$ and $\eta_i$ we can calculate ratio $\frac{eta_d}{\eta_i}$ which is photon generated to photon emitted ratio.
+
+**Internal Loss of Laser Diode**
+: Parameter that corresponds to loss of optical wave(need to know more about it)
+
+**Characteristic Temperature**
+$T_o$ It is measure of temperature sensitivity of Laser Diode. Higher values of T_o imply that thr threshold current density and external differential quantum efficiency of laser diode increases
+ rapidly with increasing temperatures(meaning laser diode being more thermally stable.)
+    to measure characteristic temperature we need to measure P-I curve at different temperatures.
+    
