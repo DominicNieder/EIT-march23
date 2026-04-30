@@ -68,4 +68,7 @@ Once we have $\eta_d$ and $\eta_i$ we can calculate ratio $\frac{eta_d}{\eta_i}$
 $T_o$ It is measure of temperature sensitivity of Laser Diode. Higher values of T_o imply that thr threshold current density and external differential quantum efficiency of laser diode increases
  rapidly with increasing temperatures(meaning laser diode being more thermally stable.)
     to measure characteristic temperature we need to measure P-I curve at different temperatures.
-    
+
+**Central Wavelength**
+
+**Mode Hopping**
