@@ -4,11 +4,11 @@
 **Input:**
 
 - high speed frequency modulation port (-> frequency looking)
-- current $I_D$ 
-- temperature $T$
+- current $I_{pd}$ 
+- temperature $T_{pd}$
 - Littrow grating angle $\alpha_g$
 - grating constant $d$
-- piezo actuator $V_D$ -> external cavity $L$ & grating profile $\alpha_g$
+- piezo actuator $V_{pz}$ -> external cavity $L$ & grating profile $\alpha_g$
 
 
 **Output:**
@@ -20,4 +20,6 @@
 - elliptical beam crosssecton (3:1)
   - "amorphic prism pair" can  reshape the cross-section
 - collimated beam
-- power $<500\text{mW}$
+- power/luminosity $P$ ($<500\text{mW}$)
+- spectral distribution $\rho(\lambda)$
+- free spectral range $\Delta \lambda$
