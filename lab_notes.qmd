@@ -107,6 +107,6 @@ How to proceed:
 
 ## Discussion on Definitions
 
-
+{{< include sections/argument-definitions.qmd >}}
 
 ## References
