@@ -1,5 +1,20 @@
 {
     "/P-I-T-characterization": {
+        "04-28-01-Vpz":{
+            "param":{
+                "T_{pd}": "diode temperature in ",
+                "I_{pd}": "diode current in",
+                "P_{dtc}": "detector power in ",
+                "V_{pz}": "voltage across piezo actuator in: alpha_g",
+                "n(P_{dtc})": "number of samples; measure power in 'statistics'-mode"
+            },
+            "date": "2026-04-28",
+            "time": "11:00-",
+            "ID": "V_pz01",
+            "description": ""
+        },
+
+
         "04-27-01-PI":{
             "param":{
                 "T_{pd}": "diode temperature in ",
@@ -10,7 +25,7 @@
             },
             "date": "2026-04-27",
             "time": "15:30-18:30",
-            "ID": "01",
+            "ID": "PIT01",
             "description": "We collect all the P-I characteristic data for various temperatures in order to characterize the laser diode. The piezo actuator voltage was active. It fluctuated and drifted with time. We have no knowlage on the mode-hop free range. We see that in a detailed scan the I_{thr} (dI_{pd}=0.2mA), does not pass the threshold, as expected from the coarse scan."
         },
 
@@ -24,7 +39,7 @@
             },
             "date": "2026-04-28",
             "time": "10:00-",
-            "ID": "02",
+            "ID": "PIT02",
             "description": ""
         }
     }
