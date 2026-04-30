@@ -66,37 +66,47 @@ As concrete next steps, we need to find out about material compositions and the 
 
 {{< include awais.qmd >}}
 
-## Set goal: 27th - 30th
+## Set goal: 28th - 30th
 
 We want to characterize our laser diode. 
 For this we have 
 
+0) finding the mode hop free spectral range
 1) the simplest setup to start with characterization is have a laser diode, isolator and powermeter (photodetector), and vary parameters; temperature, and scan through different diode current and observe change in output power(luminocity).
-2) set up the FPI to measure the free spectral range of the ECDL 
+2) set up the FPI to measure the free spectral range of the ECDL
 3) measurement of the beam cross section
 
-**On 1)**
-We face the problem:
+
+The problem we are faced with:
 
 - the voltage across the piezo actuator fluctuates and drifts
 - the data shows a drift in threshold current $I_{thr}$
+- we conclude that the change may be induced by the change in the mode
+
 
 How to proceed:
+::: {layout="[60,40]"}
+::: {}
+- we should work toward mode hop free region (step 0)); following manual instructions sec. 4.6.3.1
+- be wary of the max laser intensity to the FPI
+  - use $\lambda/2$ plate with the beam splitter
+  - what is the PDA 100?
+  - 50/50 beam splitter
+:::
 
-- through power meter (photo detector) optimize piezo actuator voltage i.e. $P_{dtc}$ is maximal and 
-- scan through piezo voltage $V_{pz}$ for $I_{pd}\approx I_{thr}$: to obtain understanding of potential drift and fluctuations
-- set $V_{pz}$ to maximal feedback, i.e. 
+![Set up the mode-hop-free range, with the "Feed Forward" setting.](pictures/DLpro-setup-mode-hope-free-scanning.png){#fig-setup}
+:::
 - proceed with $P$-$I$-$T$ characterization
 
-**ON 2)**
-We face the problem:
 
-- 
-
- from the data extracted through these observation, we aim to 
 
 ## Glossary
 
 {{< include sections/glossary.qmd >}}
+
+
+## Discussion on Definitions
+
+
 
 ## References
