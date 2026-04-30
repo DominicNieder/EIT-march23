@@ -105,17 +105,16 @@ window.Quarto = {
   <li><a href="#dominic-literature-collection" id="toc-dominic-literature-collection" class="nav-link" data-scroll-target="#dominic-literature-collection"><span class="header-section-number">2</span> Dominic: Literature collection</a>
   <ul class="collapse">
   <li><a href="#handbook-dlpro" id="toc-handbook-dlpro" class="nav-link" data-scroll-target="#handbook-dlpro"><span class="header-section-number">2.1</span> Handbook DLpro</a></li>
+  <li><a href="#numerical-modeling-of-a-narrow-linewidth-quantum-dot-laser" id="toc-numerical-modeling-of-a-narrow-linewidth-quantum-dot-laser" class="nav-link" data-scroll-target="#numerical-modeling-of-a-narrow-linewidth-quantum-dot-laser"><span class="header-section-number">2.2</span> “Numerical modeling of a Narrow linewidth Quantum Dot Laser”</a></li>
+  <li><a href="#a-simple-method-for-accurate-modeling-of-diode-parameters" id="toc-a-simple-method-for-accurate-modeling-of-diode-parameters" class="nav-link" data-scroll-target="#a-simple-method-for-accurate-modeling-of-diode-parameters"><span class="header-section-number">2.3</span> “A simple method for accurate modeling of diode parameters”</a></li>
+  <li><a href="#on-schottky-diodes---forward-characteristics" id="toc-on-schottky-diodes---forward-characteristics" class="nav-link" data-scroll-target="#on-schottky-diodes---forward-characteristics"><span class="header-section-number">2.4</span> On Schottky Diodes - Forward characteristics</a></li>
+  <li><a href="#task-27th-april" id="toc-task-27th-april" class="nav-link" data-scroll-target="#task-27th-april"><span class="header-section-number">2.5</span> Task: 27th April</a></li>
+  <li><a href="#measuring-the-p-i-characteristic" id="toc-measuring-the-p-i-characteristic" class="nav-link" data-scroll-target="#measuring-the-p-i-characteristic"><span class="header-section-number">2.6</span> Measuring the <span class="math inline">\(P\)</span>-<span class="math inline">\(I\)</span>-characteristic</a></li>
   </ul></li>
-  <li><a href="#tuning-of-the-diode-laser" id="toc-tuning-of-the-diode-laser" class="nav-link" data-scroll-target="#tuning-of-the-diode-laser"><span class="header-section-number">3</span> Tuning of the Diode Laser</a>
-  <ul class="collapse">
-  <li><a href="#numerical-modeling-of-a-narrow-linewidth-quantum-dot-laser" id="toc-numerical-modeling-of-a-narrow-linewidth-quantum-dot-laser" class="nav-link" data-scroll-target="#numerical-modeling-of-a-narrow-linewidth-quantum-dot-laser"><span class="header-section-number">3.1</span> “Numerical modeling of a Narrow linewidth Quantum Dot Laser”</a></li>
-  <li><a href="#a-simple-method-for-accurate-modeling-of-diode-parameters" id="toc-a-simple-method-for-accurate-modeling-of-diode-parameters" class="nav-link" data-scroll-target="#a-simple-method-for-accurate-modeling-of-diode-parameters"><span class="header-section-number">3.2</span> “A simple method for accurate modeling of diode parameters”</a></li>
-  <li><a href="#on-schottky-diodes---forward-characteristics" id="toc-on-schottky-diodes---forward-characteristics" class="nav-link" data-scroll-target="#on-schottky-diodes---forward-characteristics"><span class="header-section-number">3.3</span> On Schottky Diodes - Forward characteristics</a></li>
-  <li><a href="#task-27th-april" id="toc-task-27th-april" class="nav-link" data-scroll-target="#task-27th-april"><span class="header-section-number">3.4</span> Task: 27th April</a></li>
-  </ul></li>
-  <li><a href="#awais-literature-collection" id="toc-awais-literature-collection" class="nav-link" data-scroll-target="#awais-literature-collection"><span class="header-section-number">4</span> Awais: Literature collection</a></li>
-  <li><a href="#set-goal-27th---30th" id="toc-set-goal-27th---30th" class="nav-link" data-scroll-target="#set-goal-27th---30th"><span class="header-section-number">5</span> Set goal: 27th - 30th</a></li>
-  <li><a href="#glossary" id="toc-glossary" class="nav-link" data-scroll-target="#glossary"><span class="header-section-number">6</span> Glossary</a></li>
+  <li><a href="#awais-literature-collection" id="toc-awais-literature-collection" class="nav-link" data-scroll-target="#awais-literature-collection"><span class="header-section-number">3</span> Awais: Literature collection</a></li>
+  <li><a href="#set-goal-28th---30th" id="toc-set-goal-28th---30th" class="nav-link" data-scroll-target="#set-goal-28th---30th"><span class="header-section-number">4</span> Set goal: 28th - 30th</a></li>
+  <li><a href="#glossary" id="toc-glossary" class="nav-link" data-scroll-target="#glossary"><span class="header-section-number">5</span> Glossary</a></li>
+  <li><a href="#discussion-on-definitions" id="toc-discussion-on-definitions" class="nav-link" data-scroll-target="#discussion-on-definitions"><span class="header-section-number">6</span> Discussion on Definitions</a></li>
   <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="header-section-number">7</span> References</a></li>
   </ul>
 <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="../lab_notes.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
@@ -213,11 +212,11 @@ Figure&nbsp;1: Laser setup by manufacturer under the protective cover <span clas
 <p><strong>Input:</strong></p>
 <ul>
 <li>high speed frequency modulation port (-&gt; frequency looking)</li>
-<li>current <span class="math inline">\(I_D\)</span></li>
-<li>temperature <span class="math inline">\(T\)</span></li>
+<li>current <span class="math inline">\(I_{pd}\)</span></li>
+<li>temperature <span class="math inline">\(T_{pd}\)</span></li>
 <li>Littrow grating angle <span class="math inline">\(\alpha_g\)</span></li>
 <li>grating constant <span class="math inline">\(d\)</span></li>
-<li>piezo actuator <span class="math inline">\(V_D\)</span> -&gt; external cavity <span class="math inline">\(L\)</span> &amp; grating profile <span class="math inline">\(\alpha_g\)</span></li>
+<li>piezo actuator <span class="math inline">\(V_{pz}\)</span> -&gt; external cavity <span class="math inline">\(L\)</span> &amp; grating profile <span class="math inline">\(\alpha_g\)</span></li>
 </ul>
 <p><strong>Output:</strong></p>
 <ul>
@@ -230,7 +229,9 @@ Figure&nbsp;1: Laser setup by manufacturer under the protective cover <span clas
 <li>“amorphic prism pair” can reshape the cross-section</li>
 </ul></li>
 <li>collimated beam</li>
-<li>power <span class="math inline">\(&lt;500\text{mW}\)</span></li>
+<li>power/luminosity <span class="math inline">\(P\)</span> (<span class="math inline">\(&lt;500\text{mW}\)</span>)</li>
+<li>spectral distribution <span class="math inline">\(\rho(\lambda)\)</span></li>
+<li>free spectral range <span class="math inline">\(\Delta \lambda\)</span></li>
 </ul>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
@@ -278,29 +279,24 @@ Figure&nbsp;1: Laser setup by manufacturer under the protective cover <span clas
 </div>
 </div>
 </div>
-</section>
-</section>
-<section id="tuning-of-the-diode-laser" class="level2" data-number="3">
-<h2 data-number="3" class="anchored" data-anchor-id="tuning-of-the-diode-laser"><span class="header-section-number">3</span> Tuning of the Diode Laser</h2>
-<p><strong>4.6 Tuning the Diode Laser Head DL pro:</strong></p>
-<ul>
-<li>describes how to find frequencies</li>
-<li>question on single or multi mode operation</li>
-<li>mode hop free tuning of laser diode</li>
-</ul>
-<p>:::</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Note
+<span class="screen-reader-only">Note</span>Tuning of the Diode Laser
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-2" class="callout-2-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
+<p><strong>4.6 Tuning the Diode Laser Head DL pro:</strong></p>
+<ul>
+<li>describes how to find frequencies</li>
+<li>question on single or multi mode operation</li>
+<li>mode hop free tuning of laser diode</li>
+</ul>
 <p><strong>4.6.1 Manual Coarse Tuning of the Wavelength</strong></p>
 <ul>
 <li>by tuning the grating angle by a fine threaded screw (2 in <a href="#fig-laser-setup" class="quarto-xref">Figure&nbsp;1</a>) the wavelength may be varied up to <span class="math inline">\(100\text{nm}\)</span> (no realignement of optical set up required)</li>
@@ -372,8 +368,9 @@ Figure&nbsp;4: These graphs show 2 (from 5) settings of the Feed Forward setup (
 </div>
 </div>
 </div>
-<section id="numerical-modeling-of-a-narrow-linewidth-quantum-dot-laser" class="level3" data-number="3.1">
-<h3 data-number="3.1" class="anchored" data-anchor-id="numerical-modeling-of-a-narrow-linewidth-quantum-dot-laser"><span class="header-section-number">3.1</span> “Numerical modeling of a Narrow linewidth Quantum Dot Laser”</h3>
+</section>
+<section id="numerical-modeling-of-a-narrow-linewidth-quantum-dot-laser" class="level3" data-number="2.2">
+<h3 data-number="2.2" class="anchored" data-anchor-id="numerical-modeling-of-a-narrow-linewidth-quantum-dot-laser"><span class="header-section-number">2.2</span> “Numerical modeling of a Narrow linewidth Quantum Dot Laser”</h3>
 <p><span class="citation" data-cites="numerical_modeling_linewidth">Bjelica (<a href="#ref-numerical_modeling_linewidth" role="doc-biblioref">2017</a>)</span> Schawlow-Townes linewidth equation</p>
 <ol type="1">
 <li>below lasing threshold &amp; spontaneous (<span class="math inline">\(I_{pd}&lt;I_{thr}\)</span>) <span class="math display">\[\Delta f_{sp}= \frac{\Gamma R'_{sp}}{2\pi N_p}\]</span></li>
@@ -386,8 +383,8 @@ Figure&nbsp;4: These graphs show 2 (from 5) settings of the Feed Forward setup (
 <li>above lasing threshold for stimulated emission</li>
 </ol>
 </section>
-<section id="a-simple-method-for-accurate-modeling-of-diode-parameters" class="level3" data-number="3.2">
-<h3 data-number="3.2" class="anchored" data-anchor-id="a-simple-method-for-accurate-modeling-of-diode-parameters"><span class="header-section-number">3.2</span> “A simple method for accurate modeling of diode parameters”</h3>
+<section id="a-simple-method-for-accurate-modeling-of-diode-parameters" class="level3" data-number="2.3">
+<h3 data-number="2.3" class="anchored" data-anchor-id="a-simple-method-for-accurate-modeling-of-diode-parameters"><span class="header-section-number">2.3</span> “A simple method for accurate modeling of diode parameters”</h3>
 <p><span class="citation" data-cites="num_mod_diode_param">Asadi (<a href="#ref-num_mod_diode_param" role="doc-biblioref">2022</a>)</span></p>
 <p>The basis of the ECDL lies the diode. Characterizing this could be the first corner stone.</p>
 <p><strong>Shockly equation</strong> <span class="math display">\[I=I_S\Big(e^{\frac{V_{pd}}{nV_T}}-1\Big)\]</span></p>
@@ -409,24 +406,41 @@ Figure&nbsp;4: These graphs show 2 (from 5) settings of the Feed Forward setup (
 </ul>
 <p>: <em>continue…</em></p>
 </section>
-<section id="on-schottky-diodes---forward-characteristics" class="level3" data-number="3.3">
-<h3 data-number="3.3" class="anchored" data-anchor-id="on-schottky-diodes---forward-characteristics"><span class="header-section-number">3.3</span> On Schottky Diodes - Forward characteristics</h3>
+<section id="on-schottky-diodes---forward-characteristics" class="level3" data-number="2.4">
+<h3 data-number="2.4" class="anchored" data-anchor-id="on-schottky-diodes---forward-characteristics"><span class="header-section-number">2.4</span> On Schottky Diodes - Forward characteristics</h3>
 <p>“Accurate Numerical Methods for Modeling Forward Characteristics of High Temperature Capable Schottky Diodes”</p>
 <ul>
 <li>What is our current direction <span class="math inline">\(I_{pd}\)</span>?</li>
 </ul>
 </section>
-<section id="task-27th-april" class="level3" data-number="3.4">
-<h3 data-number="3.4" class="anchored" data-anchor-id="task-27th-april"><span class="header-section-number">3.4</span> Task: 27th April</h3>
+<section id="task-27th-april" class="level3" data-number="2.5">
+<h3 data-number="2.5" class="anchored" data-anchor-id="task-27th-april"><span class="header-section-number">2.5</span> Task: 27th April</h3>
 <p>The goal we set was to get a deeper understanding for numerical modeling of the laser diode, So I went through the manual and tried to get a detailed understanding of the laser diode. I managed to find in- and output parameters that are summerized above. There is also a brief notes of other chapters of the manual.</p>
 <p>If we want to characterize the laser, and compare it to simulation runs, it makes sense to compare it to data.</p>
-<p>The first thing to characterize would be the power-current <span class="math inline">\(P\)</span>-<span class="math inline">\(I\)</span>-characteristic of a diode. <em>What is the current direction?</em> For good modeling considering the parameter <span class="math inline">\(T\)</span> could parametrize this characteristic further. With the additional parameter <span class="math inline">\(T\)</span> we need to ask ourselves the question what we gain for this parameter variation. Set up a simulation visualizing what the three parameters change based on the It would be nice to work toward a more fundamental property of the material like charge distributions/concentrations, the refraction index or material compositions (i.e.&nbsp;GaAs).</p>
-<p><span class="math inline">\(-&gt;\)</span> The temperature variation needs additional time to reach thermal equilibrium</p>
+<p>The first thing to characterize would be the power-current <span class="math inline">\(P\)</span>-<span class="math inline">\(I\)</span>-characteristic of a diode. <em>What is the current direction?</em> For good modeling considering the temperature parameter <span class="math inline">\(T_{pd}\)</span> could parametrize this characteristic further. With the additional parameter <span class="math inline">\(T\)</span> we need to ask ourselves the question what we gain for this parameter variation. Set up a simulation visualizing what the three parameters change based on the It would be nice to work toward a more fundamental property of the material like charge distributions/concentrations, the refraction index or material compositions (i.e.&nbsp;GaAs).</p>
+<p><span class="math inline">\(-&gt;\)</span> The temperature variation needs additional time to reach thermal equilibrium (manual <span class="citation" data-cites="diode_manual">AG (<a href="#ref-diode_manual" role="doc-biblioref">2011</a>)</span> sais <span class="math inline">\(\sim5\text{min}\)</span>)</p>
 <p>The measurement for the diode charactarization should take time <em>how much? 1day?</em> to start the laser and to set up the the beam with the photo detector to measure the power of the laser. Take data on diode current <span class="math inline">\(I_{pd}\)</span> and voltage from the photo detector <span class="math inline">\(V_{dtc}\)</span> as well as the temperature <span class="math inline">\(T_D\)</span>.</p>
 </section>
+<section id="measuring-the-p-i-characteristic" class="level3" data-number="2.6">
+<h3 data-number="2.6" class="anchored" data-anchor-id="measuring-the-p-i-characteristic"><span class="header-section-number">2.6</span> Measuring the <span class="math inline">\(P\)</span>-<span class="math inline">\(I\)</span>-characteristic</h3>
+<ul>
+<li>we checked the input from the Dlc pro to the diode laser</li>
+<li>we switched on the laser</li>
+</ul>
+<p>Now we are confronted by a decision. <strong>Problem:</strong> Changing the diode current <span class="math inline">\(I_{pd}\)</span>, will resolution mode hopping that can lead to intensity variations.</p>
+<p><strong>Solution:</strong> We will first run a characterization for various temperatures even with mode hopping. Then we can consider the mode hop free range. Maybe using the FPI.</p>
+<p><strong>M1</strong> filename: 04-27-01-PI.csv</p>
+<dl>
+<dt>comment</dt>
+<dd>
+We collect all the P-I characteristic data for various temperatures in order to characterize the laser diode. The piezo actuator voltage was active. It fluctuated and drifted with time. We have no knowlage on the mode-hop free range. We see that in a detailed scan the I_{thr} (dI_{pd}=0.2mA), does not pass the threshold, as expected from the coarse scan.
+</dd>
+</dl>
+<p><strong>M2</strong></p>
 </section>
-<section id="awais-literature-collection" class="level2" data-number="4">
-<h2 data-number="4" class="anchored" data-anchor-id="awais-literature-collection"><span class="header-section-number">4</span> Awais: Literature collection</h2>
+</section>
+<section id="awais-literature-collection" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="awais-literature-collection"><span class="header-section-number">3</span> Awais: Literature collection</h2>
 <p><strong>Test and Characterization of Laser Diodes: Determination of Principal Parameters By Kamran S. Mobarhan, Ph.D.</strong> This hand book is around determining the principle parameters to characterize and optimize laser to its efficient point. <a href="https://web.goodnotes.com/s/RIr0x17NwiZTeFIQFdGrsT">Notes</a></p>
 <p><strong>Report:first week status</strong></p>
 <ul>
@@ -444,60 +458,45 @@ Figure&nbsp;4: These graphs show 2 (from 5) settings of the Feed Forward setup (
 </ul>
 <p>I am interesting in looking into the above parameter and how their dynamics work with temperature and change of current. If it is to be asked from me at this moment what is goal of looking into these parameter, and what information am i expecting to gain from it? my answer right now would be i am not sure, and that is why i would like to make this as a goal to understand the information this will give me and present it in coherent manner.</p>
 <p><strong>Second Week Goal</strong> - Try to have numerical model of these parameter and play around with the inputs and observe dynamics of output and understand the behaviour, and in mean while take data of inputs from real experimental setup and observe if our understanding of dynamics make sense or not, and what pieces of puzzle are we missing.</p>
-<dl>
-<dt><strong>Threshold Current</strong></dt>
-<dd>
-<span class="math inline">\(I_{th}\)</span> threshold point of input current to diode at which it begins to lase. low threshold current means more efficient diode.
-</dd>
-<dt><strong>P-I Curve</strong></dt>
-<dd>
-<span class="math inline">\(frac{\Delta P}{\Delta T}\)</span> It shows change in output power over change in input current. It is also refered as L-I curve, Where L refers to luminosity, and I to current. P is measure of luminosity in watt, I is measure of current
-</dd>
-</dl>
-<p><strong>Luminosity</strong> :Typically it refers to typical optical output power produced by given amount of input current.</p>
-<dl>
-<dt><strong>External Differential Quantum Efficiency</strong></dt>
-<dd>
-<span class="math inline">\(\eta_d\)</span> indicates the ability of laser device to convert input current(injected electron hole pair) to photon emitted from the device(output light) <span class="math inline">\(\eta_d=frac{\Delta P/Delta I}{hc/q \lambda}\)</span> h is planks constant, is wavelength, c is speed of light, q is charge of electron. When talking about External Differential Quantum Efficiency one should always note if diode is one mirror facet or two mirror facet.
-</dd>
-<dt><strong>Perfect Hypothetical Device</strong></dt>
-<dd>
-The device that works with 100% efficiency without wasting energy in any unrequired form.
-</dd>
-<dt><strong>Current Density</strong></dt>
-<dd>
-<span class="math inline">\(J\)</span> is quantity which is ratio of current to area(area is consist of length of diode and width of ridge(we need to have better defination of it)). Density is more useful quantity when comparing different diodes.
-</dd>
-<dt><strong>Internal Quantum Efficiency</strong></dt>
-<dd>
-<span class="math inline">\(\eta_i\)</span> It is measure of efficiency of laser diode in convertng electron hole pairs(input current) into photons(light) within laser diode structure. <span class="math inline">\(\eta_i\)</span> is independet of geometrical properties of laser device, which makes it proper parameter for comparision of material quality of various laser devices. It is determined by plotting inverse external differential quantum efficiency(y axis) vs cavity length(x axis)
-</dd>
-</dl>
-<p>Once we have <span class="math inline">\(\eta_d\)</span> and <span class="math inline">\(\eta_i\)</span> we can calculate ratio <span class="math inline">\(\frac{eta_d}{\eta_i}\)</span> which is photon generated to photon emitted ratio.</p>
-<dl>
-<dt><strong>Internal Loss of Laser Diode</strong></dt>
-<dd>
-Parameter that corresponds to loss of optical wave(need to know more about it)
-</dd>
-</dl>
-<p><strong>Characteristic Temperature</strong> <span class="math inline">\(T_o\)</span> It is measure of temperature sensitivity of Laser Diode. Higher values of T_o imply that thr threshold current density and external differential quantum efficiency of laser diode increases rapidly with increasing temperatures(meaning laser diode being more thermally stable.) to measure characteristic temperature we need to measure P-I curve at different temperatures.</p>
-<hr>
 </section>
-<section id="set-goal-27th---30th" class="level2" data-number="5">
-<h2 data-number="5" class="anchored" data-anchor-id="set-goal-27th---30th"><span class="header-section-number">5</span> Set goal: 27th - 30th</h2>
+<section id="set-goal-28th---30th" class="level2" data-number="4">
+<h2 data-number="4" class="anchored" data-anchor-id="set-goal-28th---30th"><span class="header-section-number">4</span> Set goal: 28th - 30th</h2>
+<p>We want to characterize our laser diode. For this we have</p>
+<ol start="0" type="1">
+<li>finding the mode hop free spectral range</li>
+<li>the simplest setup to start with characterization is have a laser diode, isolator and powermeter (photodetector), and vary parameters; temperature, and scan through different diode current and observe change in output power(luminocity).</li>
+<li>set up the FPI to measure the free spectral range of the ECDL</li>
+<li>measurement of the beam cross section</li>
+</ol>
+<p>The problem we are faced with:</p>
+<ul>
+<li>the voltage across the piezo actuator fluctuates and drifts</li>
+<li>the data shows a drift in threshold current <span class="math inline">\(I_{thr}\)</span></li>
+<li>we conclude that the change may be induced by the change in the mode</li>
+</ul>
+<p>How to proceed: ::: {layout=“[60,40]”} ::: {} - we should work toward mode hop free region (step 0)); following manual instructions sec.&nbsp;4.6.3.1 - be wary of the max laser intensity to the FPI - use <span class="math inline">\(\lambda/2\)</span> plate with the beam splitter - what is the PDA 100? - 50/50 beam splitter :::</p>
+<p><img src="pictures/DLpro-setup-mode-hope-free-scanning.png" id="fig-setup" class="img-fluid" alt="Set up the mode-hop-free range, with the “Feed Forward” setting."> ::: - proceed with <span class="math inline">\(P\)</span>-<span class="math inline">\(I\)</span>-<span class="math inline">\(T\)</span> characterization</p>
 </section>
-<section id="glossary" class="level2" data-number="6">
-<h2 data-number="6" class="anchored" data-anchor-id="glossary"><span class="header-section-number">6</span> Glossary</h2>
-<section id="concepts" class="level4" data-number="6.0.1">
-<h4 data-number="6.0.1" class="anchored" data-anchor-id="concepts"><span class="header-section-number">6.0.1</span> Concepts</h4>
+<section id="glossary" class="level2" data-number="5">
+<h2 data-number="5" class="anchored" data-anchor-id="glossary"><span class="header-section-number">5</span> Glossary</h2>
+<section id="concepts" class="level4" data-number="5.0.1">
+<h4 data-number="5.0.1" class="anchored" data-anchor-id="concepts"><span class="header-section-number">5.0.1</span> Concepts</h4>
 <dl>
 <dt><strong>diode</strong></dt>
 <dd>
-A diode is made by glueing at least two types of p– and n-doped materials. <em>further details required</em>
+A diode is a semiconductor. Made by glueing at least two types of p– and n-doped materials. <em>further details required</em>
+</dd>
+<dt><strong>semiconductor</strong></dt>
+<dd>
+A material that can be tuned (i.e.&nbsp;Voltage <span class="math inline">\(V\)</span>) to switch between two macroscopic behaviors: isolator &amp; conductor
+</dd>
+<dt><strong>laser</strong></dt>
+<dd>
+Light amplification by stimulated emission of radiation. Emits light with high spacial and temporal coherence.
 </dd>
 <dt><strong>ECDL</strong></dt>
 <dd>
-External Cavity Diode Laser. <em>description</em>
+External Cavity Diode Laser. This is a laser with a diode at its core and an external cavity resulting in the emission of light with thin spectral width.
 </dd>
 <dt><strong>FPI</strong></dt>
 <dd>
@@ -507,9 +506,9 @@ Fabry-Pérot interferometer. <em>description</em>
 <dd>
 The beam cross-section is the geometric form that describes the intensity profile of laser in the plane spanned by the two vectors that are mutually orthogonal to the wave-vector
 </dd>
-<dt><strong>medium</strong></dt>
+<dt><strong>medium</strong> <span class="math inline">\(n\)</span></dt>
 <dd>
-Referes to the environment that of the physical system.
+Referes to the environment that of the physical system. The environment can get characterized by the refractive index <span class="math inline">\(n\)</span>.
 </dd>
 <dt><strong>gain profile</strong></dt>
 <dd>
@@ -523,7 +522,7 @@ Is a space defined by boundary conditions which defines allowed excitation energ
 <dd>
 The cavity made from two mirrors opposite to each other with a defining parameter of length <span class="math inline">\(l\)</span> that is defined by the geometry of the diode. The internal cavity arises partially due to an applied coating with high reflectivity though also due to the reflection due to the difference of refractive index (medium to air).
 </dd>
-<dt><strong>internal mode </strong></dt>
+<dt><strong>internal mode</strong></dt>
 <dd>
 The spectrum resulting from the internal cavity.
 </dd>
@@ -545,8 +544,8 @@ For a system to find its rest position in state space.
 </dd>
 </dl>
 </section>
-<section id="symbols" class="level4" data-number="6.0.2">
-<h4 data-number="6.0.2" class="anchored" data-anchor-id="symbols"><span class="header-section-number">6.0.2</span> Symbols</h4>
+<section id="symbols" class="level4" data-number="5.0.2">
+<h4 data-number="5.0.2" class="anchored" data-anchor-id="symbols"><span class="header-section-number">5.0.2</span> Symbols</h4>
 <dl>
 <dt><span class="math inline">\(e\)</span></dt>
 <dd>
@@ -558,18 +557,23 @@ temperature
 </dd>
 </dl>
 <ul>
-<li><span class="math inline">\(T_{pd}\)</span> diode temperature <span class="math inline">\(I\)</span></li>
+<li><span class="math inline">\(T_{pd}\)</span>: diode temperature</li>
 </ul>
-<p>: electrical current</p>
+<dl>
+<dt><span class="math inline">\(I\)</span> in Amperes <span class="math inline">\([\text{A}]\)</span></dt>
+<dd>
+electrical current.
+</dd>
+</dl>
 <ul>
 <li><span class="math inline">\(I_{pd}\)</span>: is the laser diode current</li>
 <li><span class="math inline">\(I_{thr}\)</span>: is the current for which the laser diode power transitions and becomes lasing</li>
 <li><span class="math inline">\(I_s\)</span>: Reverse saturation current <span class="math display">\[I_s=eA\Bigg(\sqrt{\frac{D_P}{\tau_P}}\frac{n_i^2}{N_D}+\sqrt{\frac{D_N}{\tau_N}}\frac{n_i^2}{N_A} \Bigg)\]</span></li>
 </ul>
 <dl>
-<dt><span class="math inline">\(V\)</span></dt>
+<dt><span class="math inline">\(V\)</span> in Volts <span class="math inline">\([1\text{V}=]\)</span></dt>
 <dd>
-electrical voltage
+electrical voltage.
 </dd>
 </dl>
 <ul>
@@ -579,6 +583,10 @@ electrical voltage
 <li><span class="math inline">\(V_{dtc}\)</span>: photodetector</li>
 </ul>
 <dl>
+<dt><span class="math inline">\(P\)</span></dt>
+<dd>
+Power or Luminosity
+</dd>
 <dt><span class="math inline">\(\alpha_g\)</span></dt>
 <dd>
 the set grating angle in the Littrow set up. The angle is determined by <span class="math inline">\(\sin(\alpha_g)=m\lambda/2d\)</span>
@@ -595,12 +603,19 @@ refraction index
 <dd>
 wavelength
 </dd>
+<dt><span class="math inline">\(\nu\)</span></dt>
+<dd>
+frequency
+</dd>
 <dt><span class="math inline">\(d\)</span></dt>
 <dd>
 grating constant
 </dd>
 </dl>
 </section>
+</section>
+<section id="discussion-on-definitions" class="level2" data-number="6">
+<h2 data-number="6" class="anchored" data-anchor-id="discussion-on-definitions"><span class="header-section-number">6</span> Discussion on Definitions</h2>
 </section>
 <section id="references" class="level2 unnumbered" data-number="7">
 
