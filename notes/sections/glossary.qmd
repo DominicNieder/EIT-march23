@@ -1,10 +1,16 @@
 #### Concepts
 
 **diode**
-: A diode is made by glueing at least two types of p– and n-doped materials. _further details required_
+: A diode is a semiconductor. Made by glueing at least two types of p– and n-doped materials. _further details required_
+
+**semiconductor**
+: A material that can be tuned (i.e. Voltage $V$) to switch between two macroscopic behaviors: isolator & conductor 
+
+**laser**
+: Light amplification by stimulated emission of radiation. Emits light with high spacial and temporal coherence.
 
 **ECDL**
-: External Cavity Diode Laser. _description_
+: External Cavity Diode Laser. This is a laser with a diode at its core and an external cavity resulting in the emission of light with thin spectral width.
 
 **FPI**
 : Fabry-Pérot interferometer. _description_
@@ -12,8 +18,10 @@
 **beam cross-section**
 : The beam cross-section is the geometric form that describes the intensity profile of laser in the plane spanned by the two vectors that are mutually orthogonal to the wave-vector 
 
-**medium**
-: Referes to the environment that of the physical system. 
+**medium** $n$
+: Referes to the environment that of the physical system. The environment can get characterized by the refractive index $n$.
+
+
 
 **gain profile**
 : The emission spectrum of the diode, i.e. the emission spectrum without cavities (internal or external).
@@ -24,7 +32,7 @@
 **internal cavity** $l$
 : The cavity made from two mirrors opposite to each other with a defining parameter of length $l$ that is defined by the geometry of the diode. The internal cavity arises partially due to an applied coating with high reflectivity though also due to the reflection due to the difference of refractive index (medium to air).
 
-**internal mode **
+**internal mode**
 : The spectrum resulting from the internal cavity.
 
 **external cavity** $L$
@@ -51,22 +59,28 @@ $e$
 $T$
 : temperature
 
-- $T_{pd}$ diode temperature
-$I$
-: electrical current
+- $T_{pd}$: diode temperature
+
+
+$I$ in Amperes $[\text{A}]$
+: electrical current.
 
 - $I_{pd}$: is the laser diode current
 - $I_{thr}$: is the current for which the laser diode power transitions and becomes lasing
 - $I_s$: Reverse saturation current
 $$I_s=eA\Bigg(\sqrt{\frac{D_P}{\tau_P}}\frac{n_i^2}{N_D}+\sqrt{\frac{D_N}{\tau_N}}\frac{n_i^2}{N_A} \Bigg)$$
 
-$V$
-: electrical voltage
+$V$ in Volts $[1\text{V}=]$
+: electrical voltage. 
 
 - $V_{pz}$: voltage across piezo actuator
 - $V_{pd}$: voltage across p-n-junction 
 - $V_{T}$: Thermal voltage, describes 
 - $V_{dtc}$: photodetector
+
+
+$P$
+: Power or Luminosity
 
 $\alpha_g$
 : the set grating angle in the Littrow set up. The angle is determined by $\sin(\alpha_g)=m\lambda/2d$
@@ -79,6 +93,9 @@ $n$
 
 $\lambda$
 : wavelength
+
+$\nu$
+: frequency
 
 $d$
 : grating constant 
