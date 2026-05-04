@@ -27,7 +27,6 @@ Our experiment contains topics on
     - lense
     - Fabry-Pérot interferometer
 - spectroscopy techniques: Absorption, Flourescence, and Saturation
-    - \dots
 - spectroscopy: Fabry-Pérot interferometer
 
 
