@@ -181,3 +181,49 @@ comment
 
 **M2**
 
+
+### Writing the Report
+
+#### short collection on
+- In terms of experimental physics: We are the experiment, the analysis is our self-reflection on creating common knowladge
+- talk about difference in learning method; what are cultural background influences, differences in the use of common language that is used to define relevant terms for the common knowladge
+- we were diverging from our learning goals, hypotheses for this: 
+  1) used to given/defined structure/environment of learning
+  2) we both have different expectations of learning 
+
+
+#### Structure
+
+:::: {layout="[60,40]"}
+::: {}
+0) Title
+1) Abstract
+2) Introduction
+:::
+Write these last, find out what the report becomes. Then write Introduction etc
+::::
+3) Description of our thoughts work; main source: our notes
+4) reflection on the work
+5) conclusion 
+
+
+**Starting with 3):**
+
+- a description of our work throughout the two weeks
+
+We, two people "A" and "D", were provided with an atomic physics experiment which allows students to perform the an experiment called "electromagnetically induced transparency". 
+Within this framework the question that we musst face is "What is it that we want to understand?"
+We went about this topic by first looking at the components of our experiment: 
+
+- laser physics: external-cavity diode-laser (ECDL)
+- atomic physics: $^{87}\text{Rn}(I=3/2)$, $^{85}\text{Rn}(I=5/2)$
+- optics: alignment and optical components
+    - linear polarizer
+    - quarter wave plate
+    - half wave plate
+    - lense
+    - Fabry-Pérot interferometer
+- spectroscopy techniques: Absorption, Flourescence, and Saturation
+- interferometery: Fabry-Pérot interferometer
+
+From these aspects that we identified and thoroughy discussed, we "decided upon" the detailed study of the "external-cavity diode-laser". It was the goal to get an understanding that so that we could setup a numerical simulation of the ECDL. The process of deciding was based on  
