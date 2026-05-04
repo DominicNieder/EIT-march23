@@ -167,13 +167,17 @@ The measurement for the diode charactarization should take time _how much? 1day?
 
 Now we are confronted by a decision.
 **Problem:**
-Changing the diode current $I_{pd}$, will resultin mode hopping that can lead to intensity variations.
+Changing the diode current $I_{pd}$, will resolution mode hopping that can lead to intensity variations.
 
 **Solution:**
 We will first run a characterization for various temperatures even with mode hopping. 
 Then we can consider the mode hop free range. Maybe using the FPI.
 
-**M1*+
+**M1**
 filename: 04-27-01-PI.csv
+
 comment
 : We collect all the P-I characteristic data for various temperatures in order to characterize the laser diode. The piezo actuator voltage was active. It fluctuated and drifted with time. We have no knowlage on the mode-hop free range. We see that in a detailed scan the I_{thr} (dI_{pd}=0.2mA), does not pass the threshold, as expected from the coarse scan.
+
+**M2**
+
