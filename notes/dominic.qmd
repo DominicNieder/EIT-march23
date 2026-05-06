@@ -217,9 +217,9 @@ The two of us have a similar interest in physics. We studied similar courses wit
 
 We, two people "A" and "D", were provided with an atomic physics experiment which allows students to perform the an experiment called "electromagnetically induced transparency". 
 Within this framework the question that we musst face is "What is it that we want to understand?"
-Before we could tackle the task together, we needed a platform that allowed for independant working and thinking and also to unify our thoughts. 
-The platform suggested to us was github. 
-As a new working environment it took some time to set it up and to get it started and to adjust to the workflow this platform provided:
+Before we could tackle the task together, we needed a platform that allowed for independant working and thinking and also to unify our thoughts.
+The platform we chose was github.
+As a new working environment it took some initial time to set it up and to get it started and to adjust to the workflow this platform provided. 
 
 - planning of repository structure
 - basic workflow
@@ -228,20 +228,18 @@ As a new working environment it took some time to set it up and to get it starte
 
 We decided for the following structure:
 
->data
----->orientation.json 
->fiugres
->literature
->notes
----->pictures
----->sections
----->lab_notes.qmd
----->awais.qmd
----->dominic.qmd
----->lab_notes.pdf
->numerical_approach
->pictures
->report
+```
+data/
+  orientation.json 
+figures/
+notes/
+  pictures/
+  sections/
+  lab_notes.qmd
+  awais.qmd
+  dominic.qmd
+report/
+```
 
 With the goal of to have a structure to allow for constructive collaboration of two people. 
 The "data" directory is a location for all data, with "orientation.json" capable for keeping track of the potential filenames (as keys) and the metadata.
@@ -259,8 +257,10 @@ We went about this topic by first looking at the components of our experiment:
 - spectroscopy techniques: Absorption, Flourescence, and Saturation
 - interferometery: Fabry-Pérot interferometer
 
-From these aspects that we identified and thoroughy discussed, we "decided upon" the detailed study of the "external-cavity diode-laser". It was the goal to get an understanding that so that we could setup a numerical simulation of the ECDL. The process of deciding was based on:
+From these aspects that we identified and thoroughly discussed, we "decided upon" the detailed study of the "external-cavity diode-laser". It was the goal to get an understanding that so that we could setup a numerical simulation of the ECDL. The process of deciding was based on:
 
-- a dicussion on each of the parts 
+- a discussion on each of the parts 
 - arguments of us describing our interests
-- a writen document that 
+- a written document that 
+
+After deciding upon a topic
