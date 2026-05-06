@@ -69,6 +69,3 @@ $T_o$ It is measure of temperature sensitivity of Laser Diode. Higher values of 
  rapidly with increasing temperatures(meaning laser diode being more thermally stable.)
     to measure characteristic temperature we need to measure P-I curve at different temperatures.
 
-**Central Wavelength**
-
-**Mode Hopping**
