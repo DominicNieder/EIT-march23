@@ -216,7 +216,7 @@ The two of us have a similar interest in physics. We studied similar courses wit
 - a description of our work throughout the two weeks
 
 We, two people "A" and "D", were provided with an atomic physics experiment which allows students to perform the an experiment called "electromagnetically induced transparency". 
-Within this framework the question that we musst face is "What is it that we want to understand?"
+Within this framework the question that we must face is "What is it that we want to understand?"
 Before we could tackle the task together, we needed a platform that allowed for independant working and thinking and also to unify our thoughts.
 The platform we chose was github.
 As a new working environment it took some initial time to set it up and to get it started and to adjust to the workflow this platform provided. 
