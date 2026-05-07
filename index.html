@@ -562,14 +562,14 @@ Parameter that corresponds to loss of optical wave(need to know more about it)
 <ul>
 <li>a description of our work throughout the two weeks</li>
 </ul>
-<p>We, two people “A” and “D”, were provided with an atomic physics experiment which allows students to perform the an experiment called “electromagnetically induced transparency”. Within this framework the question that we must face is “What is it that we want to understand?” Before we could tackle the task together, we needed a platform that allowed for independant working and thinking and also to unify our thoughts. The platform we chose was github. As a new working environment it took some initial time to set it up and to get it started and to adjust to the workflow this platform provided.</p>
+<p>We, two people “A” and “D”, were provided with an atomic physics experiment which allows students to perform the an experiment called “electromagnetically induced transparency”. Within this framework the question that we must face is “What is it that we want to understand?” Before we could tackle the task together, we needed a platform that allowed for independant working and thinking and also to unify our thoughts. The platform we chose was github. As a new working environment it took some time and effort to get used to the environment:</p>
 <ul>
 <li>planning of repository structure</li>
 <li>basic workflow</li>
-<li>branches</li>
+<li>functionality of branches</li>
 <li>merging and merge conflicts</li>
 </ul>
-<p>We decided for the following structure:</p>
+<p>We decided for the following structure of the repository:</p>
 <pre><code>data/
   orientation.json 
 figures/
@@ -580,8 +580,8 @@ notes/
   awais.qmd
   dominic.qmd
 report/</code></pre>
-<p>With the goal of to have a structure to allow for constructive collaboration of two people. The “data” directory is a location for all data, with “orientation.json” capable for keeping track of the potential filenames (as keys) and the metadata. The notes contain the lab notes. With a folder for pictures and sub sections that can be included. The two files “awais.qmd” and “dominic.qmd” were for seperate working, with the idea of concluding and merging our common knowladge in “lab_notes.qmd”.</p>
-<p>We went about this topic by first looking at the components of our experiment:</p>
+<p>With the goal of to have a structure to allow for constructive collaboration of two people. The “data” directory is a location for all data, with “orientation.json” capable for keeping track of the potential filenames (as keys) and the metadata. The notes contain the lab notes. With a folder for pictures and sub sections that can be included. The two files “awais.qmd” and “dominic.qmd” were for preventing merge conflicts and independant working files, with the idea of concluding and merging our common knowladge in “lab_notes.qmd”. This proofed difficult as the following paragraphs will give insights to.</p>
+<p>The first problem we encounter is the question: What do we want to study? We went about this topic by first looking at the components of our experiment:</p>
 <ul>
 <li>laser physics: external-cavity diode-laser (ECDL)</li>
 <li>atomic physics: <span class="math inline">\(^{87}\text{Rn}(I=3/2)\)</span>, <span class="math inline">\(^{85}\text{Rn}(I=5/2)\)</span></li>
@@ -596,13 +596,39 @@ report/</code></pre>
 <li>spectroscopy techniques: Absorption, Flourescence, and Saturation</li>
 <li>interferometery: Fabry-Pérot interferometer</li>
 </ul>
-<p>From these aspects that we identified and thoroughly discussed, we “decided upon” the detailed study of the “external-cavity diode-laser”. It was the goal to get an understanding that so that we could setup a numerical simulation of the ECDL. The process of deciding was based on:</p>
+<p>From these aspects that we identified and thoroughly discussed what our interests were. We “decided upon” the detailed study of the “external-cavity diode-laser”. It was the goal to get an in depth understanding so that we could eventually setup a numerical simulation of the ECDL. The process of deciding was based on:</p>
 <ul>
 <li>a discussion on each of the parts</li>
-<li>arguments of us describing our interests</li>
-<li>a written document that</li>
+<li>argumentation of us describing our individual interests</li>
+<li>a written document that summerized the discussion concluded our decision</li>
 </ul>
-<p>After deciding upon a topic</p>
+<p>After deciding upon a topic we had to learn about the DLpro, the laser available to us and about the modeling of laser diodes. Whilst “D” focused on gathering the information of the laser “Dlpro” <span class="citation" data-cites="diode_manual">AG (<a href="#ref-diode_manual" role="doc-biblioref">2011</a>)</span>, “A” focused on the the theoretical modeling of the diode. Throughout this phase we communicated our progress loosely, though we did not make it concrete. We took notes and also followed the advice of keeping a glossary in our respective files - seperately. Defining “important” concepts as well as variables.</p>
+<p>The study of <span class="citation" data-cites="diode_manual">AG (<a href="#ref-diode_manual" role="doc-biblioref">2011</a>)</span> was motivated by the study of the input parameters and the output parameters:</p>
+<p><strong>Input:</strong></p>
+<ul>
+<li>high speed frequency modulation port (-&gt; frequency looking)</li>
+<li>current <span class="math inline">\(I_{pd}\)</span></li>
+<li>temperature <span class="math inline">\(T_{pd}\)</span></li>
+<li>Littrow grating angle <span class="math inline">\(\alpha_g\)</span></li>
+<li>grating constant <span class="math inline">\(d\)</span></li>
+<li>piezo actuator <span class="math inline">\(V_{pz}\)</span> -&gt; external cavity <span class="math inline">\(L\)</span> &amp; grating profile <span class="math inline">\(\alpha_g\)</span></li>
+</ul>
+<p><strong>Output:</strong></p>
+<ul>
+<li>coherence length <span class="math inline">\(&gt;100\text{m}\)</span></li>
+<li>line width <span class="math inline">\(&lt;1\text{MHz}\)</span></li>
+<li>tuning to “several 10’s of <span class="math inline">\(\text{nm}\)</span> without realignment”</li>
+<li>tuning of 10’s of <span class="math inline">\(\text{GHz}\)</span></li>
+<li>elliptical beam crosssecton (3:1)
+<ul>
+<li>“amorphic prism pair” can reshape the cross-section</li>
+</ul></li>
+<li>collimated beam</li>
+<li>power/luminosity <span class="math inline">\(P\)</span> (<span class="math inline">\(&lt;500\text{mW}\)</span>)</li>
+<li>spectral distribution <span class="math inline">\(\rho(\lambda)\)</span></li>
+<li>free spectral range <span class="math inline">\(\Delta \lambda\)</span></li>
+</ul>
+<p>Though the progress got sidetracked frequently. The idea of creating a numerical simulation for future students became attractive. This resulted in a change observable within the notes, as details on “how to use the DLpro” or “Tuning of the Diode Laser” were gathered, in hope to be helpful to others in the future. Though “important” notes as graphs by the manufacturer, capturing the input and output parameters were collected. The idea was, that the numerical simulation should be able to reproduce those, if modeled correctly.</p>
 </section>
 </section>
 <section id="glossary" class="level2" data-number="6">
