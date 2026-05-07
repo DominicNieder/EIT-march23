@@ -26,14 +26,14 @@ We, two people "A" and "D", were provided with an atomic physics experiment whic
 Within this framework the question that we must face is "What is it that we want to understand?"
 Before we could tackle the task together, we needed a platform that allowed for independant working and thinking and also to unify our thoughts.
 The platform we chose was github.
-As a new working environment it took some initial time to set it up and to get it started and to adjust to the workflow this platform provided. 
+As a new working environment it took some time and effort to get used to the environment:
 
 - planning of repository structure
 - basic workflow
-- branches
+- functionality of branches 
 - merging and merge conflicts
 
-We decided for the following structure:
+We decided for the following structure of the repository:
 
 ```
 data/
@@ -50,9 +50,9 @@ report/
 
 With the goal of to have a structure to allow for constructive collaboration of two people. 
 The "data" directory is a location for all data, with "orientation.json" capable for keeping track of the potential filenames (as keys) and the metadata. The notes contain the lab notes.
-With a folder for pictures and sub sections that can be included. The two files "awais.qmd" and "dominic.qmd" were for seperate working, with the idea of concluding and merging our common knowladge in "lab_notes.qmd".
+With a folder for pictures and sub sections that can be included. The two files "awais.qmd" and "dominic.qmd" were for preventing merge conflicts and independant working files, with the idea of concluding and merging our common knowladge in "lab_notes.qmd". This proofed difficult as the following paragraphs will give insights to.
 
-We went about this topic by first looking at the components of our experiment: 
+The first problem we encounter is the question: What do we want to study? We went about this topic by first looking at the components of our experiment: 
 
 - laser physics: external-cavity diode-laser (ECDL)
 - atomic physics: $^{87}\text{Rn}(I=3/2)$, $^{85}\text{Rn}(I=5/2)$
@@ -65,10 +65,39 @@ We went about this topic by first looking at the components of our experiment:
 - spectroscopy techniques: Absorption, Flourescence, and Saturation
 - interferometery: Fabry-Pérot interferometer
 
-From these aspects that we identified and thoroughly discussed, we "decided upon" the detailed study of the "external-cavity diode-laser". It was the goal to get an understanding that so that we could setup a numerical simulation of the ECDL. The process of deciding was based on:
+From these aspects that we identified and thoroughly discussed what our interests were. We "decided upon" the detailed study of the "external-cavity diode-laser". It was the goal to get an in depth understanding so that we could eventually setup a numerical simulation of the ECDL. The process of deciding was based on:
 
 - a discussion on each of the parts 
-- arguments of us describing our interests
-- a written document that 
+- argumentation of us describing our individual interests
+- a written document that summerized the discussion concluded our decision
 
-After deciding upon a topic
+After deciding upon a topic we had to learn about the DLpro, the laser available to us and about the modeling of laser diodes.
+Whilst "D" focused on gathering the information of the laser "Dlpro" @diode_manual, "A" focused on the the theoretical modeling of the diode. Throughout this phase we communicated our progress loosely, though we did not make it concrete. We took notes and also followed the advice of keeping a glossary in our respective files - seperately. Defining "important" concepts as well as variables.
+
+The study of @diode_manual was motivated by the study of the input parameters and the output parameters:
+
+**Input:**
+
+- high speed frequency modulation port (-> frequency looking)
+- current $I_{pd}$ 
+- temperature $T_{pd}$
+- Littrow grating angle $\alpha_g$
+- grating constant $d$
+- piezo actuator $V_{pz}$ -> external cavity $L$ & grating profile $\alpha_g$
+
+
+**Output:**
+
+- coherence length $>100\text{m}$
+- line width $<1\text{MHz}$
+- tuning to "several 10's of $\text{nm}$ without realignment" 
+- tuning of 10's of $\text{GHz}$
+- elliptical beam crosssecton (3:1)
+  - "amorphic prism pair" can  reshape the cross-section
+- collimated beam
+- power/luminosity $P$ ($<500\text{mW}$)
+- spectral distribution $\rho(\lambda)$
+- free spectral range $\Delta \lambda$
+
+Though the progress got sidetracked frequently. The idea of creating a numerical simulation for future students became attractive. This resulted in a change observable within the notes, as details on "how to use the DLpro" or "Tuning of the Diode Laser" were gathered, in hope to be helpful to others in the future. Though "important" notes as graphs by the manufacturer, capturing the input and output parameters were collected. The idea was, that the numerical simulation should be able to reproduce those, if modeled correctly. 
+ 
