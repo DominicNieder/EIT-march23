@@ -114,9 +114,13 @@ window.Quarto = {
   </ul></li>
   <li><a href="#awais-literature-collection" id="toc-awais-literature-collection" class="nav-link" data-scroll-target="#awais-literature-collection"><span class="header-section-number">3</span> Awais: Literature collection</a></li>
   <li><a href="#set-goal-28th---30th" id="toc-set-goal-28th---30th" class="nav-link" data-scroll-target="#set-goal-28th---30th"><span class="header-section-number">4</span> Set goal: 28th - 30th</a></li>
-  <li><a href="#glossary" id="toc-glossary" class="nav-link" data-scroll-target="#glossary"><span class="header-section-number">5</span> Glossary</a></li>
-  <li><a href="#discussion-on-definitions" id="toc-discussion-on-definitions" class="nav-link" data-scroll-target="#discussion-on-definitions"><span class="header-section-number">6</span> Discussion on Definitions</a></li>
-  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="header-section-number">7</span> References</a></li>
+  <li><a href="#working-toward-lab-report" id="toc-working-toward-lab-report" class="nav-link" data-scroll-target="#working-toward-lab-report"><span class="header-section-number">5</span> Working toward lab report</a>
+  <ul class="collapse">
+  <li><a href="#dominic" id="toc-dominic" class="nav-link" data-scroll-target="#dominic"><span class="header-section-number">5.1</span> Dominic</a></li>
+  </ul></li>
+  <li><a href="#glossary" id="toc-glossary" class="nav-link" data-scroll-target="#glossary"><span class="header-section-number">6</span> Glossary</a></li>
+  <li><a href="#discussion-on-definitions" id="toc-discussion-on-definitions" class="nav-link" data-scroll-target="#discussion-on-definitions"><span class="header-section-number">7</span> Discussion on Definitions</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="header-section-number">8</span> References</a></li>
   </ul>
 <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="../lab_notes.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
 </div>
@@ -450,77 +454,6 @@ We collect all the P-I characteristic data for various temperatures in order to 
 </ol></li>
 </ul>
 </section>
-<section id="structure" class="level4" data-number="2.7.2">
-<h4 data-number="2.7.2" class="anchored" data-anchor-id="structure"><span class="header-section-number">2.7.2</span> Structure</h4>
-<div class="quarto-layout-panel" data-layout="[60,40]">
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 60.0%;justify-content: flex-start;">
-<ol start="0" type="1">
-<li>Title</li>
-<li>Abstract</li>
-<li>Introduction</li>
-</ol>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 40.0%;justify-content: flex-start;">
-<p>Write these last, find out what the report becomes. Then write Introduction etc</p>
-</div>
-</div>
-</div>
-<ol start="3" type="1">
-<li>Description of our thoughts &amp; work; main source: our notes</li>
-<li>reflection on the work</li>
-<li>conclusion</li>
-</ol>
-<p><strong>Starting with 3):</strong></p>
-<ul>
-<li>our background, because this greatly affects how we could come to conclusions:</li>
-</ul>
-<p>The two of us have a similar interest in physics. We studied similar courses with interests in the abstract mathematical concepts.</p>
-<ul>
-<li>a description of our work throughout the two weeks</li>
-</ul>
-<p>We, two people “A” and “D”, were provided with an atomic physics experiment which allows students to perform the an experiment called “electromagnetically induced transparency”. Within this framework the question that we must face is “What is it that we want to understand?” Before we could tackle the task together, we needed a platform that allowed for independant working and thinking and also to unify our thoughts. The platform we chose was github. As a new working environment it took some initial time to set it up and to get it started and to adjust to the workflow this platform provided.</p>
-<ul>
-<li>planning of repository structure</li>
-<li>basic workflow</li>
-<li>branches</li>
-<li>merging and merge conflicts</li>
-</ul>
-<p>We decided for the following structure:</p>
-<pre><code>data/
-  orientation.json 
-figures/
-notes/
-  pictures/
-  sections/
-  lab_notes.qmd
-  awais.qmd
-  dominic.qmd
-report/</code></pre>
-<p>With the goal of to have a structure to allow for constructive collaboration of two people. The “data” directory is a location for all data, with “orientation.json” capable for keeping track of the potential filenames (as keys) and the metadata.</p>
-<p>We went about this topic by first looking at the components of our experiment:</p>
-<ul>
-<li>laser physics: external-cavity diode-laser (ECDL)</li>
-<li>atomic physics: <span class="math inline">\(^{87}\text{Rn}(I=3/2)\)</span>, <span class="math inline">\(^{85}\text{Rn}(I=5/2)\)</span></li>
-<li>optics: alignment and optical components
-<ul>
-<li>linear polarizer</li>
-<li>quarter wave plate</li>
-<li>half wave plate</li>
-<li>lense</li>
-<li>Fabry-Pérot interferometer</li>
-</ul></li>
-<li>spectroscopy techniques: Absorption, Flourescence, and Saturation</li>
-<li>interferometery: Fabry-Pérot interferometer</li>
-</ul>
-<p>From these aspects that we identified and thoroughly discussed, we “decided upon” the detailed study of the “external-cavity diode-laser”. It was the goal to get an understanding that so that we could setup a numerical simulation of the ECDL. The process of deciding was based on:</p>
-<ul>
-<li>a discussion on each of the parts</li>
-<li>arguments of us describing our interests</li>
-<li>a written document that</li>
-</ul>
-<p>After deciding upon a topic</p>
-</section>
 </section>
 </section>
 <section id="awais-literature-collection" class="level2" data-number="3">
@@ -598,10 +531,84 @@ Parameter that corresponds to loss of optical wave(need to know more about it)
 <p>How to proceed: ::: {layout=“[60,40]”} ::: {} - we should work toward mode hop free region (step 0)); following manual instructions sec.&nbsp;4.6.3.1 - be wary of the max laser intensity to the FPI - use <span class="math inline">\(\lambda/2\)</span> plate with the beam splitter - what is the PDA 100? - 50/50 beam splitter :::</p>
 <p><img src="pictures/DLpro-setup-mode-hope-free-scanning.png" id="fig-setup" class="img-fluid" alt="Set up the mode-hop-free range, with the “Feed Forward” setting."> ::: - proceed with <span class="math inline">\(P\)</span>-<span class="math inline">\(I\)</span>-<span class="math inline">\(T\)</span> characterization</p>
 </section>
-<section id="glossary" class="level2" data-number="5">
-<h2 data-number="5" class="anchored" data-anchor-id="glossary"><span class="header-section-number">5</span> Glossary</h2>
-<section id="concepts" class="level4" data-number="5.0.1">
-<h4 data-number="5.0.1" class="anchored" data-anchor-id="concepts"><span class="header-section-number">5.0.1</span> Concepts</h4>
+<section id="working-toward-lab-report" class="level2" data-number="5">
+<h2 data-number="5" class="anchored" data-anchor-id="working-toward-lab-report"><span class="header-section-number">5</span> Working toward lab report</h2>
+<section id="dominic" class="level3" data-number="5.1">
+<h3 data-number="5.1" class="anchored" data-anchor-id="dominic"><span class="header-section-number">5.1</span> Dominic</h3>
+<div class="quarto-layout-panel" data-layout="[60,40]">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 60.0%;justify-content: flex-start;">
+<ol start="0" type="1">
+<li>Title</li>
+<li>Abstract</li>
+<li>Introduction</li>
+</ol>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 40.0%;justify-content: flex-start;">
+<p>Write these last, find out what the report becomes. Then write Introduction etc</p>
+</div>
+</div>
+</div>
+<ol start="3" type="1">
+<li>Description of our thoughts &amp; work; main source: our notes</li>
+<li>reflection on the work</li>
+<li>conclusion</li>
+</ol>
+<p><strong>Starting with 3):</strong></p>
+<ul>
+<li>our background, because this greatly affects how we could come to conclusions:</li>
+</ul>
+<p>The two of us have a similar interest in physics. We studied similar courses with interests in the abstract mathematical concepts.</p>
+<ul>
+<li>a description of our work throughout the two weeks</li>
+</ul>
+<p>We, two people “A” and “D”, were provided with an atomic physics experiment which allows students to perform the an experiment called “electromagnetically induced transparency”. Within this framework the question that we must face is “What is it that we want to understand?” Before we could tackle the task together, we needed a platform that allowed for independant working and thinking and also to unify our thoughts. The platform we chose was github. As a new working environment it took some initial time to set it up and to get it started and to adjust to the workflow this platform provided.</p>
+<ul>
+<li>planning of repository structure</li>
+<li>basic workflow</li>
+<li>branches</li>
+<li>merging and merge conflicts</li>
+</ul>
+<p>We decided for the following structure:</p>
+<pre><code>data/
+  orientation.json 
+figures/
+notes/
+  pictures/
+  sections/
+  lab_notes.qmd
+  awais.qmd
+  dominic.qmd
+report/</code></pre>
+<p>With the goal of to have a structure to allow for constructive collaboration of two people. The “data” directory is a location for all data, with “orientation.json” capable for keeping track of the potential filenames (as keys) and the metadata. The notes contain the lab notes. With a folder for pictures and sub sections that can be included. The two files “awais.qmd” and “dominic.qmd” were for seperate working, with the idea of concluding and merging our common knowladge in “lab_notes.qmd”.</p>
+<p>We went about this topic by first looking at the components of our experiment:</p>
+<ul>
+<li>laser physics: external-cavity diode-laser (ECDL)</li>
+<li>atomic physics: <span class="math inline">\(^{87}\text{Rn}(I=3/2)\)</span>, <span class="math inline">\(^{85}\text{Rn}(I=5/2)\)</span></li>
+<li>optics: alignment and optical components
+<ul>
+<li>linear polarizer</li>
+<li>quarter wave plate</li>
+<li>half wave plate</li>
+<li>lense</li>
+<li>Fabry-Pérot interferometer</li>
+</ul></li>
+<li>spectroscopy techniques: Absorption, Flourescence, and Saturation</li>
+<li>interferometery: Fabry-Pérot interferometer</li>
+</ul>
+<p>From these aspects that we identified and thoroughly discussed, we “decided upon” the detailed study of the “external-cavity diode-laser”. It was the goal to get an understanding that so that we could setup a numerical simulation of the ECDL. The process of deciding was based on:</p>
+<ul>
+<li>a discussion on each of the parts</li>
+<li>arguments of us describing our interests</li>
+<li>a written document that</li>
+</ul>
+<p>After deciding upon a topic</p>
+</section>
+</section>
+<section id="glossary" class="level2" data-number="6">
+<h2 data-number="6" class="anchored" data-anchor-id="glossary"><span class="header-section-number">6</span> Glossary</h2>
+<section id="concepts" class="level4" data-number="6.0.1">
+<h4 data-number="6.0.1" class="anchored" data-anchor-id="concepts"><span class="header-section-number">6.0.1</span> Concepts</h4>
 <dl>
 <dt><strong>diode</strong></dt>
 <dd>
@@ -665,8 +672,8 @@ For a system to find its rest position in state space.
 </dd>
 </dl>
 </section>
-<section id="symbols" class="level4" data-number="5.0.2">
-<h4 data-number="5.0.2" class="anchored" data-anchor-id="symbols"><span class="header-section-number">5.0.2</span> Symbols</h4>
+<section id="symbols" class="level4" data-number="6.0.2">
+<h4 data-number="6.0.2" class="anchored" data-anchor-id="symbols"><span class="header-section-number">6.0.2</span> Symbols</h4>
 <dl>
 <dt><span class="math inline">\(e\)</span></dt>
 <dd>
@@ -735,8 +742,8 @@ grating constant
 </dl>
 </section>
 </section>
-<section id="discussion-on-definitions" class="level2" data-number="6">
-<h2 data-number="6" class="anchored" data-anchor-id="discussion-on-definitions"><span class="header-section-number">6</span> Discussion on Definitions</h2>
+<section id="discussion-on-definitions" class="level2" data-number="7">
+<h2 data-number="7" class="anchored" data-anchor-id="discussion-on-definitions"><span class="header-section-number">7</span> Discussion on Definitions</h2>
 <p>How to come to a consensus on what a definition is?</p>
 <ul>
 <li>a definition contains prior knowlage</li>
@@ -754,12 +761,12 @@ grating constant
 <li>The limited time we found ourselves in, which the previous points are unclear and not agreed upon, exerts stress</li>
 </ol>
 </section>
-<section id="references" class="level2 unnumbered" data-number="7">
+<section id="references" class="level2 unnumbered" data-number="8">
 
 
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">7 References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">8 References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
 <div id="ref-diode_manual" class="csl-entry" role="listitem">
 AG, OPTICA Photonics. 2011. <span>“DL Pro, Grating Stabilized Diode Laser Heaad, Manual.”</span> <em>Manual: M-30</em> 07.
 </div>
