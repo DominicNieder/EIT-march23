@@ -69,7 +69,8 @@ $T_o$ It is measure of temperature sensitivity of Laser Diode. Higher values of 
  rapidly with increasing temperatures(meaning laser diode being more thermally stable.)
     to measure characteristic temperature we need to measure P-I curve at different temperatures.
 ---
-*Thoughts about report structure*
+
+**Thoughts about report structure**
 goal of the two weeks period was shifted from usual goals of being performative in experiments to learning the process of scientific research,
 (which not only includes progress and decisive steps but also concenses over steps and mutual understanding of progress), hence goal of this whole
 activity was learning research process and we used learning about laser as more of direction for our two weeks.
@@ -78,6 +79,7 @@ activity was learning research process and we used learning about laser as more 
 - Another goal i would like to define is of how to find a way in which we can level our understanding, and how to check if we both mean same thing when we talk about any scientific term or process.
 
 ---
+
 issues:
 - one of core issue i can pinpoint is finding structure to our progress in the time of crises.(In the time when we dont set anything as definite truth, all statements are equal truths)
 (The most valuable skill one can ever learn is ability to figure it out)
