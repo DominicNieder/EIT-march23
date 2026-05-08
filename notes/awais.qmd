@@ -68,4 +68,17 @@ Once we have $\eta_d$ and $\eta_i$ we can calculate ratio $\frac{eta_d}{\eta_i}$
 $T_o$ It is measure of temperature sensitivity of Laser Diode. Higher values of T_o imply that thr threshold current density and external differential quantum efficiency of laser diode increases
  rapidly with increasing temperatures(meaning laser diode being more thermally stable.)
     to measure characteristic temperature we need to measure P-I curve at different temperatures.
+---
+*Thoughts about report structure*
+goal of the two weeks period was shifted from usual goals of being performative in experiments to learning the process of scientific research,
+(which not only includes progress and decisive steps but also concenses over steps and mutual understanding of progress), hence goal of this whole
+activity was learning research process and we used learning about laser as more of direction for our two weeks.
+- Our experiment related goal was to try to understand cavity diode laser and simulate a simple model of it.
+- Progress Goal was to understand how to work in community where issues differences in: scientific understanding, next step to follow, agreeing on progress could be adressed.
+- Another goal i would like to define is of how to find a way in which we can level our understanding, and how to check if we both mean same thing when we talk about any scientific term or process.
 
+---
+issues:
+- one of core issue i can pinpoint is finding structure to our progress in the time of crises.(In the time when we dont set anything as definite truth, all statements are equal truths)
+(The most valuable skill one can ever learn is ability to figure it out)
+(how to communicate the thought in the best possible way, so that we can make sure our information is transfered at best, without deviation.)
