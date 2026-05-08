@@ -101,6 +101,8 @@ How to proceed:
 
 {{< include sections/reportD.qmd >}}
 
+{{< include sections/reportA.qmd >}}
+
 ## Glossary
 
 {{< include sections/glossary.qmd >}}
