@@ -19,7 +19,7 @@
 : The beam cross-section is the geometric form that describes the intensity profile of laser in the plane spanned by the two vectors that are mutually orthogonal to the wave-vector 
 
 **medium** $n$
-: Referes to the environment that of the physical system. The environment can get characterized by the refractive index $n$.
+: Referes to the environment of the physical system. The environment can get characterized i.e. by the refractive index $n$.
 
 
 
