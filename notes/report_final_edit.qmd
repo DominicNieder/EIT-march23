@@ -43,7 +43,7 @@ With a folder for pictures and sub sections that can be included. The two files 
 
 
 #### Finding a topic
-The first problem we encounter is the question: What do we want to study? We went about this topic by first looking at the components of our experiment: 
+The first problem we encounter is the question: What do we want to study? We went about this topic by first looking at the components of our experiment: (The first task we encounter was shat do we want to study.)
 
 - laser physics: external-cavity diode-laser (ECDL)
 - atomic physics: $^{87}\text{Rn}(I=3/2)$, $^{85}\text{Rn}(I=5/2)$
@@ -56,7 +56,9 @@ The first problem we encounter is the question: What do we want to study? We wen
 - spectroscopy techniques: Absorption, Flourescence, and Saturation
 - interferometery: Fabry-Pérot interferometer
 
-From these aspects that we identified and thoroughly discussed what our interests were. We "decided upon" the detailed study of the "external-cavity diode-laser". It was the goal to get an in depth understanding so that we could eventually setup a numerical simulation of the ECDL. The process of deciding was based on:
+From these aspects that we identified and thoroughly discussed what our interests were. We "decided upon" the detailed study of the "external-cavity diode-laser".( We went through the cronological order of the experiment as mentioned above and decided to take first step of the experiment and if we get satisfactory progress we move on to next.)
+
+It was the goal to get an in depth understanding so that we could eventually setup a numerical simulation of the ECDL. The process of deciding was based on:
 
 - a discussion on each of the parts 
 - argumentation of us describing our individual interests
@@ -65,17 +67,20 @@ From these aspects that we identified and thoroughly discussed what our interest
 
 #### Literature
 During our first week, first task we faced was finding literature that is relevant to what we wanted to achieve. So we both decided to read different literature, and our initial plan was to later discuss what we have read and bridge knowledge gaps between us two and come to a decision about how to proceed forward.
+(During our first week, we focused on finding literature that is relevant to what we wanted to achieve. So we both decided to read different literature. Initial we planed to later discuss what we read and bridge knowledge gaps between us two and come to a decision about how to proceed forward.)
 
 After deciding upon a topic we had to learn about the DLpro, the laser available to us and about the modeling of laser diodes.
 Whilst "D" focused on gathering the information of the laser "Dlpro" @diode_manual, "A" focused on the the theoretical modeling of the diode. Throughout this phase we communicated our progress loosely, though we did not make it concrete. We took notes and also followed the advice of keeping a glossary in our respective files - seperately. Defining "important" concepts as well as variables.
+(After deciding on topic we had to learn about the ECDL and particularly DLpro, the laser available to us and about the modeling of laser diodes. So, "D" focused on gathering information about DLpro through @diode_manual, while "A" focused on gathering information about characterization of Laser diode. Throughout this period we communicated our progress loosely, though we did not document the process of consensus. We took notes and also followed the advice of keeping a glossary in our respective files - seperately. Defining "important" concepts as well as variables.)
 
-- Knowing what literature to consume is something "A" struggled with. Searching for literature over internet is tricky, as much as we have a lot of information, but its also easy to deviate from topic each time we try to dive into a search.
+##### Issues:
+- Not knowing what literature to consume is something "A" struggled with. Searching for literature over internet is tricky, as much as we have a lot of information, but its also easy to deviate from topic each time we try to dive into a search.
+
 
 - Feeling of not being able to completely be confident in knowledge was always there.
 
 - After reading different literature we still had issues communicating the information and bridging the gap to come to a consensus about our next step, which lead us to consume time.
 
-- After going through literature I thought of working on simulation (I used AI), and after getting done with it, I realised that it does give us insight but it is half insight in a manner that we don't know if it does represent our system, or how much does it deviate from our system; hence, we need to take data from our experimental setup.
 
 ##### DLpro manual
 The study of @diode_manual was motivated by the study of the input parameters and the output parameters:
@@ -104,18 +109,6 @@ The study of @diode_manual was motivated by the study of the input parameters an
 
 Though the progress got sidetracked frequently. The idea of creating a numerical simulation for future students became attractive. This resulted in a change observable within the notes, as details on "how to use the DLpro" or "Tuning of the Diode Laser" were gathered, in hope to be helpful to others in the future. Though "important" notes as graphs by the manufacturer, capturing the input and output parameters were collected. The idea was, that the numerical simulation should be able to reproduce those, if modeled correctly. 
 
-#### Decision to Perform Measurements
-
-After having discussion we came to agreement over the fact that we need to setup experimental setup and perform some measurements.
-
-##### Experimental Attempt
-
-- As we started to set experiment and take measurement for P-I graph, while taking measurement we observed fluctuation and drifting of peizo voltage, and hence change in the output data which wouldnt suggest any observable pattern of behaviour. As more than one parameter were influencing the output parameter.
-- During this we had discussion and we decided to first find mode hop free region which according to our logic should give us good value of peizo voltage which has max mode hop free region and we decided to first find that to have measurement for PI graph.
-- Thing we missed out on is that peizo being parameter that change the length of cavity if it drifts then the centeral mode also changes hence changing the output information.(what we didnt discuss much was what if we turn peizo voltage, as it would have eliminated problem of drifting and fluctuation of it, but when we discussed this possibility my argument against it was that we wouldnt be in hopfree region hence the dataset wouldnt be translateable for optimal peizo value.)
-- This discussion became halt point for our progression of trying to collect data from the experimental setup, as we realized we had different ideas of how we wanted to proceed in our rest of days.
-- We pondered upon more of philosophical question of how to find agreement, and how to know we have equal understanding.
-
 #### Second Week Direction
 
 Try to have numerical model of these parameter and play around with the inputs and observe dynamics of output and understand the behaviour, and in mean while take data of inputs from real experimental setup and observe if our understanding of dynamics make sense or not, and what
@@ -128,6 +121,21 @@ pieces of puzzle are we missing.
 - The most valuable skill one can ever learn is ability to figure it out
 
 - how to communicate the thought in the best possible way, so that we can make sure our information is transferred at best, without deviation.
+
+#### Decision to Perform Measurements
+
+After going through article on characterization "A" thought of working on simulation ("A" used AI), and after getting done with it, realization that it does give us insight but it is half insight in a manner that we don't know if it does represent our system, or how much does it deviate from our system; hence, we need to take data from our experimental setup.(Also taking help of AI to make model did feel like a cheat in terms of original work, although it is very questionable what would be original work.)
+
+Hence we discussed and had consensus, that inorder to understand model better we need to setup experimental setup and perform some measurements.
+
+##### Experimental Attempt
+
+- As we started to set experiment and take measurement for P-I graph, while taking measurement we observed fluctuation and drifting of peizo voltage, and hence change in the output data which wouldnt suggest any observable pattern of behaviour. As more than one parameter were influencing the output parameter.
+- During this we had discussion and we decided to first find mode hop free region which according to our logic should give us good value of peizo voltage which has max mode hop free region and we decided to first find that to have measurement for PI graph.
+- Thing we missed out on is that peizo being parameter that change the length of cavity if it drifts then the centeral mode also changes hence changing the output information.(what we didnt discuss much was what if we turn peizo voltage, as it would have eliminated problem of drifting and fluctuation of it, but when we discussed this possibility my argument against it was that we wouldnt be in hopfree region hence the dataset wouldnt be translateable for optimal peizo value.)
+- This discussion became halt point for our progression of trying to collect data from the experimental setup, as we realized we had different ideas of how we wanted to proceed in our rest of days.
+- We pondered upon more of philosophical question of how to find agreement, and how to know we have equal understanding.
+
 
 ### Reflection
 
