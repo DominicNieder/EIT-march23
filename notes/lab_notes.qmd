@@ -103,6 +103,10 @@ How to proceed:
 
 {{< include sections/reportA.qmd >}}
 
+## Final Report Edit
+
+{{< include report_final_edit.qmd >}}
+
 ## Glossary
 
 {{< include sections/glossary.qmd >}}

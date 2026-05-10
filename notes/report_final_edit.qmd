@@ -6,13 +6,68 @@ Goal of the two weeks period was shifted from usual goals of being performative 
 - The goal we assigned ourselves was to try to understand a cavity diode laser and simulate a simple model of it.
 - Aim was to keep track of how we progress and how do we live through the differences and process of coming to consencus. This will lead us to find a way to level our understanding and bridge gaps we both have and how to check if we both mean the same thing when we are talking about any scientific term or process.
 
-### First Week Status
+### Description 
 
-### Finding Literature
 
+#### Git repo structure
+
+We, two people "A" and "D", were provided with an atomic physics experiment which allows students to perform the an experiment called "electromagnetically induced transparency". 
+Within this framework the question that we must face is "What is it that we want to understand?"
+Before we could tackle the task together, we needed a platform that allowed for independant working and thinking and also to unify our thoughts.
+The platform we chose was github.
+As a new working environment it took some time and effort to get used to the environment:
+
+- planning of repository structure
+- basic workflow
+- functionality of branches 
+- merging and merge conflicts
+
+We decided for the following structure of the repository:
+
+```
+data/
+  orientation.json 
+figures/
+notes/
+  pictures/
+  sections/
+  lab_notes.qmd
+  awais.qmd
+  dominic.qmd
+report/
+```
+
+With the goal of to have a structure to allow for constructive collaboration of two people. 
+The "data" directory is a location for all data, with "orientation.json" capable for keeping track of the potential filenames (as keys) and the metadata. The notes contain the lab notes.
+With a folder for pictures and sub sections that can be included. The two files "awais.qmd" and "dominic.qmd" were for preventing merge conflicts and independant working files, with the idea of concluding and merging our common knowladge in "lab_notes.qmd". This proofed difficult as the following paragraphs will give insights to.
+
+
+#### Finding a topic
+The first problem we encounter is the question: What do we want to study? We went about this topic by first looking at the components of our experiment: 
+
+- laser physics: external-cavity diode-laser (ECDL)
+- atomic physics: $^{87}\text{Rn}(I=3/2)$, $^{85}\text{Rn}(I=5/2)$
+- optics: alignment and optical components
+    - linear polarizer
+    - quarter wave plate
+    - half wave plate
+    - lense
+    - Fabry-Pérot interferometer
+- spectroscopy techniques: Absorption, Flourescence, and Saturation
+- interferometery: Fabry-Pérot interferometer
+
+From these aspects that we identified and thoroughly discussed what our interests were. We "decided upon" the detailed study of the "external-cavity diode-laser". It was the goal to get an in depth understanding so that we could eventually setup a numerical simulation of the ECDL. The process of deciding was based on:
+
+- a discussion on each of the parts 
+- argumentation of us describing our individual interests
+- a written document that summerized the discussion concluded our decision
+
+
+#### Literature
 During our first week, first task we faced was finding literature that is relevant to what we wanted to achieve. So we both decided to read different literature, and our initial plan was to later discuss what we have read and bridge knowledge gaps between us two and come to a decision about how to proceed forward.
 
-#### Difficulties
+After deciding upon a topic we had to learn about the DLpro, the laser available to us and about the modeling of laser diodes.
+Whilst "D" focused on gathering the information of the laser "Dlpro" @diode_manual, "A" focused on the the theoretical modeling of the diode. Throughout this phase we communicated our progress loosely, though we did not make it concrete. We took notes and also followed the advice of keeping a glossary in our respective files - seperately. Defining "important" concepts as well as variables.
 
 - Knowing what literature to consume is something "A" struggled with. Searching for literature over internet is tricky, as much as we have a lot of information, but its also easy to deviate from topic each time we try to dive into a search.
 
@@ -22,11 +77,38 @@ During our first week, first task we faced was finding literature that is releva
 
 - After going through literature I thought of working on simulation (I used AI), and after getting done with it, I realised that it does give us insight but it is half insight in a manner that we don't know if it does represent our system, or how much does it deviate from our system; hence, we need to take data from our experimental setup.
 
+##### DLpro manual
+The study of @diode_manual was motivated by the study of the input parameters and the output parameters:
+
+**Input:**
+
+- high speed frequency modulation port (-> frequency looking)
+- current $I_{pd}$ 
+- temperature $T_{pd}$
+- Littrow grating angle $\alpha_g$
+- grating constant $d$
+- piezo actuator $V_{pz}$ -> external cavity $L$ & grating profile $\alpha_g$
+
+**Output:**
+
+- coherence length $>100\text{m}$
+- line width $<1\text{MHz}$
+- tuning to "several 10's of $\text{nm}$ without realignment" 
+- tuning of 10's of $\text{GHz}$
+- elliptical beam crosssecton (3:1)
+  - "amorphic prism pair" can  reshape the cross-section
+- collimated beam
+- power/luminosity $P$ ($<500\text{mW}$)
+- spectral distribution $\rho(\lambda)$
+- free spectral range $\Delta \lambda$
+
+Though the progress got sidetracked frequently. The idea of creating a numerical simulation for future students became attractive. This resulted in a change observable within the notes, as details on "how to use the DLpro" or "Tuning of the Diode Laser" were gathered, in hope to be helpful to others in the future. Though "important" notes as graphs by the manufacturer, capturing the input and output parameters were collected. The idea was, that the numerical simulation should be able to reproduce those, if modeled correctly. 
+
 #### Decision to Perform Measurements
 
 After having discussion we came to agreement over the fact that we need to setup experimental setup and perform some measurements.
 
-#### Experimental Attempt
+##### Experimental Attempt
 
 - As we started to set experiment and take measurement for P-I graph, while taking measurement we observed fluctuation and drifting of peizo voltage, and hence change in the output data which wouldnt suggest any observable pattern of behaviour. As more than one parameter were influencing the output parameter.
 - During this we had discussion and we decided to first find mode hop free region which according to our logic should give us good value of peizo voltage which has max mode hop free region and we decided to first find that to have measurement for PI graph.
@@ -39,7 +121,7 @@ After having discussion we came to agreement over the fact that we need to setup
 Try to have numerical model of these parameter and play around with the inputs and observe dynamics of output and understand the behaviour, and in mean while take data of inputs from real experimental setup and observe if our understanding of dynamics make sense or not, and what
 pieces of puzzle are we missing.
 
-### Issues
+##### Issues
 
 - one of core issue I can pinpoint is finding structure to our progress in the time of crises.(In the time when we don't set anything as definite truth, all statements are equal truths)
 
@@ -47,7 +129,21 @@ pieces of puzzle are we missing.
 
 - how to communicate the thought in the best possible way, so that we can make sure our information is transferred at best, without deviation.
 
-### Consensus in Scientific work
+### Reflection
+
+Our backgrounds of us as individuals clearly affects effects our understanding. Our interests as physicists would give rise to the starting point from where two interests need to be merged and agreed to the point to work on the same problem. 
+On the other hand, our language background is defines our boundary conditions.
+To agree upon the same problem the problem needs to be defined. This was done by defining the concepts like "semiconductor". 
+The definition is given in relation to common words and technical words, which when defined are related to other common words and technical words and so on and so forth. In the end one creates a web of relations that define technical terms through this relation in terms of common words. Common words being those, that seem natural and need no further explanation in example:
+
+**semiconductor**
+: A material that can be tuned (i.e. Voltage $V$) to switch between two macroscopic behaviors: isolator & conductor 
+
+Common words here could arguably be "material", "switch" or "behaviors". Of course this can be maybe avoided, by defining these terms as well, though there are two issues. One, the practicality under time constraints wanting whilst wanting to learn physics. Secondly the question about the actual possibility of clearly defining, without the use of technical terms, that need no definition which we, the authors, do not believe is possible (investigation of this would be interesting).
+
+The two of us have a similar interest in physics. We studied similar courses with interests in the abstract mathematical concepts. "D" grew up in germany with bilingual english/german upbringing. "A" ...
+
+#### Consensus in Scientific work
 
 Consensus on Wikipedia is defined as a general agreement, accord, or harmony in opinion or attitude among a group.
 
@@ -59,8 +155,12 @@ We both agreed that in order to make scientific progress, one needs a system of 
 
 This is more of a reflection on our two weeks and suggestions on how this could have been better and could be followed for our future endeavours.
 
-### Question
+#### Question
 
 - Personally, "A" finds it difficult to structure my project when I cannot see it as a whole (here "whole" means where to start and how to learn in a constructive way without spending a lot of time finding the right way). Which begs the question: how can we focus on making better progress under constraints when we have less time, more resources, and the potential to deviate?
 
 - Differences at work are not only scientific but also aesthetic in nature, and occasionally scientific conflicts are not entirely about right or wrong, but rather about differences in perspective. How can it be addressed?(In discussions at times we realized that we disagree not because we knew other person was wrong, but we disagreed beacsue we were looking at things differently in scientific terms. And interms of asthetics i felt like we both had different expectations from what we wanted to achieve, which lead us to have different understanding of progress and in that sense we dont feel either of us is right or wrong, but it does influence the goal we want to achieve and how to form consensus over it?)
+
+
+
+### Conclusion
