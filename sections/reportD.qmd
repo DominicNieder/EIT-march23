@@ -18,7 +18,7 @@ Write these last, find out what the report becomes. Then write Introduction etc
 
 - our background, because this greatly affects how we could come to conclusions:
 
-Our backgrounds of us as individuals clearly affects our understanding. Our interests as physicists gives rise to the starting point. This starting point of our individual interests that need to be merged and agreed upon, to the point so that we work on the same problem. 
+Our backgrounds of us as individuals clearly affects effects our understanding. Our interests as physicists would give rise to the starting point from where two interests need to be merged and agreed to the point to work on the same problem. 
 On the other hand, our language background is defines our boundary conditions.
 To agree upon the same problem the problem needs to be defined. This was done by defining the concepts like "semiconductor". 
 The definition is given in relation to common words and technical words, which when defined are related to other common words and technical words and so on and so forth. In the end one creates a web of relations that define technical terms through this relation in terms of common words. Common words being those, that seem natural and need no further explanation in example:
@@ -26,7 +26,7 @@ The definition is given in relation to common words and technical words, which w
 **semiconductor**
 : A material that can be tuned (i.e. Voltage $V$) to switch between two macroscopic behaviors: isolator & conductor 
 
-Common words here could arguably be "material", "switch" or "behaviors". Of course this can be maybe avoided, by defining these terms as well, though there are two issues. One, the practicality under time constraints wanting whilst wanting to learn physics. Secondly the question about the actual possibility of clearly defining, without the use of technical terms, that need no definition which we, the authors, do not believe is possible (an investigation of this would be interesting).
+Common words here could arguably be "material", "switch" or "behaviors". Of course this can be maybe avoided, by defining these terms as well, though there are two issues. One, the practicality under time constraints wanting whilst wanting to learn physics. Secondly the question about the actual possibility of clearly defining, without the use of technical terms, that need no definition which we, the authors, do not believe is possible (investigation of this would be interesting).
 
 The two of us have a similar interest in physics. We studied similar courses with interests in the abstract mathematical concepts. "D" grew up in germany with bilingual english/german upbringing. "A" ...
 
