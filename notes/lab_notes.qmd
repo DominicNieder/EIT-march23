@@ -32,9 +32,9 @@ Our experiment contains topics on
 
 ### On finding a topic
 
-We find it difficult to pin my interest onto one specific topic. We would like to set up an experiment capable to observe the atomic structure, i.e. to see the fine structure– or hyperfine structure splitting. To set up an experiment that is capable of measuring these incredibly detailed measurements physical structures we need to focus on the tools that we use to analyse the atomic structure of Rubidium.
+We find it difficult to pin our interests onto one specific topic. We would like to set up an experiment capable of observing the atomic structure, i.e. to see the fine structure– or hyperfine structure splitting. To set up an experiment that is capable of measuring these incredibly detailed measurements of physical structures we need to focus on the tools that we use to analyse the atomic structure of Rubidium.
 
-In our opinion, to make the extremely detailed measurement of a atomic structure, a detailed understanding of the external-cavity diode-laser (ECDL) and its emission spectrum. Detailed knowledge on the diode laser should provide us with the means to setup a ideal frequency to observe the fine–, hyperfine structure. But how do we characterize the light of the ECDL? 
+In our opinion, to make the extremely detailed measurement of a atomic structure, a detailed understanding of the external-cavity diode-laser (ECDL) and its emission spectrum is required. Detailed knowledge on the diode laser should provide us with the means to setup a ideal frequency to observe the fine–, hyperfine structure. But how do we characterize the light of the ECDL? 
 
 This brings us to the issue on spectroscopy. The Fabry-Pérot interferometer only measures relative spectra – though very precisely. To correctly characterize the emitted light of the ECDL, it seems advantageous to gain a deep understanding and a characterization of the Fabry-Pérot interferometer, which allows for the full characterization of the diode laser. The characterization of the ECDL go hand-in-hand with the characterization of the Fabry-Pérot interferometer.
 
@@ -52,9 +52,7 @@ This means, we want to:
   - Temperature dependance of emitted spectrum?
   - Can we determine the diffraction index $n$ of the depletion region (optical fiber)
 
-
 As concrete next steps, we need to find out about material compositions and the dimensions of the diode to then understand the models that describe the emission spectrum to make numerical predictions.
-
 
 ## Dominic: Literature collection
 
