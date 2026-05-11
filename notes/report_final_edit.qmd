@@ -56,9 +56,9 @@ The first problem we encounter was what we want to study? We went about this, by
 - spectroscopy techniques: Absorption, Flourescence, and Saturation
 - interferometery: Fabry-Pérot interferometer
 
-From these topics we identified our interests. During the discussion we identified that the underlying tool for our experiment is the external-cavity diode-laser (ECDL). A consensus was reached to study the external-cavity diode-laser in detail. It was the goal to get an in depth understanding of our device, and be able to manipulate the laser through controllable parameters. This led us to try to simulate a model of the ECDL. Thich process of deciding was finalized with a written document, that summarized our thoughts and discussions as well as concrete next steps:
+From these topics we identified our interests. During the discussion we identified that the underlying tool for our experiment is the external-cavity diode-laser (ECDL). A consensus was reached to study the external-cavity diode-laser in detail. It was the goal to get an in depth understanding of our device, and be able to manipulate the laser through controllable parameters. This led us to try to simulate a model of the ECDL. This process of deciding was finalized with a written document, that summarized our thoughts and discussions as well as concrete next steps.
 
-Though some issues that highlight the recursive manner of scientific work were still unsettled: The observations that the experiment allow are made with another, fundamental tool: spectrometry and interferometer that are used to determine the wavelength. Though, this issue was left unanswered. 
+Though some issues that highlight the recursive manner of scientific work were still unsettled: Other fundamental tool for experimental obervation were power meter and interferometer that would be used to characterize the ECDL. Therefore require a thorough understanding, simultaneous to the understanding of the ECDL. 
 
 "We find it difficult to pin our interests onto one specific topic. We would like to set up an experiment capable of observing the atomic structure, i.e. to see the fine structure– or hyperfine structure splitting. To set up an experiment that is capable of measuring these incredibly detailed measurements of physical structures we need to focus on the tools that we use to analyse the atomic structure of Rubidium.
 
@@ -80,12 +80,12 @@ This means, we want to:
   - Temperature dependance of emitted spectrum?
   - Can we determine the diffraction index $n$ of the depletion region (optical fiber)
 
-As concrete next steps, we need to find out about material compositions and the dimensions of the diode to then understand the models that describe the emission spectrum to make numerical predictions.
-"
+As concrete next steps, we need to find out about material compositions and the dimensions of the diode to then understand the models that describe the emission spectrum to make numerical predictions."
 
-When delving into the literature, we realized that some of the task we set ourselves, could not be achieved. It appeared out, that the parameters that were expected to be easily obtained were not given. Furthermore the theory to the laser diode is _Awais, please help me out here xD_ 
+When delving into the literature, we realized that some of the task we set ourselves, could not be achieved. It appeared, that the parameters and dimension of the diode, that were expected to be easily obtained were not given in the handbook. 
 
-(We should add in the following that our "progress" or our mind was on the questions of expectation. We were confused by the change of structure. Sure UW told us there are no expectations, but we were not sure. So the impression we had the about activity was learning about learning, which sounds introspective. One is introspective toward the past, not the present. Trying to be introspective made us more conflicted or unsure about what do next, and how to asses ourselves while doing it.)
+Retrospectively it would require to document this observation and to redefine our task. Though we felt the urge to continue the literature research. This issue will become apparent in the following section.
+
 
 #### Literature
 During our first week, first task we faced was finding literature that is relevant to what we wanted to achieve. So we both decided to read different literature, and our initial plan was to later discuss what we have read and bridge knowledge gaps between us two and come to a decision about how to proceed forward.
@@ -166,6 +166,8 @@ The definition is given in relation to common words and technical words, which w
 Common words here could arguably be "material", "switch" or "behaviors". Of course this can be maybe avoided, by defining these terms as well, though there are two issues. One, the practicality under time constraints wanting whilst wanting to learn physics. Secondly the question about the actual possibility of clearly defining, without the use of technical terms, that need no definition which we, the authors, do not believe is possible (investigation of this would be interesting).
 
 The two of us have a similar interest in physics. We studied similar courses with interests in the abstract mathematical concepts. "D" grew up in germany with bilingual english/german upbringing. "A" ...
+
+(We should add in the following that our "progress" or our mind was on the questions of expectation. We were confused by the change of structure. Sure UW told us there are no expectations, but we were not sure. So the impression we had the about activity was learning about learning, which sounds introspective. One is introspective toward the past, not the present. Trying to be introspective made us more conflicted or unsure about what do next, and how to asses ourselves while doing it.)
 
 #### Consensus in Scientific work
 
