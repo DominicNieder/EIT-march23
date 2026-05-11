@@ -82,7 +82,7 @@ The problem we are faced with:
 
 
 How to proceed:
-::: {layout="[60,40]"}
+:::: {layout="[60,40]"}
 ::: {}
 - we should work toward mode hop free region (step 0)); following manual instructions sec. 4.6.3.1
 - be wary of the max laser intensity to the FPI
@@ -92,7 +92,8 @@ How to proceed:
 :::
 
 ![Set up the mode-hop-free range, with the "Feed Forward" setting.](pictures/DLpro-setup-mode-hope-free-scanning.png){#fig-setup}
-:::
+::::
+
 - proceed with $P$-$I$-$T$ characterization
 
 ## Working toward lab report
