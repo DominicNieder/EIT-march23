@@ -131,6 +131,21 @@ pieces of puzzle are we missing.
 
 - how to communicate the thought in the best possible way, so that we can make sure our information is transferred at best, without deviation.
 
+#### Decision to Perform Measurements
+
+After going through article on characterization "A" thought of working on simulation ("A" used AI), and after getting done with it, realization that it does give us insight but it is half insight in a manner that we don't know if it does represent our system, or how much does it deviate from our system; hence, we need to take data from our experimental setup.(Also taking help of AI to make model did feel like a cheat in terms of original work, although it is very questionable what would be original work.)
+
+Hence we discussed and had consensus, that inorder to understand model better we need to setup experimental setup and perform some measurements.
+
+##### Experimental Attempt
+
+- As we started to set experiment and take measurement for P-I graph, while taking measurement we observed fluctuation and drifting of peizo voltage, and hence change in the output data which wouldnt suggest any observable pattern of behaviour. As more than one parameter were influencing the output parameter.
+- During this we had discussion and we decided to first find mode hop free region which according to our logic should give us good value of peizo voltage which has max mode hop free region and we decided to first find that to have measurement for PI graph.
+- Thing we missed out on is that peizo being parameter that change the length of cavity if it drifts then the centeral mode also changes hence changing the output information.(what we didnt discuss much was what if we turn peizo voltage, as it would have eliminated problem of drifting and fluctuation of it, but when we discussed this possibility my argument against it was that we wouldnt be in hopfree region hence the dataset wouldnt be translateable for optimal peizo value.)
+- This discussion became halt point for our progression of trying to collect data from the experimental setup, as we realized we had different ideas of how we wanted to proceed in our rest of days.
+- We pondered upon more of philosophical question of how to find agreement, and how to know we have equal understanding.
+
+
 ### Reflection
 
 Our backgrounds of us as individuals clearly affects effects our understanding. Our interests as physicists would give rise to the starting point from where two interests need to be merged and agreed to the point to work on the same problem. 
