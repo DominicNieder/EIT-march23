@@ -544,8 +544,11 @@ Parameter that corresponds to loss of optical wave(need to know more about it)
 <li>the data shows a drift in threshold current <span class="math inline">\(I_{thr}\)</span></li>
 <li>we conclude that the change may be induced by the change in the mode</li>
 </ul>
-<p>How to proceed: ::: {layout=“[60,40]”} ::: {} - we should work toward mode hop free region (step 0)); following manual instructions sec.&nbsp;4.6.3.1 - be wary of the max laser intensity to the FPI - use <span class="math inline">\(\lambda/2\)</span> plate with the beam splitter - what is the PDA 100? - 50/50 beam splitter :::</p>
-<p><img src="pictures/DLpro-setup-mode-hope-free-scanning.png" id="fig-setup" class="img-fluid" alt="Set up the mode-hop-free range, with the “Feed Forward” setting."> ::: - proceed with <span class="math inline">\(P\)</span>-<span class="math inline">\(I\)</span>-<span class="math inline">\(T\)</span> characterization</p>
+<p>How to proceed: :::: {layout=“[60,40]”} ::: {} - we should work toward mode hop free region (step 0)); following manual instructions sec.&nbsp;4.6.3.1 - be wary of the max laser intensity to the FPI - use <span class="math inline">\(\lambda/2\)</span> plate with the beam splitter - what is the PDA 100? - 50/50 beam splitter :::</p>
+<p><img src="pictures/DLpro-setup-mode-hope-free-scanning.png" id="fig-setup" class="img-fluid" alt="Set up the mode-hop-free range, with the “Feed Forward” setting."> ::::</p>
+<ul>
+<li>proceed with <span class="math inline">\(P\)</span>-<span class="math inline">\(I\)</span>-<span class="math inline">\(T\)</span> characterization</li>
+</ul>
 </section>
 <section id="working-toward-lab-report" class="level2" data-number="5">
 <h2 data-number="5" class="anchored" data-anchor-id="working-toward-lab-report"><span class="header-section-number">5</span> Working toward lab report</h2>
@@ -798,52 +801,22 @@ report/</code></pre>
 </section>
 <section id="literature" class="level4" data-number="6.2.3">
 <h4 data-number="6.2.3" class="anchored" data-anchor-id="literature"><span class="header-section-number">6.2.3</span> Literature</h4>
-<p>During our first week, first task we faced was finding literature that is relevant to what we wanted to achieve. So we both decided to read different literature, and our initial plan was to later discuss what we have read and bridge knowledge gaps between us two and come to a decision about how to proceed forward.</p>
-<p>After deciding upon a topic we had to learn about the DLpro, the laser available to us and about the modeling of laser diodes. Whilst “D” focused on gathering the information of the laser “Dlpro” <span class="citation" data-cites="diode_manual">AG (<a href="#ref-diode_manual" role="doc-biblioref">2011</a>)</span>, “A” focused on the the theoretical modeling of the diode. Throughout this phase we communicated our progress loosely. We took notes and also followed the advice of keeping a glossary in our respective files - separately. Defining “important” concepts as well as variables.</p>
+<p>During our first week, first problem we dealt with was finding literature relevant to what we wanted to achieve. This made us come to conclusion to explore literature independently. Our initial plan was to later discuss what we have read and bridge knowledge gaps between the two of us. Then come to a conclusion on how to proceed.</p>
+<p>We focused on literature around diode laser in general and particularly about DLpro the laser available to us and about the characterization of laser diodes. Throughout this phase we communicated our progress loosely. We took notes and also followed the advice of keeping a glossary in our respective files - separately. Defining “important” concepts as well as variables.</p>
+<p>This separation of work, of loosely communicating our struggles, resulted in deviating from our task rather than focusing on a clear goal.<br>
+After reading different literature we still had issues communicating the information and bridging the gap to come to a consensus about our next step, which lead us to consume time.</p>
+<p>Finding “relevant” or “good” literature to read is something we struggled with. Searching for literature over internet is tricky, as much as we have a lot of information it also results in deviation from original task. The task we set ourselves does not perfectly match the literature we come across first. Then when starting to read, we found ourselves delving deeply into one specific topic. This conflicts with trying to obtain a broad understanding of our topic. As to reach our set goal.</p>
 <ul>
-<li><p>Knowing what literature to consume is something “A” struggled with. Searching for literature over internet is tricky, as much as we have a lot of information, but its also easy to deviate from topic each time we try to dive into a search.</p></li>
-<li><p>Feeling of not being able to completely be confident in knowledge was always there.</p></li>
-<li><p>After reading different literature we still had issues communicating the information and bridging the gap to come to a consensus about our next step, which lead us to consume time.</p></li>
-<li><p>After going through literature I thought of working on simulation (I used AI), and after getting done with it, I realised that it does give us insight but it is half insight in a manner that we don’t know if it does represent our system, or how much does it deviate from our system; hence, we need to take data from our experimental setup.</p></li>
+<li>After going through literature I thought of working on simulation (I used AI), and after getting done with it, I realised that it does give us insight but it is half insight in a manner that we don’t know if it does represent our system, or how much does it deviate from our system; hence, we need to take data from our experimental setup.</li>
 </ul>
-<section id="dlpro-manual" class="level5" data-number="6.2.3.1">
-<h5 data-number="6.2.3.1" class="anchored" data-anchor-id="dlpro-manual"><span class="header-section-number">6.2.3.1</span> DLpro manual</h5>
-<p>The study of <span class="citation" data-cites="diode_manual">AG (<a href="#ref-diode_manual" role="doc-biblioref">2011</a>)</span> was motivated by the study of the input parameters and the output parameters:</p>
-<p><strong>Input:</strong></p>
-<ul>
-<li>high speed frequency modulation port (-&gt; frequency looking)</li>
-<li>current <span class="math inline">\(I_{pd}\)</span></li>
-<li>temperature <span class="math inline">\(T_{pd}\)</span></li>
-<li>Littrow grating angle <span class="math inline">\(\alpha_g\)</span></li>
-<li>grating constant <span class="math inline">\(d\)</span></li>
-<li>piezo actuator <span class="math inline">\(V_{pz}\)</span> -&gt; external cavity <span class="math inline">\(L\)</span> &amp; grating profile <span class="math inline">\(\alpha_g\)</span></li>
-</ul>
-<p><strong>Output:</strong></p>
-<ul>
-<li>coherence length <span class="math inline">\(&gt;100\text{m}\)</span></li>
-<li>line width <span class="math inline">\(&lt;1\text{MHz}\)</span></li>
-<li>tuning to “several 10’s of <span class="math inline">\(\text{nm}\)</span> without realignment”</li>
-<li>tuning of 10’s of <span class="math inline">\(\text{GHz}\)</span></li>
-<li>elliptical beam crosssecton (3:1)
-<ul>
-<li>“amorphic prism pair” can reshape the cross-section</li>
-</ul></li>
-<li>collimated beam</li>
-<li>power/luminosity <span class="math inline">\(P\)</span> (<span class="math inline">\(&lt;500\text{mW}\)</span>)</li>
-<li>spectral distribution <span class="math inline">\(\rho(\lambda)\)</span></li>
-<li>free spectral range <span class="math inline">\(\Delta \lambda\)</span></li>
-</ul>
-<p>Though the progress got sidetracked frequently. The idea of creating a numerical simulation for future students became attractive. This resulted in a change observable within the notes, as details on “how to use the DLpro” or “Tuning of the Diode Laser” were gathered, in hope to be helpful to others in the future. Though “important” notes as graphs by the manufacturer, capturing the input and output parameters were collected. The idea was, that the numerical simulation should be able to reproduce those, if modeled correctly.</p>
-</section>
 </section>
 <section id="decision-to-perform-measurements-1" class="level4" data-number="6.2.4">
 <h4 data-number="6.2.4" class="anchored" data-anchor-id="decision-to-perform-measurements-1"><span class="header-section-number">6.2.4</span> Decision to Perform Measurements</h4>
 <p>After having discussion we came to agreement over the fact that we need to setup experimental setup and perform some measurements.</p>
 <section id="experimental-attempt-1" class="level5" data-number="6.2.4.1">
 <h5 data-number="6.2.4.1" class="anchored" data-anchor-id="experimental-attempt-1"><span class="header-section-number">6.2.4.1</span> Experimental Attempt</h5>
+<p>As we started to set experiment and take measurement for P-I graph, while taking measurement we observed fluctuation and drifting of piezo voltage, and hence change in the output data which would not suggest any observable pattern of behaviour. As more than one parameter were influencing the output parameter. During this we had discussion and we decided to first find mode hop free region which according to our logic should give us good value of peizo voltage which has max mode hop free region and we decided to first find that to have measurement for PI graph.</p>
 <ul>
-<li>As we started to set experiment and take measurement for P-I graph, while taking measurement we observed fluctuation and drifting of peizo voltage, and hence change in the output data which wouldnt suggest any observable pattern of behaviour. As more than one parameter were influencing the output parameter.</li>
-<li>During this we had discussion and we decided to first find mode hop free region which according to our logic should give us good value of peizo voltage which has max mode hop free region and we decided to first find that to have measurement for PI graph.</li>
 <li>Thing we missed out on is that peizo being parameter that change the length of cavity if it drifts then the centeral mode also changes hence changing the output information.(what we didnt discuss much was what if we turn peizo voltage, as it would have eliminated problem of drifting and fluctuation of it, but when we discussed this possibility my argument against it was that we wouldnt be in hopfree region hence the dataset wouldnt be translateable for optimal peizo value.)</li>
 <li>This discussion became halt point for our progression of trying to collect data from the experimental setup, as we realized we had different ideas of how we wanted to proceed in our rest of days.</li>
 <li>We pondered upon more of philosophical question of how to find agreement, and how to know we have equal understanding.</li>
@@ -875,6 +848,11 @@ A material that can be tuned (i.e.&nbsp;Voltage <span class="math inline">\(V\)<
 <p>Common words here could arguably be “material”, “switch” or “behaviors”. Of course this can be maybe avoided, by defining these terms as well, though there are two issues. One, the practicality under time constraints wanting whilst wanting to learn physics. Secondly the question about the actual possibility of clearly defining, without the use of technical terms, that need no definition which we, the authors, do not believe is possible (investigation of this would be interesting).</p>
 <p>The two of us have a similar interest in physics. We studied similar courses with interests in the abstract mathematical concepts. “D” grew up in germany with bilingual english/german upbringing. “A” …</p>
 <p>(We should add in the following that our “progress” or our mind was on the questions of expectation. We were confused by the change of structure. Sure UW told us there are no expectations, but we were not sure. So the impression we had the about activity was learning about learning, which sounds introspective. One is introspective toward the past, not the present. Trying to be introspective made us more conflicted or unsure about what do next, and how to asses ourselves while doing it.)</p>
+<p>Especially in time constrained working environment does not allow to deviate much.</p>
+<ul>
+<li>Feeling of not being able to completely be confident in knowledge was always there.</li>
+</ul>
+<p>Though the progress got sidetracked frequently. The idea of creating a numerical simulation for future students became attractive. This resulted in a change observable within the notes, as details on “how to use the DLpro” or “Tuning of the Diode Laser” were gathered, in hope to be helpful to others in the future. Though “important” notes as graphs by the manufacturer, capturing the input and output parameters were collected. The idea was, that the numerical simulation should be able to reproduce those, if modeled correctly.</p>
 <section id="consensus-in-scientific-work-1" class="level4" data-number="6.3.1">
 <h4 data-number="6.3.1" class="anchored" data-anchor-id="consensus-in-scientific-work-1"><span class="header-section-number">6.3.1</span> Consensus in Scientific work</h4>
 <p>Consensus on Wikipedia is defined as a general agreement, accord, or harmony in opinion or attitude among a group.</p>
