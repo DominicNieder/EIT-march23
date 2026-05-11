@@ -43,7 +43,7 @@ With a folder for pictures and sub sections that can be included. The two files 
 
 
 #### Finding a topic
-The first problem we encounter is the question: What do we want to study? We went about this topic by first looking at the components of our experiment: (The first task we encounter was shat do we want to study.)
+The first problem we encounter was what we want to study? We went about this, by looking at the components of our experiment: 
 
 - laser physics: external-cavity diode-laser (ECDL)
 - atomic physics: $^{87}\text{Rn}(I=3/2)$, $^{85}\text{Rn}(I=5/2)$
@@ -56,58 +56,67 @@ The first problem we encounter is the question: What do we want to study? We wen
 - spectroscopy techniques: Absorption, Flourescence, and Saturation
 - interferometery: Fabry-Pérot interferometer
 
-From these aspects that we identified and thoroughly discussed what our interests were. We "decided upon" the detailed study of the "external-cavity diode-laser".( We went through the cronological order of the experiment as mentioned above and decided to take first step of the experiment and if we get satisfactory progress we move on to next.)
+From these topics we identified our interests. During the discussion we identified that the underlying tool for our experiment is the external-cavity diode-laser (ECDL). A consensus was reached to study the external-cavity diode-laser in detail. It was the goal to get an in depth understanding of our device, and be able to manipulate the laser through controllable parameters. This led us to try to simulate a model of the ECDL. This process of deciding was finalized with a written document, that summarized our thoughts and discussions as well as concrete next steps.
 
-It was the goal to get an in depth understanding so that we could eventually setup a numerical simulation of the ECDL. The process of deciding was based on:
+Though some issues that highlight the recursive manner of scientific work were still unsettled: Other fundamental tool for experimental obervation were power meter and interferometer that would be used to characterize the ECDL. Therefore require a thorough understanding, simultaneous to the understanding of the ECDL. 
 
-- a discussion on each of the parts 
-- argumentation of us describing our individual interests
-- a written document that summerized the discussion concluded our decision
+"We find it difficult to pin our interests onto one specific topic. We would like to set up an experiment capable of observing the atomic structure, i.e. to see the fine structure– or hyperfine structure splitting. To set up an experiment that is capable of measuring these incredibly detailed measurements of physical structures we need to focus on the tools that we use to analyse the atomic structure of Rubidium.
+
+In our opinion, to make the extremely detailed measurement of a atomic structure, a detailed understanding of the external-cavity diode-laser (ECDL) and its emission spectrum is required. Detailed knowledge on the diode laser should provide us with the means to setup a ideal frequency to observe the fine–, hyperfine structure. But how do we characterize the light of the ECDL? 
+
+This brings us to the issue on spectroscopy. The Fabry-Pérot interferometer only measures relative spectra – though very precisely. To correctly characterize the emitted light of the ECDL, it seems advantageous to gain a deep understanding and a characterization of the Fabry-Pérot interferometer, which allows for the full characterization of the diode laser. The characterization of the ECDL go hand-in-hand with the characterization of the Fabry-Pérot interferometer.
+
+The last point to be considered is optics. Not all optical components need to be understood in great detail to characterize the ECDL, though some shall be essential, i.e. a lense as well as the diffraction grating on a mirror are an integral part of the ECDL.
+
+The set goal should be to **fully characterize the ECDL**, which by necessity shall include the characterization of other parts to the setup of the experimental set up to EIT.
+This means, we want to:
+
+- compare emission spectrum of ECDL with theoretical prediction of semiconductor physics:
+  - How does the population inversion take place?
+  - What is our semi conductor made of (i.e. GaAs)?
+  - Is a characterization of the semi-conductor possible ($I–U$)?
+  - What instruments do we have to measure the spectrum?
+  - What is the Free spectral range of the ECDL (Fabry-Pérot modes)?
+  - Temperature dependance of emitted spectrum?
+  - Can we determine the diffraction index $n$ of the depletion region (optical fiber)
+
+As concrete next steps, we need to find out about material compositions and the dimensions of the diode to then understand the models that describe the emission spectrum to make numerical predictions."
+
+When delving into the literature, we realized that some of the task we set ourselves, could not be achieved. It appeared, that the parameters and dimension of the diode, that were expected to be easily obtained were not given in the handbook. 
+
+Retrospectively it would require to document this observation and to redefine our task. Though we felt the urge to continue the literature research. This issue will become apparent in the following section.
 
 
 #### Literature
-During our first week, first task we faced was finding literature that is relevant to what we wanted to achieve. So we both decided to read different literature, and our initial plan was to later discuss what we have read and bridge knowledge gaps between us two and come to a decision about how to proceed forward.
-(During our first week, we focused on finding literature that is relevant to what we wanted to achieve. So we both decided to read different literature. Initial we planed to later discuss what we read and bridge knowledge gaps between us two and come to a decision about how to proceed forward.)
+During our first week, first problem we dealt with was finding literature relevant to what we wanted to achieve. This made us come to conclusion to explore literature independently. Our initial plan was to later discuss what we have read and bridge knowledge gaps between the two of us. Then come to a conclusion on how to proceed.
 
-After deciding upon a topic we had to learn about the DLpro, the laser available to us and about the modeling of laser diodes.
-Whilst "D" focused on gathering the information of the laser "Dlpro" @diode_manual, "A" focused on the the theoretical modeling of the diode. Throughout this phase we communicated our progress loosely, though we did not make it concrete. We took notes and also followed the advice of keeping a glossary in our respective files - seperately. Defining "important" concepts as well as variables.
-(After deciding on topic we had to learn about the ECDL and particularly DLpro, the laser available to us and about the modeling of laser diodes. So, "D" focused on gathering information about DLpro through @diode_manual, while "A" focused on gathering information about characterization of Laser diode. Throughout this period we communicated our progress loosely, though we did not document the process of consensus. We took notes and also followed the advice of keeping a glossary in our respective files - seperately. Defining "important" concepts as well as variables.)
+We focused on literature around diode laser in general and particularly about DLpro the laser available to us and about the characterization of laser diodes.
+Throughout this phase we communicated our progress loosely. We took notes and also followed the advice of keeping a glossary in our respective files - separately. Defining "important" concepts as well as variables.
 
-##### Issues:
-- Not knowing what literature to consume is something "A" struggled with. Searching for literature over internet is tricky, as much as we have a lot of information, but its also easy to deviate from topic each time we try to dive into a search.
+This separation of work, of loosely communicating our struggles, resulted in deviating from our task rather than focusing on a clear goal.  
+After reading different literature we still had issues communicating the information and bridging the gap to come to a consensus about our next step, which lead us to consume time.
 
 
-- Feeling of not being able to completely be confident in knowledge was always there.
+Finding "relevant" or "good" literature to read is something we struggled with. Searching for literature over internet is tricky, as much as we have a lot of information it also results in deviation from original task. 
+The task we set ourselves does not perfectly match the literature we come across first. Then when starting to read, we found ourselves delving deeply into one specific topic. This conflicts with trying to obtain a broad understanding of our topic. As to reach our set goal.
 
-- After reading different literature we still had issues communicating the information and bridging the gap to come to a consensus about our next step, which lead us to consume time.
+
+- After going through literature I thought of working on simulation (I used AI), and after getting done with it, I realised that it does give us insight but it is half insight in a manner that we don't know if it does represent our system, or how much does it deviate from our system; hence, we need to take data from our experimental setup.
 
 
-##### DLpro manual
-The study of @diode_manual was motivated by the study of the input parameters and the output parameters:
 
-**Input:**
+#### Decision to Perform Measurements
 
-- high speed frequency modulation port (-> frequency looking)
-- current $I_{pd}$ 
-- temperature $T_{pd}$
-- Littrow grating angle $\alpha_g$
-- grating constant $d$
-- piezo actuator $V_{pz}$ -> external cavity $L$ & grating profile $\alpha_g$
+After having discussion we came to agreement over the fact that we need to setup experimental setup and perform some measurements.
 
-**Output:**
+##### Experimental Attempt
 
-- coherence length $>100\text{m}$
-- line width $<1\text{MHz}$
-- tuning to "several 10's of $\text{nm}$ without realignment" 
-- tuning of 10's of $\text{GHz}$
-- elliptical beam crosssecton (3:1)
-  - "amorphic prism pair" can  reshape the cross-section
-- collimated beam
-- power/luminosity $P$ ($<500\text{mW}$)
-- spectral distribution $\rho(\lambda)$
-- free spectral range $\Delta \lambda$
+As we started to set experiment and take measurement for P-I graph, while taking measurement we observed fluctuation and drifting of piezo voltage, and hence change in the output data which would not suggest any observable pattern of behaviour. As more than one parameter were influencing the output parameter.
+During this we had discussion and we decided to first find mode hop free region which according to our logic should give us good value of peizo voltage which has max mode hop free region and we decided to first find that to have measurement for PI graph.
 
-Though the progress got sidetracked frequently. The idea of creating a numerical simulation for future students became attractive. This resulted in a change observable within the notes, as details on "how to use the DLpro" or "Tuning of the Diode Laser" were gathered, in hope to be helpful to others in the future. Though "important" notes as graphs by the manufacturer, capturing the input and output parameters were collected. The idea was, that the numerical simulation should be able to reproduce those, if modeled correctly. 
+- Thing we missed out on is that peizo being parameter that change the length of cavity if it drifts then the centeral mode also changes hence changing the output information.(what we didnt discuss much was what if we turn peizo voltage, as it would have eliminated problem of drifting and fluctuation of it, but when we discussed this possibility my argument against it was that we wouldnt be in hopfree region hence the dataset wouldnt be translateable for optimal peizo value.)
+- This discussion became halt point for our progression of trying to collect data from the experimental setup, as we realized we had different ideas of how we wanted to proceed in our rest of days.
+- We pondered upon more of philosophical question of how to find agreement, and how to know we have equal understanding.
 
 #### Second Week Direction
 
@@ -150,6 +159,14 @@ The definition is given in relation to common words and technical words, which w
 Common words here could arguably be "material", "switch" or "behaviors". Of course this can be maybe avoided, by defining these terms as well, though there are two issues. One, the practicality under time constraints wanting whilst wanting to learn physics. Secondly the question about the actual possibility of clearly defining, without the use of technical terms, that need no definition which we, the authors, do not believe is possible (investigation of this would be interesting).
 
 The two of us have a similar interest in physics. We studied similar courses with interests in the abstract mathematical concepts. "D" grew up in germany with bilingual english/german upbringing. "A" ...
+
+(We should add in the following that our "progress" or our mind was on the questions of expectation. We were confused by the change of structure. Sure UW told us there are no expectations, but we were not sure. So the impression we had the about activity was learning about learning, which sounds introspective. One is introspective toward the past, not the present. Trying to be introspective made us more conflicted or unsure about what do next, and how to asses ourselves while doing it.)
+
+Especially in time constrained working environment does not allow to deviate much.
+
+- Feeling of not being able to completely be confident in knowledge was always there.
+
+Though the progress got sidetracked frequently. The idea of creating a numerical simulation for future students became attractive. This resulted in a change observable within the notes, as details on "how to use the DLpro" or "Tuning of the Diode Laser" were gathered, in hope to be helpful to others in the future. Though "important" notes as graphs by the manufacturer, capturing the input and output parameters were collected. The idea was, that the numerical simulation should be able to reproduce those, if modeled correctly. 
 
 #### Consensus in Scientific work
 
