@@ -1,4 +1,11 @@
+## The Politics of Science
+
 ### Introduction
+
+Politics may be understood in two ways: 1) Any decision process within a group of people (>=2). 2) The rupture of the common understanding (Jacques Rancière).
+
+This lab unit contained both of the two understandings of politics. First we focused on the decision process of the two of us "A" and "D". A large amount of discussion time went into how to gain a common understanding and how to make decisions, thus politics by the understanding in 1).
+Then, the lab unit started off, with the rupture of our common understanding of what a lab unit in the lab course was. The structure was stripped from around us and we experienced "politics" by form of the meaning 2).  
 
 Goal of the two weeks period was shifted from usual goals of being performative in experiments to learning the process of scientific research, (which not only includes progress and decisive steps but also consensus over steps and mutual understanding of progress), hence whole activity was focused on learning research process and we used topic of ECDL as more of direction for our two weeks.
 
@@ -150,7 +157,36 @@ Progress got sidetracked frequently. By the idea of creating a numerical simulat
 
 
 One way to make proper progress is to have two set of notes, one with unordered thoughts and explaination, and then develope on it into seperate notes which are more organized, and structured.(it is very retrospective way to take notes) 
+
+
 #### Consensus in Scientific work
+
+It is good to be in this lost state of mind because this is the only state that truly exists, though we usually trick ourselves into thinking otherwise – is what we said on the last day in the lab course. This addresses the hierarchy which got dropped and usually imposes the urge act as if we were fully understanding and to present confidence even if we are not. This also captures our aesthetic toward life in particular also scientific work itself: That we are all lost wonderers finding our way. 
+Though the way university and its courses are structured such that this may not be embraced. 
+As consequence the variety of ideas decreases; we are required to work to meet expectations, which results in narrow mindedness, strengthening its own hierarchies tightening the feedback loop. 
+
+We wish to embrace creativity! We wish to break hierarchies! We wish to stop lying to ourselves and to one another! We are lost! We wish to be open to all possibilities!
+
+- this experimental calss was about how to work scientifically in a team
+- this was a big break and contrast to the usual school like working environment: fullfilling the expectations of the seniors or superiors, in order to pass or obtain good grades
+- eventhough we appreciated the change we struggeled to really adapt to this change, as the old habits seem to run deep
+
+- we considered our working environment which sets preliminaries of our team work as important though also faulty. Our lack of experience with Github coast a few days. Our struggle can be seen particuly in the history of the branches
+- the structure of the repository would considere this: i.e. by having a better structure in the notes, that does not have a linear one way structure but maybe inlcudes pages for different topics. Pages that have unstructured thought though take note of date and time of edits. As well as pages that have structured thought, and are organized by topics. Then pages that keep track of organized notes. Clearly presenting changes to previous entries, capturing the main line of argumentation, describing where we find ourselves and where we wish to go.
+
+- we described how we came to a conclusion for the topic, this progress was summarized in written form. With observing that the continouse progress deviated to the set goal by ourselves when continuing in the literature review. Not only did we deviate from our own goals we defined, but also did our common knowlagde. We worked independantly not taking the time to see: Are we in line with our previous tasks? No! So what changed? Then rephrase our question, in order to orientate ourselves – in order not to "vor lauter Bäume den Wald nicht sehen". 
+
+- For the second week we did define how to proceed.
+- though we did not bridge the gap that developed in our knowladge
+- from here on the our work became chaotic our ideas and motives changed 
+- we started a measurement which resulted in more uncertainty
+- our goals we set ourselves were clearly not appropriate to the time constraint
+- our notes did not catch up with or discussions
+- we came to realize that the knowladge gap posed an issue for further advancements
+
+- then we gave insight into our thoughts and reflection on the two week lab unit.
+
+- 
 
 Consensus on Wikipedia is defined as a general agreement, accord, or harmony in opinion or attitude among a group.
 
