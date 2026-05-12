@@ -102,20 +102,17 @@ The task we set ourselves does not perfectly match the literature we come across
 
 After our literature review we tried to simulate a basic model (with help of AI), and we kept track of the parameter of our interest. After simulating a simple model, we realized that the geometric parameter of our interest i.e.: cavity-length was not available to us. The simulation also made us realize that the information and our understanding that we obtained only reveals a limited instight. The real device fluctuates, though model did not. Which lead to the question how to model the errors and fluctuations. This lead us to the conclusion to take experimental data from our laser DLpro.
 
-
-##### Experimental Attempt
-
-As we started to set experiment and take measurement for P-I graph, while taking measurement we observed fluctuation and drifting of piezo voltage, and hence change in the output data which would not suggest any observable pattern of behaviour. As more than one parameter were influencing the output parameter.
-During this we had discussion and we decided to first find mode hop free region which according to our logic should give us good value of peizo voltage which has max mode hop free region and we decided to first find that to have measurement for PI graph.
-
-- Thing we missed out on is that peizo being parameter that change the length of cavity if it drifts then the centeral mode also changes hence changing the output information.(what we didnt discuss much was what if we turn peizo voltage, as it would have eliminated problem of drifting and fluctuation of it, but when we discussed this possibility my argument against it was that we wouldnt be in hopfree region hence the dataset wouldnt be translateable for optimal peizo value.)
-- This discussion became halt point for our progression of trying to collect data from the experimental setup, as we realized we had different ideas of how we wanted to proceed in our rest of days.
-- We pondered upon more of philosophical question of how to find agreement, and how to know we have equal understanding.
-
 #### Second Week Direction
 
 Try to have numerical model of these parameter and play around with the inputs and observe dynamics of output and understand the behaviour, and in mean while take data of inputs from real experimental setup and observe if our understanding of dynamics make sense or not, and what
 pieces of puzzle are we missing.
+
+
+##### Experimental Attempt
+
+We started our experiment by taking data of intensity power (with use of photodiode), by varying the current, the other measureable parameter was peizo current (which is related to length of cavity). During our experient and tracking data we realized that the peizo voltage was not stable, it was fluctuating and drifting, leading to change in threshold current, and change in central mode. which made us realize that our output was influenced by two parameters. This lead us to have discussion and question our understanding of our ECDL setup. few of the points we wanted to revist were, how external cavity is affected if we turn peizo off, would it favour us?, would it be better to find optimal hopfree mode?, and what should be our next step, and what do we want to achieve?
+During the process we also realized that we do have different expectations from this whole activity. Which also made us question how do we find middle ground interms of our expectations.  We pondered upon more of philosophical question of how to find agreement, and how to know we have equal understanding.
+
 
 ##### Issues
 
@@ -124,20 +121,6 @@ pieces of puzzle are we missing.
 - The most valuable skill one can ever learn is ability to figure it out
 
 - how to communicate the thought in the best possible way, so that we can make sure our information is transferred at best, without deviation.
-
-#### Decision to Perform Measurements
-
-After going through article on characterization "A" thought of working on simulation ("A" used AI), and after getting done with it, realization that it does give us insight but it is half insight in a manner that we don't know if it does represent our system, or how much does it deviate from our system; hence, we need to take data from our experimental setup.(Also taking help of AI to make model did feel like a cheat in terms of original work, although it is very questionable what would be original work.)
-
-Hence we discussed and had consensus, that inorder to understand model better we need to setup experimental setup and perform some measurements.
-
-##### Experimental Attempt
-
-- As we started to set experiment and take measurement for P-I graph, while taking measurement we observed fluctuation and drifting of peizo voltage, and hence change in the output data which wouldnt suggest any observable pattern of behaviour. As more than one parameter were influencing the output parameter.
-- During this we had discussion and we decided to first find mode hop free region which according to our logic should give us good value of peizo voltage which has max mode hop free region and we decided to first find that to have measurement for PI graph.
-- Thing we missed out on is that peizo being parameter that change the length of cavity if it drifts then the centeral mode also changes hence changing the output information.(what we didnt discuss much was what if we turn peizo voltage, as it would have eliminated problem of drifting and fluctuation of it, but when we discussed this possibility my argument against it was that we wouldnt be in hopfree region hence the dataset wouldnt be translateable for optimal peizo value.)
-- This discussion became halt point for our progression of trying to collect data from the experimental setup, as we realized we had different ideas of how we wanted to proceed in our rest of days.
-- We pondered upon more of philosophical question of how to find agreement, and how to know we have equal understanding.
 
 
 ### Reflection
