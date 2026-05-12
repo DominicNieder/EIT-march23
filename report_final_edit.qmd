@@ -13,7 +13,7 @@ Goal of the two weeks period was shifted from usual goals of being performative 
 
 We, two people "A" and "D", were provided with an atomic physics experiment which allows students to perform the an experiment called "electromagnetically induced transparency". 
 Within this framework the question that we must face is "What is it that we want to understand?"
-Before we could tackle the task together, we needed a platform that allowed for independant working and thinking simultaneously capable to merge them into one project on common grounds.
+Before we could tackle the task together, we needed a platform that allowed for independant working and thinking and also to unify our thoughts.
 The platform we chose was github.
 As a new working environment it took some time and effort to get used to the environment:
 
@@ -43,7 +43,7 @@ With a folder for pictures and sub sections that can be included. The two files 
 
 
 #### Finding a topic
-What do we want to understand? – is the first step for any scientific work. We went about this, by looking at the components of our experiment: 
+The first problem we encounter was what we want to study? We went about this, by looking at the components of our experiment: 
 
 - laser physics: external-cavity diode-laser (ECDL)
 - atomic physics: $^{87}\text{Rn}(I=3/2)$, $^{85}\text{Rn}(I=5/2)$
@@ -56,9 +56,9 @@ What do we want to understand? – is the first step for any scientific work. We
 - spectroscopy techniques: Absorption, Flourescence, and Saturation
 - interferometery: Fabry-Pérot interferometer
 
-From these topics we identified our interests. During the discussion we realized that the underlying tool for our experiment is the external-cavity diode-laser (ECDL). A consensus was reached to study the external-cavity diode-laser in detail. It was the goal to get an in depth understanding of our device, and be able to manipulate the laser through controllable parameters. This, eventually led us to attempt a numerical simulation and modeling the ECDL. This decision process was finalized with a written document, that summarized our thoughts, discussions as well as holding onto concrete next steps.
+From these topics we identified our interests. During the discussion we identified that the underlying tool for our experiment is the external-cavity diode-laser (ECDL). A consensus was reached to study the external-cavity diode-laser in detail. It was the goal to get an in depth understanding of our device, and be able to manipulate the laser through controllable parameters. This led us to try to simulate a model of the ECDL. This process of deciding was finalized with a written document, that summarized our thoughts and discussions as well as concrete next steps.
 
-In this discussion we came across a issues that highlight the recursive manner of scientific work. This is, that another fundamental tool of the experiment is required. The tool for obervations. These were the photo-diode and an interferometer, or Fabry-Pérot interferometer, which would be used to characterize the ECDL. Therefore, we faced the dilemma that required us to have a thorough understanding of these instruments, simultaneous to the understanding of the ECDL. This dilemma, though was not further discussed until the end of the two week lab time.
+Though some issues that highlight the recursive manner of scientific work were still unsettled: Other fundamental tool for experimental obervation were power meter and interferometer that would be used to characterize the ECDL. Therefore require a thorough understanding, simultaneous to the understanding of the ECDL. 
 
 "We find it difficult to pin our interests onto one specific topic. We would like to set up an experiment capable of observing the atomic structure, i.e. to see the fine structure– or hyperfine structure splitting. To set up an experiment that is capable of measuring these incredibly detailed measurements of physical structures we need to focus on the tools that we use to analyse the atomic structure of Rubidium.
 
@@ -88,8 +88,7 @@ Retrospectively it would require to document this observation and to redefine ou
 
 
 #### Literature
-After deciding on studying the ECDL, we needed to find and read literature that would give us insight into how to gain understanding of the ECDL.
-The literature research was inherently independent work. We took notes independantly, held a glossary independantly. Keeping in mind to discuss what we have read and to teach one another what we learned and bridge knowledge gaps between the two of us. In other words, to merge our knowlagde so that we could be on common ground.
+During our first week, first problem we dealt with was finding literature relevant to what we wanted to achieve. This made us come decide to explore literature independently. Our plan was to later discuss what we have read and bridge knowledge gaps between the two of us. Then come to a conclusion on how to proceed.
 
 We focused on literature around diode laser in general and particularly about DLpro the laser available to us and about the characterization of laser diodes.
 Throughout this phase we communicated our progress loosely. We took notes and also followed the advice of keeping a glossary in our respective files - separately. Defining "important" concepts as well as variables.
@@ -103,69 +102,47 @@ The task we set ourselves does not perfectly match the literature we come across
 
 After our literature review we tried to simulate a basic model (with help of AI), and we kept track of the parameter of our interest. After simulating a simple model, we realized that the geometric parameter of our interest i.e.: cavity-length was not available to us. The simulation also made us realize that the information and our understanding that we obtained only reveals a limited instight. The real device fluctuates, though model did not. Which lead to the question how to model the errors and fluctuations. This lead us to the conclusion to take experimental data from our laser DLpro.
 
-
-##### Experimental Attempt
-
-(When we started taking measurements for the P-I characteristic, we observed that the piezo voltage was fluctuating and drifting. This caused the threshold current to drift which we observed in the data. Multiple parameters were influencing the output simultaneously.
-
-What we had not considered was that if the piezo drifts, the cavity length changes and the central mode shifts — corrupting the output. We briefly discussed turning the piezo voltage off entirely, which would have eliminated the drift, but this was rejected on the grounds that we would no longer be in the mode-hop-free region, making the dataset less useful.)
-
-As we started to set experiment and take measurement for P-I graph, while taking measurement we observed fluctuation and drifting of piezo voltage, and hence change in the output data which would not suggest any observable pattern of behaviour. As more than one parameter were influencing the output parameter.
-During this we had discussion and we decided to first find mode hop free region which according to our logic should give us good value of peizo voltage which has max mode hop free region and we decided to first find that to have measurement for PI graph.
-
-- Thing we missed out on is that piezo being parameter that change the length of cavity if it drifts then the centeral mode also changes hence changing the output information. (what we didnt discuss much was what if we turn piezo voltage, as it would have eliminated problem of drifting and fluctuation of it, but when we discussed this possibility my argument against it was that we wouldnt be in hopfree region hence the dataset wouldnt be translateable for optimal peizo value.)
-- This discussion became halting point for our progression of trying to collect data from the experimental setup, as we realized we had different ideas of how we wanted to proceed in our rest of days.
-- We pondered upon more of philosophical question of how to find agreement, and how to know we have equal understanding.
-
 #### Second Week Direction
 
 Try to have numerical model of these parameter and play around with the inputs and observe dynamics of output and understand the behaviour, and in mean while take data of inputs from real experimental setup and observe if our understanding of dynamics make sense or not, and what
 pieces of puzzle are we missing.
 
-##### Issues
-
-- one of core issue I can pinpoint is finding structure to our progress in the time of crises.(In the time when we don't set anything as definite truth, all statements are equal truths)
-
-- The most valuable skill one can ever learn is ability to figure it out
-
-- how to communicate the thought in the best possible way, so that we can make sure our information is transferred at best, without deviation.
-
-#### Decision to Perform Measurements
-
-After going through article on characterization "A" thought of working on simulation ("A" used AI), and after getting done with it, realization that it does give us insight but it is half insight in a manner that we don't know if it does represent our system, or how much does it deviate from our system; hence, we need to take data from our experimental setup.(Also taking help of AI to make model did feel like a cheat in terms of original work, although it is very questionable what would be original work.)
-
-Hence we discussed and had consensus, that inorder to understand model better we need to setup experimental setup and perform some measurements.
 
 ##### Experimental Attempt
 
-- As we started to set experiment and take measurement for P-I graph, while taking measurement we observed fluctuation and drifting of peizo voltage, and hence change in the output data which wouldnt suggest any observable pattern of behaviour. As more than one parameter were influencing the output parameter.
-- During this we had discussion and we decided to first find mode hop free region which according to our logic should give us good value of peizo voltage which has max mode hop free region and we decided to first find that to have measurement for PI graph.
-- Thing we missed out on is that peizo being parameter that change the length of cavity if it drifts then the centeral mode also changes hence changing the output information.(what we didnt discuss much was what if we turn peizo voltage, as it would have eliminated problem of drifting and fluctuation of it, but when we discussed this possibility my argument against it was that we wouldnt be in hopfree region hence the dataset wouldnt be translateable for optimal peizo value.)
-- This discussion became halt point for our progression of trying to collect data from the experimental setup, as we realized we had different ideas of how we wanted to proceed in our rest of days.
-- We pondered upon more of philosophical question of how to find agreement, and how to know we have equal understanding.
+We started our experiment by taking data of intensity power (with use of photodiode), by varying the current, the other measureable parameter was peizo current (which is related to length of cavity). During our experient and tracking data we realized that the peizo voltage was not stable, it was fluctuating and drifting, leading to change in threshold current, and change in central mode. which made us realize that our output was influenced by two parameters. This lead us to have discussion and question our understanding of our ECDL setup. few of the points we wanted to revist were, how external cavity is affected if we turn peizo off, would it favour us?, would it be better to find optimal hopfree mode?, and what should be our next step, and what do we want to achieve?
 
 
-### Reflection
+### Reflection and Issues
 
-Our backgrounds of us as individuals clearly affects effects our understanding. Our interests as physicists would give rise to the starting point from where two interests need to be merged and agreed to the point to work on the same problem. 
-On the other hand, our language background is defines our boundary conditions.
-To agree upon the same problem the problem needs to be defined. This was done by defining the concepts like "semiconductor". 
-The definition is given in relation to common words and technical words, which when defined are related to other common words and technical words and so on and so forth. In the end one creates a web of relations that define technical terms through this relation in terms of common words. Common words being those, that seem natural and need no further explanation in example:
+Our two-week journey was never short of difficulties. This made us realize how difficult the scientific process itself could be. Among all other major and minor issues, a prominent one was the drive and motivation to stay optimistic every day.
 
-**semiconductor**
-: A material that can be tuned (i.e. Voltage $V$) to switch between two macroscopic behaviors: isolator & conductor 
+Our backgrounds as individuals clearly affect our understanding. A different upbringing should not be taken lightly: “D” grew up in Germany with a bilingual English/German upbringing, while “A” grew up in Pakistan in a multilingual surrounding. 
+In a physics project our interests as physicists gave rise to the starting points.  These needed to be agreed upon and merged in order to work on the same problem. Luckily, the two of us have a similar interest in physics. We studied similar courses with interests in abstract mathematical concepts. Hence our choice for a deeper theoretical understanding of the ECDL.
 
-Common words here could arguably be "material", "switch" or "behaviors". Of course this can be maybe avoided, by defining these terms as well, though there are two issues. One, the practicality under time constraints wanting whilst wanting to learn physics. Secondly the question about the actual possibility of clearly defining, without the use of technical terms, that need no definition which we, the authors, do not believe is possible (investigation of this would be interesting).
+One of the core issues we can pinpoint was finding structure in our progress during times of disagreement. When we did not set anything as definite truth, all statements seemed to become equal truths. This made it difficult to decide how to move forward.
 
-The two of us have a similar interest in physics. We studied similar courses with interests in the abstract mathematical concepts. "D" grew up in germany with bilingual english/german upbringing. "A" ...
+This difficulty was connected to the way the two-week activity was redefined for us. Usually, such an activity might be understood as working toward a clear goal, result, or presentation. However, UW told us there were no expectations, which made it both tricky and difficult to understand what our direction should be. The impression we had was that the activity was about learning the learning-process, which made us look inward. An inward looking, introspective task. One is usually introspective toward past actions, not present ones. Trying to be introspective while still being inside the process made us more aware of ourselves. Though also unsure about what to do next, and how to assess ourselves while doing it.
 
-(We should add in the following that our "progress" or our mind was on the questions of expectation. We were confused by the change of structure. Sure UW told us there are no expectations, but we were not sure. So the impression we had the about activity was learning about learning, which sounds introspective. One is introspective toward the past, not the present. Trying to be introspective made us more conflicted or unsure about what do next, and how to asses ourselves while doing it.)
+Being used to expectations and the developed habit to fullfill the expectations of our superior under timeconstraints could bot be overlooked. Whilst trying adopt to the new structure, the time constraint remained. Which toward the deadline resulted in the difficulty of maintaining motivation and optimism. This became especially clear, when progress, in the sense of advancing, seeing results, or having something to present to a third person, was not reached. 
+Furthermore in a time-constrained working environment, one cannot explore and deviate much. The feeling of having little time left for any further work led us to stutter and come to a halt. At that point, the lack of confidence in our knowledge was prominent, and simple philosophical questions made us question the most basic thing: What are we doing here? And why are we doing what we were doing? 
 
-Especially in time constrained working environment does not allow to deviate much.
+Throughout the entire process, a recurring conflict that we observed and tried to understand was our expectations of ourselves as individuals. However, what exactly these differences were, and where they came from, was not easy to identify. So far, we can formulate them through two statements. On the one hand: “I feel like I am free, so I want to make the most out of this opportunity.” On the other hand: “I felt like, as there are no expectations, I would just want to enjoy the process of learning without really worrying about doing a lot.” This made us question, how we could find a middle ground in terms of our expectations?
 
-- Feeling of not being able to completely be confident in knowledge was always there.
+Another important issue was about communication: How to express thoughts in the best possible way? How to make sure that information was transferred clearly and without too much deviation? As well as, how to know whether we had reached the same understanding? This also raised the question of how we come to agreement when our interpretations of certain concepts are not exactly the same.
 
-Though the progress got sidetracked frequently. The idea of creating a numerical simulation for future students became attractive. This resulted in a change observable within the notes, as details on "how to use the DLpro" or "Tuning of the Diode Laser" were gathered, in hope to be helpful to others in the future. Though "important" notes as graphs by the manufacturer, capturing the input and output parameters were collected. The idea was, that the numerical simulation should be able to reproduce those, if modeled correctly. 
+This became especially visible when trying to define concepts like “semiconductor.” Our language background, mentioned above, defined our boundary conditions. To agree upon the same problem, the problem needs to be defined without missunderstanding.
+
+A definition is given in relation to common words and technical words, which, when defined, are related to other common words and technical words, and so on and so forth. In the end, one creates a web of relations that defines technical terms through this relation in terms of common words. Common words are those that seem natural and need no further explanation, for example:
+
+semiconductor
+: A material that can be tuned, i.e. voltage V, to switch between two macroscopic behaviors: insulator and conductor.
+
+Common words here could arguably be “material,” “switch,” or “behaviors.” Of course, this can maybe be avoided by defining these terms as well, though there are two issues. One is the practicality under time constraints whilst wanting to learn physics. Secondly, there is the question about the actual possibility of clearly defining without the use of technical terms that need no definition, which we, the authors, do not believe is possible. Further investigation of this would be interesting.
+
+Our differences were not only scientific but also aesthetic in nature. At times, our disagreements were not about right or wrong, but about different perspectives. In terms of aesthetics, we felt that we both had different preferences, which expressed themselves in our expectations of progress and were also visible in the glossary section while coming to consensus about definitions. In that sense, we did not feel that either of us was right or wrong, but these differences still influenced the goal we wanted to achieve and how we could form consensus over it? More importantly, this made us question, how these expectations reflected in our struggle to work scientifically together? And what we could do to overcome this?
+
+Progress got sidetracked frequently. By the idea of creating a numerical simulation for future students. As well as a deep dive into one specific literature, rather than collecting various literature. This bahaviour can be explained by us ignoring the question if this aligns with the way we wanted to proceed originally. Which resulted in an observable change within our notes, as details on “how to use the DLpro” or “tuning of the diode laser” were gathered in the hope of being helpful to others in the future. Also, “important” notes such as graphs by the manufacturer, capturing the input and output parameters, were collected. 
 
 #### Consensus in Scientific work
 
@@ -179,12 +156,10 @@ We both agreed that in order to make scientific progress, one needs a system of 
 
 This is more of a reflection on our two weeks and suggestions on how this could have been better and could be followed for our future endeavours.
 
-#### Question
-
-- Personally, "A" finds it difficult to structure my project when I cannot see it as a whole (here "whole" means where to start and how to learn in a constructive way without spending a lot of time finding the right way). Which begs the question: how can we focus on making better progress under constraints when we have less time, more resources, and the potential to deviate?
-
-- Differences at work are not only scientific but also aesthetic in nature, and occasionally scientific conflicts are not entirely about right or wrong, but rather about differences in perspective. How can it be addressed?(In discussions at times we realized that we disagree not because we knew other person was wrong, but we disagreed beacsue we were looking at things differently in scientific terms. And interms of asthetics i felt like we both had different expectations from what we wanted to achieve, which lead us to have different understanding of progress and in that sense we dont feel either of us is right or wrong, but it does influence the goal we want to achieve and how to form consensus over it?)
 
 
 
 ### Conclusion
+- The most valuable skill one can ever learn is ability to figure it out
+
+- One way to make proper progress is to have two set of notes, one with unordered thoughts and explaination, and then develope on it into seperate notes which are more organized, and structured.(it is very retrospective way to take notes) 
