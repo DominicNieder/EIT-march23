@@ -13,7 +13,7 @@ Goal of the two weeks period was shifted from usual goals of being performative 
 
 We, two people "A" and "D", were provided with an atomic physics experiment which allows students to perform the an experiment called "electromagnetically induced transparency". 
 Within this framework the question that we must face is "What is it that we want to understand?"
-Before we could tackle the task together, we needed a platform that allowed for independant working and thinking and also to unify our thoughts.
+Before we could tackle the task together, we needed a platform that allowed for independant working and thinking simultaneously capable to merge them into one project on common grounds.
 The platform we chose was github.
 As a new working environment it took some time and effort to get used to the environment:
 
@@ -43,7 +43,7 @@ With a folder for pictures and sub sections that can be included. The two files 
 
 
 #### Finding a topic
-The first problem we encounter was what we want to study? We went about this, by looking at the components of our experiment: 
+What do we want to understand? – is the first step for any scientific work. We went about this, by looking at the components of our experiment: 
 
 - laser physics: external-cavity diode-laser (ECDL)
 - atomic physics: $^{87}\text{Rn}(I=3/2)$, $^{85}\text{Rn}(I=5/2)$
@@ -56,9 +56,9 @@ The first problem we encounter was what we want to study? We went about this, by
 - spectroscopy techniques: Absorption, Flourescence, and Saturation
 - interferometery: Fabry-Pérot interferometer
 
-From these topics we identified our interests. During the discussion we identified that the underlying tool for our experiment is the external-cavity diode-laser (ECDL). A consensus was reached to study the external-cavity diode-laser in detail. It was the goal to get an in depth understanding of our device, and be able to manipulate the laser through controllable parameters. This led us to try to simulate a model of the ECDL. This process of deciding was finalized with a written document, that summarized our thoughts and discussions as well as concrete next steps.
+From these topics we identified our interests. During the discussion we realized that the underlying tool for our experiment is the external-cavity diode-laser (ECDL). A consensus was reached to study the external-cavity diode-laser in detail. It was the goal to get an in depth understanding of our device, and be able to manipulate the laser through controllable parameters. This, eventually led us to attempt a numerical simulation and modeling the ECDL. This decision process was finalized with a written document, that summarized our thoughts, discussions as well as holding onto concrete next steps.
 
-Though some issues that highlight the recursive manner of scientific work were still unsettled: Other fundamental tool for experimental obervation were power meter and interferometer that would be used to characterize the ECDL. Therefore require a thorough understanding, simultaneous to the understanding of the ECDL. 
+In this discussion we came across a issues that highlight the recursive manner of scientific work. This is, that another fundamental tool of the experiment is required. The tool for obervations. These were the photo-diode and an interferometer, or Fabry-Pérot interferometer, which would be used to characterize the ECDL. Therefore, we faced the dilemma that required us to have a thorough understanding of these instruments, simultaneous to the understanding of the ECDL. This dilemma, though was not further discussed until the end of the two week lab time.
 
 "We find it difficult to pin our interests onto one specific topic. We would like to set up an experiment capable of observing the atomic structure, i.e. to see the fine structure– or hyperfine structure splitting. To set up an experiment that is capable of measuring these incredibly detailed measurements of physical structures we need to focus on the tools that we use to analyse the atomic structure of Rubidium.
 
@@ -88,7 +88,8 @@ Retrospectively it would require to document this observation and to redefine ou
 
 
 #### Literature
-During our first week, first problem we dealt with was finding literature relevant to what we wanted to achieve. This made us come to conclusion to explore literature independently. Our initial plan was to later discuss what we have read and bridge knowledge gaps between the two of us. Then come to a conclusion on how to proceed.
+After deciding on studying the ECDL, we needed to find and read literature that would give us insight into how to gain understanding of the ECDL.
+The literature research was inherently independent work. We took notes independantly, held a glossary independantly. Keeping in mind to discuss what we have read and to teach one another what we learned and bridge knowledge gaps between the two of us. In other words, to merge our knowlagde so that we could be on common ground.
 
 We focused on literature around diode laser in general and particularly about DLpro the laser available to us and about the characterization of laser diodes.
 Throughout this phase we communicated our progress loosely. We took notes and also followed the advice of keeping a glossary in our respective files - separately. Defining "important" concepts as well as variables.
@@ -111,11 +112,15 @@ After having discussion we came to agreement over the fact that we need to setup
 
 ##### Experimental Attempt
 
+(When we started taking measurements for the P-I characteristic, we observed that the piezo voltage was fluctuating and drifting. This caused the threshold current to drift which we observed in the data. Multiple parameters were influencing the output simultaneously.
+
+What we had not considered was that if the piezo drifts, the cavity length changes and the central mode shifts — corrupting the output. We briefly discussed turning the piezo voltage off entirely, which would have eliminated the drift, but this was rejected on the grounds that we would no longer be in the mode-hop-free region, making the dataset less useful.)
+
 As we started to set experiment and take measurement for P-I graph, while taking measurement we observed fluctuation and drifting of piezo voltage, and hence change in the output data which would not suggest any observable pattern of behaviour. As more than one parameter were influencing the output parameter.
 During this we had discussion and we decided to first find mode hop free region which according to our logic should give us good value of peizo voltage which has max mode hop free region and we decided to first find that to have measurement for PI graph.
 
-- Thing we missed out on is that peizo being parameter that change the length of cavity if it drifts then the centeral mode also changes hence changing the output information.(what we didnt discuss much was what if we turn peizo voltage, as it would have eliminated problem of drifting and fluctuation of it, but when we discussed this possibility my argument against it was that we wouldnt be in hopfree region hence the dataset wouldnt be translateable for optimal peizo value.)
-- This discussion became halt point for our progression of trying to collect data from the experimental setup, as we realized we had different ideas of how we wanted to proceed in our rest of days.
+- Thing we missed out on is that piezo being parameter that change the length of cavity if it drifts then the centeral mode also changes hence changing the output information. (what we didnt discuss much was what if we turn piezo voltage, as it would have eliminated problem of drifting and fluctuation of it, but when we discussed this possibility my argument against it was that we wouldnt be in hopfree region hence the dataset wouldnt be translateable for optimal peizo value.)
+- This discussion became halting point for our progression of trying to collect data from the experimental setup, as we realized we had different ideas of how we wanted to proceed in our rest of days.
 - We pondered upon more of philosophical question of how to find agreement, and how to know we have equal understanding.
 
 #### Second Week Direction
