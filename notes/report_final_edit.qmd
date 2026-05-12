@@ -111,16 +111,21 @@ pieces of puzzle are we missing.
 ##### Experimental Attempt
 
 We started our experiment by taking data of intensity power (with use of photodiode), by varying the current, the other measureable parameter was peizo current (which is related to length of cavity). During our experient and tracking data we realized that the peizo voltage was not stable, it was fluctuating and drifting, leading to change in threshold current, and change in central mode. which made us realize that our output was influenced by two parameters. This lead us to have discussion and question our understanding of our ECDL setup. few of the points we wanted to revist were, how external cavity is affected if we turn peizo off, would it favour us?, would it be better to find optimal hopfree mode?, and what should be our next step, and what do we want to achieve?
-During the process we also realized that we do have different expectations from this whole activity. Which also made us question how do we find middle ground interms of our expectations.  We pondered upon more of philosophical question of how to find agreement, and how to know we have equal understanding.
 
 
-##### Issues
 
-- one of core issue I can pinpoint is finding structure to our progress in the time of crises.(In the time when we don't set anything as definite truth, all statements are equal truths)
+### Issues
+Our two weeks journey was never short of difficulties. This made us realize how the scientific process itself could be difficult. Among all other major and minor issues, a prominent one is the drive or motivation to always be optimistic every day.
 
-- The most valuable skill one can ever learn is ability to figure it out
+One of core issue we can pinpoint is finding structure to our progress in the time of disagreement. (In the time when we don't set anything as definite truth, all statements are equal truths)
 
-- how to communicate the thought in the best possible way, so that we can make sure our information is transferred at best, without deviation.
+Another important issue was communication: how to express thoughts in the best possible way, how to make sure that information was transferred clearly and without too much deviation, and how to know whether we had reached the same understanding. This also raised the question of how we come to agreement when our interpretations are not exactly the same.
+
+Throughout the entire process, a major conflict we observed and tried to understand was related to our expectations. We realized that we had different expectations from this whole activity. However, what exactly these differences were, and where they came from, was not easy to identify. So far, we could connect them to two differing statements. On the one hand: “I feel like I am free, so I want to make the most out of this opportunity.” On the other hand: “I felt like, as there are no expectations, I would just want to enjoy the process of learning without really worrying about doing a lot.” This made us question how we could find a middle ground in terms of our expectations.
+
+More importantly, this made us question how these expectations reflected in our struggle to work scientifically together, and what we could do to overcome this.
+
+The issue of time connected back to the larger difficulty of maintaining motivation and optimism throughout the process. This became especially clear toward the end, when progress, in the sense of advancing, seeing quick results, or having something to present to a third person, was not reached. Having little time left for any further work led us to stutter and come to a halt. At that point, simple philosophical questions made us question the most basic thing: what are we doing here, and why are we doing what we were doing?
 
 
 ### Reflection
@@ -166,3 +171,6 @@ This is more of a reflection on our two weeks and suggestions on how this could 
 
 
 ### Conclusion
+- The most valuable skill one can ever learn is ability to figure it out
+
+- One way to make proper progress is to have two set of notes, one with unordered thoughts and explaination, and then develope on it into seperate notes which are more organized, and structured.(it is very retrospective way to take notes) 
