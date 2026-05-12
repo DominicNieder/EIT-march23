@@ -144,6 +144,11 @@ Our differences were not only scientific but also aesthetic in nature. At times,
 
 Progress got sidetracked frequently. By the idea of creating a numerical simulation for future students. As well as a deep dive into one specific literature, rather than collecting various literature. This bahaviour can be explained by us ignoring the question if this aligns with the way we wanted to proceed originally. Which resulted in an observable change within our notes, as details on “how to use the DLpro” or “tuning of the diode laser” were gathered in the hope of being helpful to others in the future. Also, “important” notes such as graphs by the manufacturer, capturing the input and output parameters, were collected. 
 
+
+### Conclusion
+
+
+One way to make proper progress is to have two set of notes, one with unordered thoughts and explaination, and then develope on it into seperate notes which are more organized, and structured.(it is very retrospective way to take notes) 
 #### Consensus in Scientific work
 
 Consensus on Wikipedia is defined as a general agreement, accord, or harmony in opinion or attitude among a group.
@@ -157,9 +162,5 @@ We both agreed that in order to make scientific progress, one needs a system of 
 This is more of a reflection on our two weeks and suggestions on how this could have been better and could be followed for our future endeavours.
 
 
-
-
-### Conclusion
 - The most valuable skill one can ever learn is ability to figure it out
 
-- One way to make proper progress is to have two set of notes, one with unordered thoughts and explaination, and then develope on it into seperate notes which are more organized, and structured.(it is very retrospective way to take notes) 
