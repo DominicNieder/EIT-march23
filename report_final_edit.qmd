@@ -95,20 +95,14 @@ We focused on literature around diode laser in general and particularly about DL
 Throughout this phase we communicated our progress loosely. We took notes and also followed the advice of keeping a glossary in our respective files - separately. Defining "important" concepts as well as variables.
 
 This separation of work, of loosely communicating our struggles, resulted in deviating from our task rather than focusing on a clear goal.  
-After reading different literature we still had issues communicating the information and bridging the gap to come to a consensus about our next step, which lead us to consume time.
+After reading different literature we still had issues communicating the information and bridging the gap to come to a consensus about our next step.
 
 
 Finding "relevant" or "good" literature to read is something we struggled with. Searching for literature over internet is tricky, as much as we have a lot of information it also results in deviation from original task. 
 The task we set ourselves does not perfectly match the literature we come across first. Then when starting to read, we found ourselves delving deeply into one specific topic. This conflicts with trying to obtain a broad understanding of our topic. As to reach our set goal.
 
+After our literature review we tried to simulate a basic model (with help of AI), and we kept track of the parameter of our interest. After simulating a simple model, we realized that the geometric parameter of our interest i.e.: cavity-length was not available to us. The simulation also made us realize that the information and our understanding that we obtained only reveals a limited instight. The real device fluctuates, though model did not. Which lead to the question how to model the errors and fluctuations. This lead us to the conclusion to take experimental data from our laser DLpro.
 
-- After going through literature I thought of working on simulation (I used AI), and after getting done with it, I realised that it does give us insight but it is half insight in a manner that we don't know if it does represent our system, or how much does it deviate from our system; hence, we need to take data from our experimental setup.
-
-
-
-#### Decision to Perform Measurements
-
-After having discussion we came to agreement over the fact that we need to setup experimental setup and perform some measurements.
 
 ##### Experimental Attempt
 
