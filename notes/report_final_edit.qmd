@@ -148,13 +148,26 @@ Progress got sidetracked frequently. By the idea of creating a numerical simulat
 
 ### Conclusion
 
+- The scientific progress is slow and draining, and expectation of quick results wouldnt help.
 
-One way to make proper progress is to have two set of notes, one with unordered thoughts and explaination, and then develope on it into seperate notes which are more organized, and structured.(it is very retrospective way to take notes) 
+- Better Notes: One way to make proper progress is to have two set of notes, one with unordered thoughts and explaination, and then develope on it into seperate notes which are more organized, and structured.(it is very retrospective way to take notes) 
+
+- We realized in the process having realistic goals can always be helpful, and having specific goal which are simple can always help.(having grand goal always helps you to keep on exploring more, but we realized people need small achievements to keep them motivated and keep on going.)
+
+- While working independently it is important to have more of discussion sessions where we can explain eachother about what we learned, this would have helped in two manners; one is building the bridge of understandind, and second is it would have helped in being confident over our understand of what we read.
+
+
+- The issues of ego if are addressed while working can help to make working enviornment healthy. But it also depends on the people one is working with.
+
+- 
+
+
+
 #### Consensus in Scientific work
 
 Consensus on Wikipedia is defined as a general agreement, accord, or harmony in opinion or attitude among a group.
 
-Consensus itself is one of the intrinsic features in scientific work; during our two weeks of EIT experiment, we spent time pondering that question of consensus and also about how to agree when we are not dictated to by right or wrong by a supervisor (because in this two-week period we were given total freedom, which means there were no expectations to hold up either. This reminds me of a statement by Kafka: 'I am free, and that is why I am lost.' Which was how we felt for most of two weeks.
+Consensus itself is one of the intrinsic features in scientific work; during our two weeks of EIT experiment, we spent time pondering that question of consensus and also about how to agree when we are not dictated to by right or wrong by a supervisor . As for the two-week period we were given total freedom, which means there were no expectations to hold up either. This reminds me of a statement by Kafka: 'I am free, and that is why I am lost.' Which was how we felt for most of two weeks.
 
 We both agreed that in order to make scientific progress, one needs a system of active input and a feedback loop. (We defined progress as active agreement between person "A" and "D", not progress in a performative sense.)
 
@@ -165,3 +178,4 @@ This is more of a reflection on our two weeks and suggestions on how this could 
 
 - The most valuable skill one can ever learn is ability to figure it out
 
+- things that we would do differently if we could are; having more short term achievable goals.
