@@ -1,17 +1,40 @@
-## The Politics of Science
+## Politics and Science
 
 ### Introduction
 
-Politics may be understood in two ways: 1) Any decision process within a group of people (>=2). 2) The rupture of the common understanding (Jacques Rancière).
+Politics may be understood in two ways: From our own understanding politics could be 1) Any decision process within a group of people (at least two). Another interesting way of describing 'politics' goes along the lines of 2) The rupture of the common understanding, by Jacques Rancière.
+
 
 This lab unit contained both of the two understandings of politics. First we focused on the decision process of the two of us "A" and "D". A large amount of discussion time went into how to gain a common understanding and how to make decisions, thus politics by the understanding in 1).
-Then, the lab unit started off, with the rupture of our common understanding of what a lab unit in the lab course was. The structure was stripped from around us and we experienced "politics" by form of the meaning 2).  
 
-Goal of the two weeks period was shifted from usual goals of being performative in experiments to learning the process of scientific research, (which not only includes progress and decisive steps but also consensus over steps and mutual understanding of progress), hence whole activity was focused on learning research process and we used topic of ECDL as more of direction for our two weeks.
 
-- The task that we were given was to assign ourself a task and observe ourselves and find issues that we had in the process to achieving our goal.
-- The goal we assigned ourselves was to try to understand a cavity diode laser and simulate a simple model of it.
-- Aim was to keep track of how we progress and how do we live through the differences and process of coming to consencus. This will lead us to find a way to level our understanding and bridge gaps we both have and how to check if we both mean the same thing when we are talking about any scientific term or process.
+Then, the lab unit started off, with the rupture of our common understanding of what a lab unit in the lab course was. The structure was stripped from around us and we experienced "politics" by form of the meaning 2). 
+
+The rupture of this common sense was, instead of following the instructions and reaching a predefined goal with an 'all knowing supervisor' we had a 'ignorant supervisor' without any predefined goals. 
+We were told to ignore the task and choose: Eitehr leave now and save us all some time, and pass the lab unit; 
+Or choose to study anything you like from the experimental setup available to you. 
+The rupture enabled to find and follow our own interests and to think outside the box.
+
+Another break in our common understanding of the labcourse was the suggestion – instead of focusing on the external details as the experiment – to focus on ourselves. In the meaning of, how we came to consensus as well as, to pay attention to notes of our decision process.
+
+There is a final rupture this report can embody: it does not wish to be only a document submitted for grading and judgment. It wishes to be read as serious feedback, offered on level grounds, on how this lab course can improve.
+
+The two weeks period shifted from the usual goals of being performative in experiments to learning the process of scientific research. This not only includes progress and decisive steps but also consensus over steps and mutual understanding of progress. Hence our activity was focused on learning research process and we used topic of external cavity diode laser (ECDL) as more of a direction for our two weeks.
+
+We approach this reflection from the position that it is good to be in a lost state of mind — that this is the only state that truly exists, though we usually trick ourselves into thinking otherwise. This captures our aesthetic toward scientific work: that we are all lost wonderers finding our way. Yet the way university and its courses are structured does not embrace this. Instead, we are required to perform confidence we do not have, to meet expectations rather than follow curiosity, and to work within hierarchies that reward narrow-mindedness and reinforce themselves. The consequence is a decrease in the variety of ideas — and, as we found, habits that run so deep they are difficult to shed even when we wish to work differently.
+
+We percieved this lab unit as incredably usefull and both of us experienced a steep learning curve. 
+We learned how to collaborate using Github. 
+More importantly, we learned about the difficulties of communicating ideas as to work together. 
+This brings note taking and written communication into a new light. 
+Taking notes is more than keeping track of thoughts and work, but can now be considered to aid with being precise and to avoid misunderstanding. 
+The written from of coming to a consensus could also be appreciated from a different perspective.
+A core takeaway is to pay attention to our thoughts that argue for 'why'- and set goals for 'what' to do.
+
+
+In this report we try to capture how we proceeded and how we came to decisions as well as outlining some struggles we faced. Then we go into a self reflection of our work. In this we mainly focus the difficulties we faced, coming from a retrospective perspective and discuss how we would go about our work differently in the future. We reflect on the gap between the romantic ideal of being lost and finding our way, and the uncomfortable reality this produced: chaos, diverging goals, and a knowledge gap that was difficult to bridge. We discuss how working independently without sufficient discussion sessions led to a growing gap in our mutual understanding. We reflect on how our goals were not appropriate to the time constraint, and how the tension between grand goals and the need for small achievable steps became apparent. We also address how the issues of ego, if addressed, can help to make the working environment healthy, and how scientific progress is slow and draining — expectations of quick results would not help.
+
+
 
 ### Description 
 
@@ -155,43 +178,44 @@ Progress got sidetracked frequently. By the idea of creating a numerical simulat
 
 ### Conclusion
 
-- The scientific progress is slow and draining, and expectation of quick results wouldnt help.
+It is good to be in this lost state of mind because this is the only state that truly exists, though we usually trick ourselves into thinking otherwise – is what we said on the last day in the lab course.
+This captures our aesthetic toward scientific work itself: That we are all lost wonderers finding our way. 
+And yet the university is not structured to embrace this. 
+It demands performed confidence, compliance with expectation, and deference to hierarchy, narrowing the variety of ideas and reinforcing itself in a feedback loop that is difficult to escape. 
+Even in a lab unit explicitly designed to rupture these structures — offering us a free choice, an 'ignorant' supervisor, and the space to follow our own interests — we found that our habits that developed in the conventional academic culture do not loosen easily. 
+They simply became more visible.
+This lab unit was, in both senses of the word, political: it demanded that we navigate our own decision-making process, and it ruptured the common understanding of what a lab course is. 
+Finally, this report can become political in a third sense. We offer it not as a document to be graded and judged from above, but as feedback on equal terms — a serious attempt to reflect on how the lab course might better achieve what it sets out to do. Breaking the habits of conventional academic culture requires not only that students be willing to let go of old ways of working, but that the course itself remains open to critique from those who pass through it.
 
-- Better Notes: One way to make proper progress is to have two set of notes, one with unordered thoughts and explaination, and then develope on it into seperate notes which are more organized, and structured.(it is very retrospective way to take notes) 
-
-- We realized in the process having realistic goals can always be helpful, and having specific goal which are simple can always help.(having grand goal always helps you to keep on exploring more, but we realized people need small achievements to keep them motivated and keep on going.)
-
-- While working independently it is important to have more of discussion sessions where we can explain eachother about what we learned, this would have helped in two manners; one is building the bridge of understandind, and second is it would have helped in being confident over our understand of what we read.
-
-
-- The issues of ego if are addressed while working can help to make working enviornment healthy. But it also depends on the people one is working with.
-
-- 
-
-
-
-<<<<<<< HEAD
-=======
-One way to make proper progress is to have two set of notes, one with unordered thoughts and explaination, and then develope on it into seperate notes which are more organized, and structured.(it is very retrospective way to take notes) 
+This experimental class was about learning how to work scientifically as a team, and it stood in sharp contrast to the usual school-like environment. 
+That of fulfilling expectations of seniors and supervisors in order to pass or to get good grades. 
+Eventhough we appreciated the change, we struggled to adapt. The decision processes between the two of us — how to reach common understanding, how to move forward together — was itself a form of politics, and one we had little prior experience navigating.
 
 
->>>>>>> e1f339d (report final edit merging)
-#### Consensus in Scientific work
 
-It is good to be in this lost state of mind because this is the only state that truly exists, though we usually trick ourselves into thinking otherwise – is what we said on the last day in the lab course. This addresses the hierarchy which got dropped and usually imposes the urge act as if we were fully understanding and to present confidence even if we are not. This also captures our aesthetic toward life in particular also scientific work itself: That we are all lost wonderers finding our way. 
-Though the way university and its courses are structured such that this may not be embraced. 
-As consequence the variety of ideas decreases; we are required to work to meet expectations, which results in narrow mindedness, strengthening its own hierarchies tightening the feedback loop. 
+In the first week, our lack of experience with Github cost a few days, and our struggle can be seen particularly in the history of the branches. 
+We described how we came to a conclusion for the topic, this progress was summarized in written form. 
+With observing that the continouse progress deviated to the set goal by ourselves when continuing in the literature review. 
+Not only did we deviate from our own goals we defined, but also did our common knowlagde. 
+We worked independantly not taking the time to see: Are we in line with our previous tasks? No! So what changed? 
+Then rephrase our question, in order to reorientate ourselves – in order not to "vor lauter Bäume den Wald nicht sehen". 
 
-We wish to embrace creativity! We wish to break hierarchies! We wish to stop lying to ourselves and to one another! We are lost! We wish to be open to all possibilities!
+For the second week we did define how to proceed, though we did not bridge the knowladge-gap that had developed in the first week. 
+From here on our work became chaotic, our ideas and motives changed, and a measurement we started resulted in more uncertainty. 
+Our goals were clearly not appropriate to the time constraint, our notes did not catch up with our discussions and we came to realize that the knowledge gap posed an issue for further advancements. 
 
-- this experimental calss was about how to work scientifically in a team
-- this was a big break and contrast to the usual school like working environment: fullfilling the expectations of the seniors or superiors, in order to pass or obtain good grades
-- eventhough we appreciated the change we struggeled to really adapt to this change, as the old habits seem to run deep
+From this we can take away several lessons. 
+It could be advantageous to put more effort into taking notes and structuring our thoughts: using two sets of notes, one with unordered thoughts and explanation, and one that is more organized and structured, capturing the main line of argumentation and describing where we find ourselves and where we wish to go. 
+There should be space for creative working, where there is space to drift but also the means to track it and to readjust the goals appropriately.
+The scientific progress is slow and draining, and the expectation of quick results do not help. 
+While working independently it is important to exchange in written form where we can explain to each other what we learned. This would have helped in two manners: building the bridge of understanding, and helping us to be more confident in our understanding of what we read. 
+These sessions are also where the deliberate practice of consensus could have been sustained more consistently.
+We kept a glossary, though independently, they were not merged to one.  
+The issues of ego, if addressed while working, can help to make the working environment healthy — and addressing ego is itself a rupture of the assumption that scientific collaboration is purely intellectual, and that the personal does not enter into it. It does.
 
-- we considered our working environment which sets preliminaries of our team work as important though also faulty. Our lack of experience with Github coast a few days. Our struggle can be seen particuly in the history of the branches
-- the structure of the repository would considere this: i.e. by having a better structure in the notes, that does not have a linear one way structure but maybe inlcudes pages for different topics. Pages that have unstructured thought though take note of date and time of edits. As well as pages that have structured thought, and are organized by topics. Then pages that keep track of organized notes. Clearly presenting changes to previous entries, capturing the main line of argumentation, describing where we find ourselves and where we wish to go.
 
-- we described how we came to a conclusion for the topic, this progress was summarized in written form. With observing that the continouse progress deviated to the set goal by ourselves when continuing in the literature review. Not only did we deviate from our own goals we defined, but also did our common knowlagde. We worked independantly not taking the time to see: Are we in line with our previous tasks? No! So what changed? Then rephrase our question, in order to orientate ourselves – in order not to "vor lauter Bäume den Wald nicht sehen". 
+- the structure of the repository would consider this: i.e. by having a better structure in the notes, that does not have a linear one way structure but maybe includes pages for different topics. Pages that have unstructured thought though take note of date and time of edits. As well as pages that have structured thought, and are organized by topics. Then pages that keep track of organized notes. Clearly presenting changes to previous entries, capturing the main line of argumentation, describing where we find ourselves and where we wish to go.
+
 
 - For the second week we did define how to proceed.
 - though we did not bridge the gap that developed in our knowladge
@@ -204,6 +228,28 @@ We wish to embrace creativity! We wish to break hierarchies! We wish to stop lyi
 - then we gave insight into our thoughts and reflection on the two week lab unit.
 
 - there we can takeaway that it could be advantageous to put in more efforts for taking notes, structuring our thoughts and how what goals we expect to do next. This may also help with finding goals that meet the time constraints. It should allow for time allocated required for creatively following ones interests, so that one may get sidetracked but to become aware of this.
+
+
+- The scientific progress is slow and draining, and expectation of quick results wouldnt help.
+
+- Better Notes: One way to make proper progress is to have two set of notes, one with unordered thoughts and explaination, and then develope on it into seperate notes which are more organized, and structured.(it is very retrospective way to take notes) 
+
+- We realized in the process having realistic goals can always be helpful, and having specific goal which are simple can always help.(having grand goal always helps you to keep on exploring more, but we realized people need small achievements to keep them motivated and keep on going.)
+
+- While working independently it is important to have more of discussion sessions where we can explain eachother about what we learned, this would have helped in two manners; one is building the bridge of understandind, and second is it would have helped in being confident over our understand of what we read.
+
+
+- The issues of ego if are addressed while working can help to make working enviornment healthy. But it also depends on the people one is working with.
+
+
+
+
+
+One way to make proper progress is to have two set of notes, one with unordered thoughts and explaination, and then develope on it into seperate notes which are more organized, and structured.(it is very retrospective way to take notes) 
+
+
+#### Consensus in Scientific work
+
 
 Consensus on Wikipedia is defined as a general agreement, accord, or harmony in opinion or attitude among a group.
 
