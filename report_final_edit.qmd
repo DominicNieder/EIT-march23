@@ -4,7 +4,7 @@ Abstract: This report reflects on a two-week course designed to overlook the con
 
 ### Introduction
 
-Politics may be understood in two ways: From our own understanding politics could be 1) Any decision process within a group of people (at least two). Another interesting way of describing 'politics' goes along the lines of 2) The rupture of the common understanding, by Jacques Rancière.
+Politics may be understood in two ways: From our own understanding politics could be 1) Any decision process within a group of people (at least two). Another interesting way of describing 'politics' goes along the lines of 2) The rupture of the common understanding, by Jacques Rancière @politicsDisagreement.
 
 
 This lab unit contained both of the two understandings of politics. First we focused on the decision process of the two of us "A" and "D". A large amount of discussion time went into how to gain a common understanding and how to make decisions, thus politics by the understanding in 1).
@@ -12,8 +12,8 @@ This lab unit contained both of the two understandings of politics. First we foc
 
 Then, the lab unit started off, with the rupture of our common understanding of what a lab unit in the lab course was. The structure was stripped from around us and we experienced "politics" by form of the meaning 2). 
 
-The rupture of this common sense was, instead of following the instructions and reaching a predefined goal with an 'all knowing supervisor', we had a 'ignorant supervisor' as defined by Jacques Rancière, without any predefined goals. 
-We were told to ignore the task and choose: Either leave now and save us all some time, and pass the lab unit; 
+The rupture of this common sense was, instead of following the instructions and reaching a predefined goal with an 'all knowing supervisor' we had a 'ignorant supervisor' @ignorantTeacher without any predefined goals. 
+We were told to ignore the task and choose: Eitehr leave now and save us all some time, and pass the lab unit; 
 Or choose to study anything you like from the experimental setup available to you. 
 The rupture enabled to find and follow our own interests and to think outside the box.
 
